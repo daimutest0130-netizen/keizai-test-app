@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>経済TEST対策クイズ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+
+    <!-- タイトル -->
+    <h1>経済TEST対策クイズ</h1>
+
+    <!-- ===== トップメニュー ===== -->
+    <div id="mainMenu">
+      <button id="btnSelectGenre" class="main-btn">ジャンルを選ぶ</button>
+      <button id="btnMixedMode" class="main-btn">総合演習</button>
+    </div>
+
+    <!-- ===== 折りたたみ式ジャンルメニュー ===== -->
+    <div id="genreMenu" class="collapsible hidden">
+      <button class="category-btn" data-category="strategy">経営戦略</button>
+      <button class="category-btn" data-category="finance">財務・会計</button>
+      <button class="category-btn" data-category="marketing">マーケティング</button>
+      <button class="category-btn" data-category="law">会計・法務</button>
+      <button class="category-btn" data-category="economy">経済・金融</button>
+      <button class="category-btn" data-category="current">時事・応用</button>
+    </div>
+
+    <!-- ===== 出題数選択メニュー ===== -->
+    <div id="questionCountMenu" class="hidden">
+      <h2>出題数を選んでください</h2>
+      <div class="question-count-buttons">
+        <button class="count-btn" data-count="10">10問</button>
+        <button class="count-btn" data-count="20">20問</button>
+        <button class="count-btn" data-count="50">50問</button>
+        <button class="count-btn" data-count="100">100問</button>
+      </div>
+    </div>
+
+    <!-- ===== クイズ画面 ===== -->
+    <form id="quizForm" class="hidden">
+      <div id="questions"></div>
+    </form>
+
+    <!-- ===== 結果・解説画面 ===== -->
+    <div id="result" class="hidden"></div>
+
+  </div>
+
+  <!-- スクリプト -->
+  <script src="app.js"></script>
+</body>
+</html>
