@@ -1,9 +1,8 @@
 /* ===========================
- * 日経TEST対策クイズ - app.js（中断機能改良版）
+ * 日経TEST対策クイズ - app.js（選択肢ランダム化対応版）
  * 改善点：
- *  ① トップメニュー確実に非表示
- *  ② 「ここまでの回答を見て終了」位置修正＆挙動修正
- *  ③ 「トップページに戻る」即復帰
+ *  ① 各問題の選択肢を毎回ランダム化
+ *  ② 採点処理は元のanswer番号と対応
  * =========================== */
 
 const CHUNK_SIZE = 5;
@@ -25,7 +24,6 @@ const genreMenu       = document.getElementById('genreMenu');
 const questionCountMenu = document.getElementById('questionCountMenu');
 const quizForm        = document.getElementById('quizForm');
 const questionsBox    = document.getElementById('questions');
-const submitBtn       = document.getElementById('submitBtn');
 const resultBox       = document.getElementById('result');
 
 // --- 状態管理 ---
@@ -149,9 +147,15 @@ function startQuiz() {
   userAnswers = new Array(filteredQuestions.length).fill(null);
   currentIndex = 0;
 
-  // ✅ トップメニューを確実に非表示
   hide(mainMenu);
   hide(genreMenu);
+
+  // 各問題の選択肢をランダム化
+  filteredQuestions.forEach(q => {
+    q._shuffled = shuffle(
+      q.options.map((opt, i) => ({ text: opt, index: i }))
+    );
+  });
 
   renderQuestionsPage();
   showOnly(quizForm);
@@ -175,16 +179,16 @@ function renderQuestionsPage() {
     div.innerHTML = `
       <div class="question"><b>Q${num}.</b> ${escapeHtml(q.q)}</div>
       <div class="options">
-        ${q.options.map((opt, i) => {
-          const checked = userAnswers[num - 1] === i ? 'checked' : '';
-          return `<label><input type="radio" name="q${idx}" value="${i}" ${checked}> ${escapeHtml(opt)}</label>`;
+        ${q._shuffled.map((optObj, i) => {
+          const checked = userAnswers[num - 1] === optObj.index ? 'checked' : '';
+          return `<label><input type="radio" name="q${idx}" value="${optObj.index}" ${checked}> ${escapeHtml(optObj.text)}</label>`;
         }).join('<br>')}
       </div>
     `;
     questionsBox.appendChild(div);
   });
 
-  // ボタン群をまとめて表示
+  // ボタン群
   const isLastPage = currentIndex + CHUNK_SIZE >= filteredQuestions.length;
   const buttonWrapper = document.createElement('div');
   buttonWrapper.className = 'buttonWrapper';
@@ -231,7 +235,7 @@ function returnToTop() {
   }
 }
 
-// --- 一括採点 ---
+// --- 採点処理 ---
 function calculateFinalScore() {
   totalCorrect = 0;
   totalAnswered = 0;
@@ -245,12 +249,12 @@ function calculateFinalScore() {
     const correct = userIdx === q.answer;
     if (correct) totalCorrect++;
 
-    const optionsList = q.options.map((opt, i) => {
-      const isAns = i === q.answer;
-      const isUser = i === userIdx;
+    const optionsList = q._shuffled.map(optObj => {
+      const isAns = optObj.index === q.answer;
+      const isUser = optObj.index === userIdx;
       const style = isAns ? 'style="font-weight:bold;color:#2e7d32;"' : '';
       const tag = isAns ? '✅ 正解' : (isUser ? '（あなたの選択）' : '');
-      return `<li ${style}>${escapeHtml(opt)} ${tag}</li>`;
+      return `<li ${style}>${escapeHtml(optObj.text)} ${tag}</li>`;
     }).join('');
 
     feedbackParts.push(`
