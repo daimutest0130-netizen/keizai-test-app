@@ -1,8 +1,8 @@
 /* ===========================
- * 日経TEST対策クイズ - app.js（選択肢ランダム化対応版）
+ * 日経TEST対策クイズ - app.js（選択肢ランダム化＋解説展開記号版）
  * 改善点：
  *  ① 各問題の選択肢を毎回ランダム化
- *  ② 採点処理は元のanswer番号と対応
+ *  ② ▼/▲ボタンで explanation_long を開閉
  * =========================== */
 
 const CHUNK_SIZE = 5;
@@ -171,7 +171,6 @@ function renderQuestionsPage() {
   const pageQuestions = filteredQuestions.slice(currentIndex, currentIndex + CHUNK_SIZE);
   if (!pageQuestions.length) return calculateFinalScore();
 
-  // 出題表示
   pageQuestions.forEach((q, idx) => {
     const num = currentIndex + idx + 1;
     const div = document.createElement('div');
@@ -188,7 +187,6 @@ function renderQuestionsPage() {
     questionsBox.appendChild(div);
   });
 
-  // ボタン群
   const isLastPage = currentIndex + CHUNK_SIZE >= filteredQuestions.length;
   const buttonWrapper = document.createElement('div');
   buttonWrapper.className = 'buttonWrapper';
@@ -257,12 +255,18 @@ function calculateFinalScore() {
       return `<li ${style}>${escapeHtml(optObj.text)} ${tag}</li>`;
     }).join('');
 
+    const longId = `longExp${idx}`;
     feedbackParts.push(`
       <div class="explanation">
         <h3 class="${correct ? 'correct' : 'wrong'}">${correct ? '✅ 正解' : '❌ 不正解'}</h3>
         <p><b>Q${idx + 1}:</b> ${escapeHtml(q.q)}</p>
         <ul>${optionsList}</ul>
         ${q.explanation_short ? `<p><b>解説:</b> ${escapeHtml(q.explanation_short)}</p>` : ''}
+        ${q.explanation_long ? `
+          <button class="toggleBtn" onclick="toggleLong('${longId}', this)">▼</button>
+          <div id="${longId}" class="longExplanation hidden">
+            <p>${escapeHtml(q.explanation_long)}</p>
+          </div>` : ''}
       </div>
     `);
   });
@@ -285,6 +289,15 @@ function calculateFinalScore() {
   `;
   show(resultBox);
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// --- 詳細解説の開閉 ---
+function toggleLong(id, btn) {
+  const el = document.getElementById(id);
+  if (!el) return;
+  const isHidden = el.classList.contains('hidden');
+  el.classList.toggle('hidden');
+  btn.textContent = isHidden ? '▲' : '▼';
 }
 
 // --- 再スタート ---
