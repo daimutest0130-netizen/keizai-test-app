@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>サイバーセキュリティ・プライバシー規制 徹底解説｜経済知識チェック</title>
+  <meta name="description" content="ゼロトラスト・ランサムウェア・GDPR・データローカライゼーション・PQC・SBOM・NIS2・DORAを体系解説。試験対策に最適。">
+  <meta name="keywords" content="ゼロトラスト,ランサムウェア,GDPR,プライバシーバイデザイン,PQC,量子暗号,SBOM,NIST CSF,NIS2,DORA,データローカライゼーション">
+  <link rel="canonical" href="https://daijunakazaki.github.io/keizai-test-app/details/current/cybersecurity_privacy.html">
+  <meta property="og:title" content="サイバーセキュリティ・プライバシー規制 徹底解説｜経済知識チェック">
+  <meta property="og:description" content="ゼロトラスト・ランサムウェア・GDPR・データローカライゼーション・PQC・SBOM・NIS2・DORAを体系解説。試験対策に最適。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daijunakazaki.github.io/keizai-test-app/details/current/cybersecurity_privacy.html">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MTK20NCVW8');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --primary: #00695c;
+      --primary-dark: #004d40;
+      --primary-light: #e0f2f1;
+      --text: #212121;
+      --border: #b2dfdb;
+      --bg: #f9fafb;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; font-size: 15px; }
+    header { background: var(--primary-dark); color: var(--white); padding: 18px 24px; }
+    header .breadcrumb { font-size: 12px; opacity: 0.75; margin-bottom: 6px; }
+    header .breadcrumb a { color: #aaa; text-decoration: none; }
+    header .breadcrumb a:hover { color: var(--white); }
+    header h1 { font-size: 1.45rem; font-weight: 700; }
+    header p.subtitle { font-size: 0.85rem; opacity: 0.85; margin-top: 4px; }
+    .container { max-width: 860px; margin: 0 auto; padding: 24px 16px 60px; }
+    .toc { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; }
+    .toc h2 { font-size: 1rem; color: var(--primary-dark); margin-bottom: 12px; }
+    .toc ol { padding-left: 20px; }
+    .toc li { margin-bottom: 6px; }
+    .toc a { color: var(--primary); text-decoration: none; font-size: 0.9rem; }
+    .toc a:hover { text-decoration: underline; }
+    section { background: var(--white); border-radius: 10px; padding: 28px 28px 32px; margin-bottom: 28px; border-left: 5px solid var(--primary); box-shadow: 0 1px 4px rgba(0,0,0,0.07); scroll-margin-top: 20px; }
+    section h2 { font-size: 1.25rem; color: var(--primary-dark); margin-bottom: 18px; padding-bottom: 10px; border-bottom: 2px solid var(--primary-light); }
+    section h3 { font-size: 1rem; color: var(--primary-dark); margin: 20px 0 8px; font-weight: 700; }
+    section p { margin-bottom: 12px; }
+    ul.body-list { padding-left: 20px; margin: 12px 0; }
+    ul.body-list li { margin-bottom: 6px; }
+    .point-box { background: var(--primary-light); border-left: 4px solid var(--primary); border-radius: 6px; padding: 14px 18px; margin: 16px 0; }
+    .point-box .label { font-size: 0.75rem; font-weight: 700; color: var(--primary-dark); margin-bottom: 6px; }
+    .point-box p { margin: 0; font-size: 0.9rem; }
+    .warn-box { background: #fff8e1; border-left: 4px solid #f9a825; border-radius: 6px; padding: 14px 18px; margin: 16px 0; }
+    .warn-box .label { font-size: 0.75rem; font-weight: 700; color: #e65100; margin-bottom: 6px; }
+    .warn-box p { margin: 0; font-size: 0.9rem; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.88rem; }
+    th { background: var(--primary); color: var(--white); padding: 10px 14px; text-align: left; }
+    td { padding: 9px 14px; border-bottom: 1px solid #e0e0e0; vertical-align: top; }
+    tr:nth-child(even) td { background: #f5f5f5; }
+    footer { background: var(--primary-dark); color: #aaa; text-align: center; padding: 20px; font-size: 0.8rem; }
+    footer a { color: #80cbc4; text-decoration: none; }
+    @media (max-width: 600px) { section { padding: 20px 16px 24px; } header h1 { font-size: 1.2rem; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="breadcrumb"><a href="../../index.html">トップ</a> › 時事・応用 › セキュリティ・プライバシー</div>
+  <h1>🔐 サイバーセキュリティ・プライバシー規制 徹底解説</h1>
+  <p class="subtitle">ゼロトラスト／GDPR・プライバシー規制／ランサムウェア対策／量子暗号／SBOM／NIS2・DORA</p>
+</header>
+<div class="container">
+  <div class="toc"><h2>📋 目次</h2><ol><li><a href="#zero-trust">ゼロトラスト・認証</a></li><li><a href="#ransomware">ランサムウェア対策</a></li><li><a href="#gdpr-privacy">GDPR・プライバシー規制</a></li><li><a href="#pqc-quantum">ポスト量子暗号（PQC）</a></li><li><a href="#supply-sec">サプライチェーン・セキュリティ</a></li><li><a href="#operational-resilience">運用レジリエンス規制</a></li><li><a href="#exam-points">試験直前チェック</a></li></ol></div>
+  <section id="zero-trust">
+<h2>1. ゼロトラスト・認証</h2>
+<h3>ゼロトラストの中核概念</h3><p>ゼロトラストは「<strong>社内外を問わず、いかなるアクセスも信頼しない</strong>」という設計原則です。従来の「境界防御モデル（VPNで内側は安全）」に代わり、すべてのアクセスを継続的に検証します。</p><table><tr><th>原則</th><th>内容</th></tr><tr><td>明示的な検証</td><td>ユーザー・デバイス・ネットワーク・アプリの全要素を常に認証・認可</td></tr><tr><td>最小権限</td><td>業務に必要な最小限のアクセス権のみ付与</td></tr><tr><td>侵害の想定</td><td>侵害を前提に、横移動を防ぐセグメンテーション・監視</td></tr></table><h3>ゼロトラスト移行の初手</h3><p>ゼロトラスト移行で「過渡期に最も効果が高い初手」は、<strong>IDプロバイダー（IdP）の統合・多要素認証（MFA）の全社展開</strong>です。IDこそがゼロトラストにおける新しい境界線であり、まずIDの管理・検証を強化するのが実践的な出発点。</p><h3>パスキー（WebAuthn）の利点</h3><p>パスキーはフィッシング耐性のある<strong>パスワードレス認証</strong>技術。フィッシング攻撃を原理的に無効化（秘密鍵がデバイスから出ない）するため、パスワード漏洩リスクがゼロになります。ビジネス上の利点はサポートコスト削減・セキュリティ向上・UX改善。</p>
+</section>
+<section id="ransomware">
+<h2>2. ランサムウェア対策</h2>
+<h3>ランサムウェアとは</h3><p>データを暗号化して身代金（ransom）を要求するマルウェア。近年は「二重恐喝（暗号化＋データ公開脅迫）」「サプライチェーン経由の感染」が増加。</p><h3>事前に最も重視すべき取り組み</h3><p><strong>定期的なバックアップの取得と、バックアップのオフライン・隔離保管</strong>が最重要です。感染時でもバックアップから復旧できれば身代金を支払わずに済みます。</p><ul class="body-list"><li>オフライン・隔離バックアップの定期取得と復旧テスト</li><li>多要素認証（MFA）の全社展開（認証情報窃取防止）</li><li>パッチ適用・脆弱性管理の徹底</li><li>EDR（エンドポイント検知・対応）の導入</li><li>インシデント対応計画（IRP）の策定と訓練</li></ul><div class="warn-box"><div class="label">⚠️ 試験の罠</div><p>「ランサムウェア対策の第一は身代金を払わない姿勢の表明」は誤り。技術的・組織的対策が優先。また「アンチウイルスソフトだけで十分」も誤り。</p></div>
+</section>
+<section id="gdpr-privacy">
+<h2>3. GDPR・プライバシー規制</h2>
+<h3>GDPRの基本原則</h3><table><tr><th>原則</th><th>内容</th></tr><tr><td>適法性・公正性・透明性</td><td>合法的かつ公正に、主体に対して透明な形で処理</td></tr><tr><td>目的制限</td><td>特定・明示・正当な目的のためのみ収集</td></tr><tr><td>データ最小化</td><td>目的に必要な範囲のみ収集・保有</td></tr><tr><td>正確性</td><td>最新・正確な状態を維持</td></tr><tr><td>保存期間制限</td><td>必要な期間のみ保存</td></tr><tr><td>完全性・機密性</td><td>適切な安全措置による保護</td></tr></table><h3>プライバシー・バイ・デザイン</h3><p><strong>システム・製品の設計段階からプライバシー保護を組み込む</strong>考え方。後付けでプライバシー対策を追加するのではなく、アーキテクチャ・データフロー・UI設計の段階で最小データ収集・暗号化・匿名化を組み込みます。</p><h3>データローカライゼーションのトレードオフ</h3><p>データを特定国内のサーバーに保管することを義務付ける政策。<strong>主権確保・安全保障上のメリット</strong>がある一方で、グローバル企業のコスト増大・クラウドの効率性低下・イノベーション阻害という<strong>トレードオフ</strong>が存在します。</p><h3>データ越境移転の課題</h3><p>EU-US間などデータを国際的に移転する際、移転先国が十分な保護水準を持つか確認が必要（十分性認定・SCC等の法的手段）。越境移転のグローバル運用では<strong>管轄ごとの規制要件のマッピング＋域内処理の原則＋標準契約条項（SCC）の採用</strong>が実務的対応。</p><h3>データ最小化原則の実務</h3><p>広告・分析・AIとデータ最小化の共存の現実解は、<strong>目的別のデータサイロ分離＋集計・匿名化後のデータ活用＋同意管理プラットフォームの整備</strong>。個人単位のデータは最小化しつつ、集計レベルの洞察は活用できるアーキテクチャが実践的。</p><h3>ダークパターン規制</h3><p>ユーザーを意図せず誘導するUI設計（煩雑な退会手続き・デフォルトチェック等）はEU・CCPA等の規制対象。<strong>適法なUXとは、ユーザーが本当に望む選択を最も取りやすく設計すること</strong>。</p>
+</section>
+<section id="pqc-quantum">
+<h2>4. ポスト量子暗号（PQC）</h2>
+<h3>PQCを導入すべき理由</h3><p>量子コンピュータが実用化されると、現在広く使われているRSA・楕円曲線暗号が<strong>理論上短時間で解読可能</strong>になります。「今すぐ量子コンピュータの脅威はない」としても、<strong>「今の暗号通信を記録して将来解読する」攻撃（Harvest Now, Decrypt Later）</strong>への対策として今から移行を始める必要があります。</p><h3>PQC移行の初期ステップ</h3><ul class="body-list"><li>暗号アルゴリズムのインベントリ作成（どこでRSA・ECCを使っているか把握）</li><li>NIST PQC標準（ML-KEM・ML-DSA等）のテスト環境での評価</li><li>長期データの優先的な移行（最も影響が大きいため）</li><li>暗号アジリティ（アルゴリズムを容易に切り替えられる設計）の実装</li></ul><div class="point-box"><div class="label">📌 試験ポイント</div><p>PQCを「今すぐ」始める理由は「量子コンピュータが存在するから」ではなく「将来の解読に備えた現在の記録攻撃（Harvest Now）への対処」と「移行期間の長さ」。</p></div>
+</section>
+<section id="supply-sec">
+<h2>5. サプライチェーン・セキュリティ</h2>
+<h3>SBOM（Software Bill of Materials）</h3><p>SBOMはソフトウェアを構成するコンポーネント（OSS・ライブラリ等）の一覧表です。<strong>既知の脆弱性（CVE）が発覚した際、どのシステムが影響を受けるかを迅速に特定・対応できる</strong>効果があります。サプライチェーン全体の透明性向上に寄与。</p><h3>SLSA（Supply-chain Levels for Software Artifacts）</h3><p>ソフトウェアのビルド・リリースプロセスの<strong>改ざん防止・出所証明</strong>を目的とするフレームワーク。署名付きアーティファクト（ビルド成果物への電子署名）を導入することで、<strong>「このバイナリは確かに正規のソースからビルドされた」ことを検証可能</strong>にします。</p><div class="point-box"><div class="label">📌 まとめ</div><p>SBOM＝「何が入っているか（成分表）」。SLSA＝「どのように作られたか（製造工程の証明）」。両者でソフトウェアサプライチェーンのリスクを包括的に管理。</p></div>
+</section>
+<section id="operational-resilience">
+<h2>6. 運用レジリエンス規制</h2>
+<h3>NIST CSF（サイバーセキュリティフレームワーク）</h3><p>NIST CSFの特徴は<strong>任意適用の共通言語フレームワーク</strong>という点です。5つのコア機能（識別・防御・検知・対応・復旧）を組織のリスクに応じて選択的に適用でき、業種・規模を問わず広く活用されています。規制でなくベストプラクティスの参照集。</p><h3>NIS2・DORA（欧州の運用レジリエンス規制）</h3><p>NIS2（ネットワーク情報システム指令2）とDORA（デジタル運用レジリエンス法）は、金融・重要インフラに課す欧州の規制です。</p><table><tr><th>規制</th><th>対象</th><th>主な要求</th></tr><tr><td>NIS2</td><td>重要インフラ・デジタルサービス全般</td><td>インシデント報告（24時間以内）・リスク管理・サプライチェーン管理</td></tr><tr><td>DORA</td><td>金融機関・ITサービスプロバイダー</td><td>ICTリスク管理・インシデント分類・第三者リスク監視・デジタルレジリエンステスト</td></tr></table><div class="point-box"><div class="label">📌 試験ポイント</div><p>「NIS2/DORAが求める実務」→ インシデント対応計画の策定・定期的なレジリエンステスト（ペネトレーションテスト含む）・サードパーティリスクの継続監視。「ゼロインシデントを目指す」ではなく「インシデントが起きても事業継続できる体制」が本質。</p></div>
+</section>
+<section id="exam-points">
+<h2>7. 試験直前チェックポイント</h2>
+<table><tr><th>キーワード</th><th>正解の方向性</th></tr><tr><td>ゼロトラストの核心</td><td>全アクセスを常に検証・最小権限・侵害想定</td></tr><tr><td>ゼロトラスト移行の初手</td><td>ID管理統合＋MFA全社展開</td></tr><tr><td>パスキー利点</td><td>フィッシング耐性のあるパスワードレス認証</td></tr><tr><td>ランサムウェア事前対策</td><td>オフライン隔離バックアップ（最重要）＋MFA</td></tr><tr><td>GDPRの基本原則</td><td>目的制限・データ最小化・保存期間制限等6原則</td></tr><tr><td>プライバシーバイデザイン</td><td>設計段階からプライバシー保護を組み込む</td></tr><tr><td>PQC導入理由</td><td>Harvest Now攻撃対策＋移行期間の長さ</td></tr><tr><td>SBOM効果</td><td>脆弱性発覚時の影響範囲の迅速特定</td></tr><tr><td>NIST CSF特徴</td><td>任意適用・業種規模不問の共通フレームワーク</td></tr><tr><td>NIS2/DORAの要求</td><td>インシデント報告・レジリエンステスト・サードパーティ監視</td></tr></table>
+</section>
+</div>
+<footer><p><a href="../../index.html">← 経済知識チェックに戻る</a> ｜ © 2024 経済知識チェック</p></footer>
+</body>
+</html>

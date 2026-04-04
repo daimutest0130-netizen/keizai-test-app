@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Analytics（GA4） -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MTK20NCVW8');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GDP・経済規模｜詳細解説｜経済知識チェック</title>
+  <meta name="description" content="GDP（国内総生産）の定義・名目と実質の違い・三面等価・潜在GDP・PPPなど、経済規模に関する概念をわかりやすく解説します。">
+  <!-- SEO: canonical -->
+  <link rel="canonical" href="https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/gdp.html" />
+
+  <!-- SEO: keywords -->
+  <meta name="keywords" content="GDP,国内総生産,名目GDP,実質GDP,三面等価,潜在GDP,購買力平価,PPP,経済規模,経済知識チェック">
+
+  <!-- OGP -->
+  <meta property="og:title" content="GDP・経済規模｜詳細解説｜経済知識チェック">
+  <meta property="og:description" content="GDP（国内総生産）の定義・名目と実質の違い・三面等価・潜在GDP・PPPなど、経済規模に関する概念をわかりやすく解説します。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/gdp.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="経済知識チェック">
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439"
+     crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../../style.css" />
+  <style>
+    .detail-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+    }
+    .detail-breadcrumb {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 24px;
+    }
+    .detail-breadcrumb a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-breadcrumb a:hover { text-decoration: underline; }
+
+    .detail-header {
+      margin-bottom: 36px;
+    }
+    .detail-genre-tag {
+      display: inline-block;
+      background: #003366;
+      color: #fff;
+      font-size: 12px;
+      padding: 3px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .detail-header h1 {
+      font-size: 26px;
+      color: #1a1a2e;
+      margin: 0 0 8px;
+      line-height: 1.4;
+    }
+    .detail-header .detail-subtitle {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .detail-toc {
+      background: #f0f4ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 40px;
+    }
+    .detail-toc h2 {
+      font-size: 14px;
+      color: #003366;
+      margin: 0 0 10px;
+    }
+    .detail-toc ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .detail-toc ol li {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    .detail-toc ol li a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-toc ol li a:hover { text-decoration: underline; }
+
+    .detail-section {
+      margin-bottom: 48px;
+    }
+    .detail-section h2 {
+      font-size: 20px;
+      color: #003366;
+      border-left: 5px solid #003366;
+      padding-left: 12px;
+      margin-bottom: 16px;
+    }
+    .detail-section h3 {
+      font-size: 16px;
+      color: #1a1a2e;
+      margin: 24px 0 10px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .detail-section p {
+      font-size: 15px;
+      line-height: 1.9;
+      color: #333;
+      margin-bottom: 14px;
+    }
+
+    .detail-box {
+      background: #fafafa;
+      border: 1px solid #dde3ef;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .detail-box.blue {
+      background: #e8f0fe;
+      border-color: #aac4f0;
+    }
+    .detail-box.green {
+      background: #e8f5e9;
+      border-color: #a5d6a7;
+    }
+    .detail-box.yellow {
+      background: #fffde7;
+      border-color: #ffe082;
+    }
+
+    .detail-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin: 16px 0;
+    }
+    .detail-table th {
+      background: #003366;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    .detail-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #e0e0e0;
+      vertical-align: top;
+      line-height: 1.7;
+    }
+    .detail-table tr:nth-child(even) td {
+      background: #f5f7fa;
+    }
+
+    .detail-point {
+      background: #fff8e1;
+      border-left: 4px solid #ffc107;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 20px 0;
+    }
+    .detail-point .point-label {
+      font-size: 12px;
+      font-weight: bold;
+      color: #f57f17;
+      margin-bottom: 6px;
+    }
+    .detail-point p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .formula-box {
+      background: #1a1a2e;
+      color: #e0e0ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-family: monospace;
+      font-size: 15px;
+      text-align: center;
+      margin: 16px 0;
+      letter-spacing: 0.05em;
+    }
+
+    .detail-back-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 24px;
+      background: #003366;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 24px;
+      font-size: 14px;
+    }
+    .detail-back-btn:hover { background: #0055aa; }
+  </style>
+</head>
+<body>
+  <div class="detail-wrap">
+
+    <!-- パンくず -->
+    <div class="detail-breadcrumb">
+      <a href="../../index.html">トップ</a> &rsaquo;
+      <a href="../../index.html">経済・金融</a> &rsaquo;
+      GDP・経済規模
+    </div>
+
+    <!-- ヘッダー -->
+    <div class="detail-header">
+      <span class="detail-genre-tag">経済・金融</span>
+      <h1>GDP・経済規模</h1>
+      <p class="detail-subtitle">GDP / 名目・実質 / 三面等価 / 潜在GDP / PPP</p>
+    </div>
+
+    <!-- 概要 -->
+    <p style="font-size:15px; line-height:1.9; color:#333; margin-bottom:32px;">
+      GDPは国の経済規模を測る最も基本的な指標であり、昇格試験・資格試験でも頻出のテーマです。
+      単なる「国内総生産」という定義の丸暗記にとどまらず、<strong>名目と実質の違い</strong>・
+      <strong>三面等価の原則</strong>・<strong>潜在GDPとの関係</strong>・<strong>国際比較の方法（PPP）</strong>まで
+      体系的に理解しておくことが、応用問題への対応力につながります。
+      このページでは、試験で問われやすいポイントを中心に、GDPにまつわる主要概念を整理します。
+    </p>
+
+    <!-- 目次 -->
+    <div class="detail-toc">
+      <h2>目次</h2>
+      <ol>
+        <li><a href="#what-is-gdp">GDPとは何か</a></li>
+        <li><a href="#nominal-real">名目GDPと実質GDP</a></li>
+        <li><a href="#three-sides">三面等価の原則</a></li>
+        <li><a href="#potential-gdp">潜在GDPとGDPギャップ</a></li>
+        <li><a href="#ppp">購買力平価（PPP）と国際比較</a></li>
+        <li><a href="#exam-points">試験で問われやすいポイント</a></li>
+      </ol>
+    </div>
+
+    <!-- 1. GDPとは何か -->
+    <div class="detail-section" id="what-is-gdp">
+      <h2>1. GDPとは何か</h2>
+      <p>
+        GDP（Gross Domestic Product／国内総生産）とは、ある国の「国内」で一定期間（通常1年間）に新たに生み出された
+        <strong>最終財・サービスの付加価値の合計</strong>です。国の経済規模や景気の状態を測る最も基本的な指標として、
+        世界中の政府・中央銀行・国際機関が利用しています。
+      </p>
+
+      <div class="detail-box blue">
+        <strong>「国内」に注目</strong><br>
+        GDPはあくまで<em>国内で行われた生産活動</em>を対象にします。外国人が日本で働いた場合は含まれ、
+        日本人が海外で働いた場合は含まれません。これに対し、<strong>GNI（国民総所得）</strong>は国籍（居住者）を基準にした指標です。
+      </div>
+
+      <h3>付加価値とは？</h3>
+      <p>
+        付加価値とは、生産活動によって新たに生み出された価値のことです。原材料や仕入れ品の価値（中間投入）は除きます。
+        これにより、同じ財が複数の段階で取引されても二重計算にならないようにしています。
+      </p>
+      <div class="detail-box">
+        <strong>例：パンの付加価値</strong><br>
+        農家が小麦を100円で販売 → 製粉業者が200円で販売 → パン屋が300円で販売<br>
+        GDPに計上される付加価値の合計 ＝ 100 ＋ (200−100) ＋ (300−200) ＝ <strong>300円</strong>（最終財の価格のみ）
+      </div>
+    </div>
+
+    <!-- 2. 名目GDPと実質GDP -->
+    <div class="detail-section" id="nominal-real">
+      <h2>2. 名目GDPと実質GDP</h2>
+      <p>
+        GDPには「名目」と「実質」の2種類があります。経済成長の判断には<strong>実質GDP</strong>が使われます。
+      </p>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>種類</th>
+            <th>物価の扱い</th>
+            <th>特徴・用途</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>名目GDP</strong></td>
+            <td>その年の市場価格で評価</td>
+            <td>物価変動の影響をそのまま含む。インフレ期は数値が膨らみやすい。</td>
+          </tr>
+          <tr>
+            <td><strong>実質GDP</strong></td>
+            <td>基準年の価格で評価（物価変動を除去）</td>
+            <td>生産量の実態を反映。景気判断や経済成長率の算出に使用。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>GDPデフレーターと経済成長率</h3>
+      <p>
+        名目GDPを実質GDPで割った指数を<strong>GDPデフレーター</strong>と呼びます。経済全体の物価動向を表す広範な物価指数です。
+      </p>
+      <div class="formula-box">
+        GDPデフレーター ＝ 名目GDP ÷ 実質GDP × 100
+      </div>
+      <p>
+        <strong>実質GDP成長率</strong>は「今年の実質GDP ÷ 前年の実質GDP − 1」で計算され、純粋な経済活動の拡大・縮小を示します。
+        物価上昇だけで名目GDPが増えても、実質GDPが伸びなければ経済は成長していないと判断されます。
+      </p>
+
+      <div class="detail-point">
+        <div class="point-label">⚠️ 混同しやすい点</div>
+        <p>名目GDPと実質GDPの大小は物価水準で逆転することがあります。物価が基準年より下がっていれば、実質GDP ＞ 名目GDPになります（デフレ局面）。</p>
+      </div>
+    </div>
+
+    <!-- 3. 三面等価の原則 -->
+    <div class="detail-section" id="three-sides">
+      <h2>3. 三面等価の原則</h2>
+      <p>
+        GDPは「生産」「支出」「分配」の3つの側面から計測できます。理論上、どの側面から計算しても同じ値になるこれを
+        <strong>三面等価の原則</strong>といいます。
+      </p>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>側面</th>
+            <th>内容</th>
+            <th>計算のポイント</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>生産側GDP</strong></td>
+            <td>各産業が生み出した付加価値の合計</td>
+            <td>農業・製造業・サービス業などセクター別に集計</td>
+          </tr>
+          <tr>
+            <td><strong>支出側GDP</strong></td>
+            <td>財・サービスへの最終支出の合計</td>
+            <td>C（消費）＋I（投資）＋G（政府支出）＋NX（純輸出）</td>
+          </tr>
+          <tr>
+            <td><strong>分配側GDP</strong></td>
+            <td>生産活動によって得られた所得の合計</td>
+            <td>雇用者報酬 ＋ 営業余剰 ＋ 固定資本減耗 ＋ 生産・輸入品に課される税</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>支出側GDP（最も試験で問われる）</h3>
+      <div class="formula-box">
+        GDP ＝ C（民間消費）＋ I（民間投資）＋ G（政府支出）＋ NX（輸出−輸入）
+      </div>
+      <div class="detail-box green">
+        <strong>NX（純輸出）がマイナスの場合</strong><br>
+        輸入が輸出を上回る状態（貿易赤字）では純輸出がマイナスになり、GDPを押し下げます。
+        日本のように内需が大きい国では、輸入増加はGDPに対してマイナスの寄与となります。
+      </div>
+    </div>
+
+    <!-- 4. 潜在GDPとGDPギャップ -->
+    <div class="detail-section" id="potential-gdp">
+      <h2>4. 潜在GDPとGDPギャップ</h2>
+      <p>
+        <strong>潜在GDP</strong>とは、その国の労働力・資本・技術などを最大限に活用した場合に実現できる
+        生産水準の推計値です。実際の景気変動とは独立した「経済の実力値」ともいえます。
+      </p>
+
+      <h3>GDPギャップ（需給ギャップ）</h3>
+      <p>
+        実際のGDPが潜在GDPを下回っている状態を<strong>デフレギャップ（マイナスのGDPギャップ）</strong>と呼び、
+        需要不足・景気低迷を示します。逆に上回っている状態を<strong>インフレギャップ（プラスのGDPギャップ）</strong>と呼びます。
+      </p>
+      <div class="formula-box">
+        GDPギャップ（%）＝ (実際のGDP − 潜在GDP) ÷ 潜在GDP × 100
+      </div>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>状態</th>
+            <th>GDPギャップ</th>
+            <th>経済への影響</th>
+            <th>適切な政策</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>デフレギャップ</strong></td>
+            <td>マイナス（実際 ＜ 潜在）</td>
+            <td>需要不足・失業増加・デフレ圧力</td>
+            <td>財政出動・金融緩和</td>
+          </tr>
+          <tr>
+            <td><strong>インフレギャップ</strong></td>
+            <td>プラス（実際 ＞ 潜在）</td>
+            <td>過熱・インフレ・人手不足</td>
+            <td>財政緊縮・金融引き締め</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="detail-point">
+        <div class="point-label">📌 試験のポイント</div>
+        <p>潜在GDPが低下する要因として「少子高齢化による労働力の縮小」「設備投資の停滞による資本ストックの減少」「技術革新の停滞」などが挙げられます。</p>
+      </div>
+    </div>
+
+    <!-- 5. PPP -->
+    <div class="detail-section" id="ppp">
+      <h2>5. 購買力平価（PPP）と国際比較</h2>
+      <p>
+        国をまたいでGDPを比較する場合、単純に市場為替レートで換算すると為替変動の影響を大きく受けます。
+        そこで使われるのが<strong>購買力平価（PPP：Purchasing Power Parity）</strong>です。
+      </p>
+
+      <h3>購買力平価とは</h3>
+      <p>
+        同じ財・サービスの束が各国でいくらで買えるかを基準に為替レートを計算する考え方です。
+        「同一の財は世界中でひとつの価格に収束する（一物一価）」という前提に基づいています。
+      </p>
+      <div class="detail-box">
+        <strong>ビッグマック指数（有名な例）</strong><br>
+        マクドナルドのビッグマックは世界中でほぼ同じ品質で販売されています。各国の価格を比べることで
+        実際の為替レートが割高か割安かを大まかに判断できます。
+      </div>
+
+      <h3>PPPが成立しにくい理由</h3>
+      <p>
+        現実には、以下の要因により一物一価は長期的にも成立しにくいとされています。
+      </p>
+      <div class="detail-box yellow">
+        ① <strong>非貿易財の存在</strong>：理髪や不動産など国際取引されない財の価格差は為替で調整されにくい<br>
+        ② <strong>貿易コスト</strong>：関税・輸送費・規制などが価格差を維持させる<br>
+        ③ <strong>品質・ブランドの差異</strong>：同じカテゴリでも財の中身が異なる場合がある<br>
+        ④ <strong>バラッサ＝サミュエルソン効果</strong>：生産性の高い国では非貿易財の物価が高くなる傾向がある
+      </div>
+
+      <h3>国際比較で使われる主な指標</h3>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>指標</th>
+            <th>内容</th>
+            <th>用途</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>名目GDP（市場為替）</strong></td>
+            <td>市場為替レートでドル換算</td>
+            <td>経済規模・国際競争力の比較</td>
+          </tr>
+          <tr>
+            <td><strong>PPP調整済みGDP</strong></td>
+            <td>購買力平価で換算</td>
+            <td>生活水準・実質的な経済規模の比較</td>
+          </tr>
+          <tr>
+            <td><strong>一人当たりGDP</strong></td>
+            <td>GDP ÷ 人口</td>
+            <td>豊かさ・生産性の国際比較</td>
+          </tr>
+          <tr>
+            <td><strong>GNI（国民総所得）</strong></td>
+            <td>居住者の所得を基準</td>
+            <td>国民全体の所得水準の把握</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 6. 試験ポイント -->
+    <div class="detail-section" id="exam-points">
+      <h2>6. 試験で問われやすいポイント</h2>
+
+      <div class="detail-box green">
+        <strong>✅ GDPの定義で押さえるべき3点</strong><br>
+        ① 「国内」で生産された（国籍・居住地ではなく国内の場所が基準）<br>
+        ② 「最終財」のみ（中間財は二重計算を避けるため除外）<br>
+        ③ 「付加価値の合計」（売上高の合計ではない）
+      </div>
+
+      <div class="detail-box blue">
+        <strong>✅ 名目・実質の使い分け</strong><br>
+        経済成長率の議論では必ず「実質GDP」を使う。<br>
+        「名目GDPが増えても実質GDPが伸びていなければ成長していない」という問い方に注意。
+      </div>
+
+      <div class="detail-box yellow">
+        <strong>✅ 支出側GDPの式を覚える</strong><br>
+        GDP ＝ C ＋ I ＋ G ＋ NX（NX ＝ 輸出 − 輸入）<br>
+        輸入増加はGDPを<em>下げる</em>方向に働く（NXがマイナスになるため）。
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 間違えやすい選択肢のパターン</div>
+        <p>
+          「GDPは国民が海外で生産した財も含む」→ ❌ これはGNIの説明。<br>
+          「名目GDPは物価変動を除いた実態を示す」→ ❌ 物価変動を反映するのが名目GDP。<br>
+          「輸入はGDPに含まれない」→ ❌ 輸入は支出側GDPからマイナスされる形で関与している。
+        </p>
+      </div>
+    </div>
+
+    <a href="javascript:history.back()" class="detail-back-btn">← 解説一覧に戻る</a>
+
+  </div>
+
+  <!-- フッター -->
+  <footer style="text-align:center; padding:20px; font-size:14px; color:#555; border-top:1px solid #ccc; margin-top:40px;">
+    <p>
+      <a href="../../privacy.html" style="color:#003366; text-decoration:none;">プライバシーポリシー</a> |
+      <a href="../../terms.html" style="color:#003366; text-decoration:none;">利用規約</a> |
+      <a href="../../contact.html" style="color:#003366; text-decoration:none;">お問い合わせ</a>
+    </p>
+    <p>&copy; 2025 経済知識チェック</p>
+  </footer>
+</body>
+</html>

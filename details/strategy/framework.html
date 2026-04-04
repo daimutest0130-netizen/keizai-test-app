@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Analytics（GA4） -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MTK20NCVW8');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>分析フレームワーク｜詳細解説｜経済知識チェック</title>
+  <meta name="description" content="SWOT・TOWS・PEST・5フォース・バリューチェーン・VRIO・BCG・BSC・PDCAなど、経営戦略の分析フレームワークを体系的に解説します。">
+  <!-- SEO: canonical -->
+  <link rel="canonical" href="https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/framework.html" />
+
+  <!-- SEO: keywords -->
+  <meta name="keywords" content="分析フレームワーク,SWOT,TOWS,PEST,5フォース,バリューチェーン,VRIO,BCGマトリクス,バランスト・スコアカード,PDCA,経営戦略">
+
+  <!-- OGP -->
+  <meta property="og:title" content="分析フレームワーク｜詳細解説｜経済知識チェック">
+  <meta property="og:description" content="SWOT・TOWS・PEST・5フォース・バリューチェーン・VRIO・BCG・BSC・PDCAなど、経営戦略の分析フレームワークを体系的に解説します。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/framework.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="経済知識チェック">
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439"
+     crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../../style.css" />
+  <style>
+    .detail-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+    }
+    .detail-breadcrumb {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 24px;
+    }
+    .detail-breadcrumb a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-breadcrumb a:hover { text-decoration: underline; }
+
+    .detail-header {
+      margin-bottom: 36px;
+    }
+    .detail-genre-tag {
+      display: inline-block;
+      background: #003366;
+      color: #fff;
+      font-size: 12px;
+      padding: 3px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .detail-header h1 {
+      font-size: 26px;
+      color: #1a1a2e;
+      margin: 0 0 8px;
+      line-height: 1.4;
+    }
+    .detail-header .detail-subtitle {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .detail-toc {
+      background: #f0f4ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 40px;
+    }
+    .detail-toc h2 {
+      font-size: 14px;
+      color: #003366;
+      margin: 0 0 10px;
+    }
+    .detail-toc ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .detail-toc ol li {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    .detail-toc ol li a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-toc ol li a:hover { text-decoration: underline; }
+
+    .detail-section {
+      margin-bottom: 48px;
+    }
+    .detail-section h2 {
+      font-size: 20px;
+      color: #003366;
+      border-left: 5px solid #003366;
+      padding-left: 12px;
+      margin-bottom: 16px;
+    }
+    .detail-section h3 {
+      font-size: 16px;
+      color: #1a1a2e;
+      margin: 24px 0 10px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .detail-section p {
+      font-size: 15px;
+      line-height: 1.9;
+      color: #333;
+      margin-bottom: 14px;
+    }
+
+    .detail-box {
+      background: #fafafa;
+      border: 1px solid #dde3ef;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .detail-box.blue {
+      background: #e8f0fe;
+      border-color: #aac4f0;
+    }
+    .detail-box.green {
+      background: #e8f5e9;
+      border-color: #a5d6a7;
+    }
+    .detail-box.yellow {
+      background: #fffde7;
+      border-color: #ffe082;
+    }
+
+    .detail-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin: 16px 0;
+    }
+    .detail-table th {
+      background: #003366;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    .detail-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #e0e0e0;
+      vertical-align: top;
+      line-height: 1.7;
+    }
+    .detail-table tr:nth-child(even) td {
+      background: #f5f7fa;
+    }
+
+    .detail-point {
+      background: #fff8e1;
+      border-left: 4px solid #ffc107;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 20px 0;
+    }
+    .detail-point .point-label {
+      font-size: 12px;
+      font-weight: bold;
+      color: #f57f17;
+      margin-bottom: 6px;
+    }
+    .detail-point p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .formula-box {
+      background: #1a1a2e;
+      color: #e0e0ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-family: monospace;
+      font-size: 15px;
+      text-align: center;
+      margin: 16px 0;
+      letter-spacing: 0.05em;
+    }
+
+    .detail-back-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 24px;
+      background: #003366;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 24px;
+      font-size: 14px;
+    }
+    .detail-back-btn:hover { background: #0055aa; }
+  </style>
+</head>
+<body>
+  <div class="detail-wrap">
+
+    <!-- パンくず -->
+    <div class="detail-breadcrumb">
+      <a href="../../index.html">トップ</a> &rsaquo;
+      <a href="../../index.html">経営戦略</a> &rsaquo;
+      分析フレームワーク
+    </div>
+
+    <!-- ヘッダー -->
+    <div class="detail-header">
+      <span class="detail-genre-tag">経営戦略</span>
+      <h1>分析フレームワーク</h1>
+      <p class="detail-subtitle">SWOT / TOWS / PEST / 5フォース / バリューチェーン / VRIO / BCG / BSC / PDCA</p>
+    </div>
+
+    <!-- 概要 -->
+    <p style="font-size:15px; line-height:1.9; color:#333; margin-bottom:32px;">
+      経営戦略の立案に欠かせない分析フレームワークは試験頻出のテーマです。
+      <strong>SWOT・TOWS分析</strong>による内外環境の統合分析から、
+      <strong>PEST分析・5フォース分析</strong>による外部環境分析、
+      <strong>バリューチェーン・VRIO分析</strong>による内部資源分析、
+      そして<strong>BCG・BSC・PDCA</strong>などの管理ツールまで、
+      これら分析手法を体系的に理解することが、応用問題への対応力につながります。
+      このページでは、試験で問われやすいポイントを中心に、各フレームワークの定義・活用法を整理します。
+    </p>
+
+    <!-- 目次 -->
+    <div class="detail-toc">
+      <h2>目次</h2>
+      <ol>
+        <li><a href="#strategic-plan">経営戦略とは</a></li>
+        <li><a href="#swot-tows">SWOT分析とTOWSマトリクス</a></li>
+        <li><a href="#pest-5forces">PEST分析と5フォース分析</a></li>
+        <li><a href="#value-chain-vrio">バリューチェーン分析とVRIO分析</a></li>
+        <li><a href="#bcg-bsc">BCGマトリクスとバランスト・スコアカード</a></li>
+        <li><a href="#pdca-kpi">PDCAサイクル・KPI・ベンチマーキング</a></li>
+        <li><a href="#exam-points">試験で問われやすいポイント</a></li>
+      </ol>
+    </div>
+
+    <!-- 1. 経営戦略とは -->
+    <div class="detail-section" id="strategic-plan">
+      <h2>1. 経営戦略とは</h2>
+      <p>
+        経営戦略とは、「限られた経営資源を最適に配置し、競争優位を構築・維持することで、
+        企業の長期的な目標を達成するための総合的な計画」です。よく混同される概念として、
+        <strong>経営計画・戦略・戦術</strong>の階層を整理する必要があります。
+      </p>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>レベル</th>
+            <th>内容</th>
+            <th>時間軸・範囲</th>
+            <th>例</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>経営計画</strong></td>
+            <td>企業全体の方向性と目標</td>
+            <td>3〜10年単位</td>
+            <td>「5年で売上2倍」「グローバル展開」</td>
+          </tr>
+          <tr>
+            <td><strong>経営戦略</strong></td>
+            <td>計画を達成するための競争優位の構築方針</td>
+            <td>3〜5年</td>
+            <td>「コスト削減で競争力確保」「技術差別化」</td>
+          </tr>
+          <tr>
+            <td><strong>経営戦術</strong></td>
+            <td>戦略を実行するための具体的施策</td>
+            <td>1年以内</td>
+            <td>「生産工程の自動化」「営業体制の強化」</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>戦略立案に必須の分析視点</h3>
+      <div class="detail-box blue">
+        <strong>外部環境分析</strong>（External）<br>
+        市場機会と脅威を把握。PEST分析・5フォース分析を活用。
+      </div>
+      <div class="detail-box blue">
+        <strong>内部資源分析</strong>（Internal）<br>
+        企業の強み・弱みを把握。バリューチェーン・VRIO分析を活用。
+      </div>
+    </div>
+
+    <!-- 2. SWOT分析とTOWSマトリクス -->
+    <div class="detail-section" id="swot-tows">
+      <h2>2. SWOT分析とTOWSマトリクス</h2>
+      <p>
+        <strong>SWOT分析</strong>は、企業を取り巻く環境を4つの要因に分類する最も基本的なフレームワークです。
+        Strengths（強み）・Weaknesses（弱み）・Opportunities（機会）・Threats（脅威）を整理します。
+      </p>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th colspan="2">内的要因</th>
+            <th colspan="2">外的要因</th>
+          </tr>
+          <tr>
+            <th>S（強み）</th>
+            <th>W（弱み）</th>
+            <th>O（機会）</th>
+            <th>T（脅威）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>自社の競争優位性</td>
+            <td>改善が必要な領域</td>
+            <td>市場の成長機会</td>
+            <td>市場を脅かす要因</td>
+          </tr>
+          <tr>
+            <td>例：高い技術力、ブランド力</td>
+            <td>例：低い収益性、弱い営業網</td>
+            <td>例：新市場開拓、需要増加</td>
+            <td>例：新規参入、代替品出現</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>TOWSマトリクス（SWOT×戦略）</h3>
+      <p>
+        SWOT分析の結果を組み合わせることで、4つの戦略オプションを導出します。これを<strong>TOWSマトリクス</strong>と呼びます。
+      </p>
+
+      <div class="detail-box green">
+        <strong>SO戦略（積極戦略）</strong><br>
+        強みを活かして機会を掴む。例：高い技術力を持つ企業が、新興市場での需要増加を狙う。
+      </div>
+      <div class="detail-box green">
+        <strong>WO戦略（改善戦略）</strong><br>
+        弱みを補強して機会を活かす。例：営業ネットワークが弱い企業が、提携やM&Aで機会を狙う。
+      </div>
+      <div class="detail-box yellow">
+        <strong>ST戦略（防衛戦略）</strong><br>
+        強みを活かして脅威に対抗。例：ブランド力で競争優位を維持し、新規参入の脅威に備える。
+      </div>
+      <div class="detail-box yellow">
+        <strong>WT戦略（回避戦略）</strong><br>
+        弱みを露出させず、脅威を回避。例：経営統合や事業撤退を検討。
+      </div>
+    </div>
+
+    <!-- 3. PEST分析と5フォース分析 -->
+    <div class="detail-section" id="pest-5forces">
+      <h2>3. PEST分析と5フォース分析</h2>
+      <p>
+        外部環境分析を行うための主要フレームワークには、<strong>PEST分析</strong>（マクロ環境）と
+        <strong>5フォース分析</strong>（業界競争環境）の2つがあります。
+      </p>
+
+      <h3>PEST分析（マクロ環境分析）</h3>
+      <p>
+        企業を取り巻く政治・経済・社会・技術環境を分析します。産業全体に共通する外部環境変化を把握するのに有効です。
+      </p>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>要因</th>
+            <th>内容</th>
+            <th>例</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>P（政治）</strong></td>
+            <td>政府政策、法規制、政治体制</td>
+            <td>消費税増税、規制緩和、選挙</td>
+          </tr>
+          <tr>
+            <td><strong>E（経済）</strong></td>
+            <td>経済成長率、金利、為替、インフレ</td>
+            <td>GDP成長、円安、原油価格上昇</td>
+          </tr>
+          <tr>
+            <td><strong>S（社会）</strong></td>
+            <td>人口動態、文化、価値観、ライフスタイル</td>
+            <td>高齢化、環境問題への関心、SNS普及</td>
+          </tr>
+          <tr>
+            <td><strong>T（技術）</strong></td>
+            <td>イノベーション、新技術、デジタル化</td>
+            <td>AI、ブロックチェーン、IoT普及</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>5フォース分析（ポーターの競争要因分析）</h3>
+      <p>
+        業界の競争構造を分析するフレームワークで、業界の<strong>収益性</strong>を決定する5つの競争要因を整理します。
+      </p>
+
+      <div class="detail-box blue">
+        <strong>① 業界内の競争企業同士の競争</strong><br>
+        競合他社の数・規模・成長率などが競争の激しさを決める。<br><br>
+        <strong>② 新規参入の脅威</strong><br>
+        新規参入が容易か困難かによって業界の収益性が変わる。参入障壁（規模の経済、ブランド力、技術など）が重要。<br><br>
+        <strong>③ 代替品の脅威</strong><br>
+        既存製品の代替となる製品が出現するリスク。例：フィルムカメラ→デジタルカメラ→スマートフォン。<br><br>
+        <strong>④ 買い手（顧客）の交渉力</strong><br>
+        顧客が多数・大型の場合、企業の利益を圧迫。例：大手スーパーの仕入れ要求。<br><br>
+        <strong>⑤ 売り手（サプライヤー）の交渉力</strong><br>
+        重要な部材・素材の供給者が限定される場合、企業の利益を圧迫。例：レアアース依存。
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 PEST vs 5フォース</div>
+        <p>PEST：マクロ環境（全産業に共通）を見る。5フォース：特定の業界の競争構造を掘り下げる。両者は補完的に使う。</p>
+      </div>
+    </div>
+
+    <!-- 4. バリューチェーン分析とVRIO分析 -->
+    <div class="detail-section" id="value-chain-vrio">
+      <h2>4. バリューチェーン分析とVRIO分析</h2>
+      <p>
+        内部資源を分析するために、企業の価値創造プロセスを細分化して分析するのが<strong>バリューチェーン分析</strong>です。
+        その資源がどの程度競争優位を生むかを評価するのが<strong>VRIO分析</strong>です。
+      </p>
+
+      <h3>バリューチェーンとは</h3>
+      <p>
+        企業が原材料調達から最終顧客への販売までの価値創造活動を「チェーン」として捉え、
+        各段階でどの程度付加価値を生み出しているかを分析します。
+      </p>
+
+      <div class="detail-box blue">
+        <strong>主活動（Primary Activities）</strong><br>
+        ① 仕入・調達（Inbound Logistics）<br>
+        ② 製造・生産（Operations）<br>
+        ③ 製品出荷（Outbound Logistics）<br>
+        ④ マーケティング・販売（Sales & Marketing）<br>
+        ⑤ サービス（Service）
+      </div>
+
+      <div class="detail-box">
+        <strong>支援活動（Support Activities）</strong><br>
+        ① 調達・購買活動（Procurement）<br>
+        ② 技術開発（Technology Development）<br>
+        ③ 人事・労務管理（Human Resource Management）<br>
+        ④ 企業インフラ（Firm Infrastructure：経営管理、財務管理など）
+      </div>
+
+      <h3>VRIO分析（資源の競争優位性評価）</h3>
+      <p>
+        企業資源が<strong>競争優位</strong>を生み出すかを判定するフレームワークです。
+        4つの基準で評価します。
+      </p>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>要素</th>
+            <th>意味</th>
+            <th>判定ポイント</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>V（Value）</strong></td>
+            <td>価値</td>
+            <td>顧客にとって価値があるか。競争優位につながるか。</td>
+          </tr>
+          <tr>
+            <td><strong>R（Rareness）</strong></td>
+            <td>希少性</td>
+            <td>競合他社が保有していないか。模倣されにくいか。</td>
+          </tr>
+          <tr>
+            <td><strong>I（Imitability）</strong></td>
+            <td>模倣困難性</td>
+            <td>容易に模倣されないか。時間・コストがかかるか。</td>
+          </tr>
+          <tr>
+            <td><strong>O（Organization）</strong></td>
+            <td>組織</td>
+            <td>それを活かす組織体制・人材が揃っているか。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="formula-box">
+        V○ R× → 一時的競争優位
+        V○ R○ I× → 持続的競争優位の可能性あり
+        V○ R○ I○ O○ → 持続的競争優位を獲得
+      </div>
+    </div>
+
+    <!-- 5. BCGマトリクスとバランスト・スコアカード -->
+    <div class="detail-section" id="bcg-bsc">
+      <h2>5. BCGマトリクスとバランスト・スコアカード</h2>
+      <p>
+        事業ポートフォリオを管理するための実務的ツールとして、
+        <strong>BCGマトリクス</strong>と<strong>バランスト・スコアカード（BSC）</strong>が活用されます。
+      </p>
+
+      <h3>BCGマトリクス（市場成長率−相対的市場シェア）</h3>
+      <p>
+        事業を4象限に分類し、資金配分や戦略方針を決定するツールです。
+      </p>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th colspan="2"></th>
+            <th>高い市場成長率</th>
+            <th>低い市場成長率</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>高シェア</strong></td>
+            <td><strong>スター</strong></td>
+            <td>高い成長性。資金投下すべき事業。</td>
+            <td><strong>現金牛</strong></td>
+            <td>安定した利益源。維持・防衛の対象。</td>
+          </tr>
+          <tr>
+            <td><strong>低シェア</strong></td>
+            <td><strong>問題児</strong></td>
+            <td>市場は成長だがシェアが低い。投資判断が重要。</td>
+            <td><strong>犬</strong></td>
+            <td>低成長・低シェア。撤退の候補。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>バランスト・スコアカード（BSC）</h3>
+      <p>
+        財務指標だけでなく、複数の視点から経営業績を測定・管理するツールです。
+        <strong>4つの視点</strong>のバランスを取ることで、戦略を総合的に実行します。
+      </p>
+
+      <div class="detail-box green">
+        <strong>① 財務の視点（Financial）</strong><br>
+        ROE、売上高利益率、営業利益など。株主価値の創造。<br><br>
+        <strong>② 顧客の視点（Customer）</strong><br>
+        顧客満足度、市場シェア、顧客保持率。顧客価値の創造。<br><br>
+        <strong>③ 内部プロセスの視点（Internal Process）</strong><br>
+        品質、納期、生産効率、イノベーション。業務プロセスの改善。<br><br>
+        <strong>④ 学習と成長の視点（Learning & Growth）</strong><br>
+        従業員のスキル開発、組織学習、情報システムの整備。組織能力の強化。
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 BSCの強み</div>
+        <p>財務業績は遅行指標（結果を示す）。BSCは先行指標を含み、戦略の実行状況をリアルタイムで把握できます。</p>
+      </div>
+    </div>
+
+    <!-- 6. PDCAサイクル・KPI・ベンチマーキング -->
+    <div class="detail-section" id="pdca-kpi">
+      <h2>6. PDCAサイクル・KPI・ベンチマーキング</h2>
+      <p>
+        戦略を継続的に改善・実行するための管理サイクルとして、<strong>PDCAサイクル</strong>が基本となります。
+        その中で<strong>KPI（重要業績評価指標）</strong>の設定と<strong>ベンチマーキング</strong>が重要です。
+      </p>
+
+      <h3>PDCAサイクル</h3>
+      <p>
+        計画（Plan）→ 実行（Do）→ 検証（Check）→ 改善（Action）のサイクルを回し続けることで、
+        組織の継続的な改善を実現します。
+      </p>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>段階</th>
+            <th>内容</th>
+            <th>活動例</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>P（計画）</strong></td>
+            <td>目標設定・戦略・施策の立案</td>
+            <td>売上目標の設定、新商品開発計画</td>
+          </tr>
+          <tr>
+            <td><strong>D（実行）</strong></td>
+            <td>計画を実際に行う</td>
+            <td>営業活動、製造、マーケティング展開</td>
+          </tr>
+          <tr>
+            <td><strong>C（検証）</strong></td>
+            <td>結果を計画と比較して分析</td>
+            <td>月次実績報告、差異分析</td>
+          </tr>
+          <tr>
+            <td><strong>A（改善）</strong></td>
+            <td>問題点を改善し次のPに反映</td>
+            <td>営業方法の見直し、工程改善</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>KPI（Key Performance Indicator）</h3>
+      <p>
+        戦略目標の達成状況を測定するための<strong>重要業績評価指標</strong>です。
+        必ず測定可能で、目標期間内に達成可能な指標を設定することが重要です。
+      </p>
+
+      <div class="detail-box blue">
+        <strong>KPI設定の例</strong><br>
+        戦略目標：「顧客満足度の向上」<br>
+        KPI：「顧客満足度スコア 85点以上」「顧客保持率 95%」「NPS（顧客推奨度） 50以上」
+      </div>
+
+      <h3>ベンチマーキング</h3>
+      <p>
+        業界最高企業や競合他社のプロセス・パフォーマンスを基準として、自社を比較・改善する手法です。
+        外部ベンチマークと内部ベンチマークがあります。
+      </p>
+
+      <div class="detail-box yellow">
+        <strong>外部ベンチマーク</strong>：競合他社や業界平均との比較。競争優位性を把握。<br>
+        <strong>内部ベンチマーク</strong>：自社の過去実績や部門間での比較。改善領域を特定。
+      </div>
+    </div>
+
+    <!-- 7. 試験ポイント -->
+    <div class="detail-section" id="exam-points">
+      <h2>7. 試験で問われやすいポイント</h2>
+
+      <div class="detail-box green">
+        <strong>✅ SWOTの定義を正確に</strong><br>
+        ① S・Wは内部要因（自社コントロール可能）、O・Tは外部要因（外部環境）<br>
+        ② TOWSマトリクスで「どの戦略か」を選択する問題が頻出
+      </div>
+
+      <div class="detail-box blue">
+        <strong>✅ PEST vs 5フォースの使い分け</strong><br>
+        PEST：マクロ環境全体を広く見る<br>
+        5フォース：特定の業界の構造的競争力を掘り下げる
+      </div>
+
+      <div class="detail-box yellow">
+        <strong>✅ バリューチェーンの主活動と支援活動</strong><br>
+        主活動は5つ（仕入・製造・出荷・営業・サービス）<br>
+        支援活動は4つ（調達・技術・人事・インフラ）
+      </div>
+
+      <div class="detail-box green">
+        <strong>✅ VRIO分析の順序</strong><br>
+        V→R→I→Oの順番で評価。4つすべてに「○」で持続的競争優位。
+      </div>
+
+      <div class="detail-box blue">
+        <strong>✅ BCG4象限の特徴</strong><br>
+        スター：投資拡大 | 現金牛：利益回収 | 問題児：選別 | 犬：撤退検討
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">⚠️ 混同しやすい点</div>
+        <p>
+          「SWOT分析で戦略を立案する」→ ❌ SWOT自体は分析。戦略はTOWSマトリクスで導出。<br>
+          「5フォースで消費者行動を分析」→ ❌ 消費者行動はPEST（社会）での分析。<br>
+          「BCGマトリクスは成長率と絶対シェア」→ ❌ 相対的市場シェア（競合内での順位）が横軸。
+        </p>
+      </div>
+    </div>
+
+    <a href="javascript:history.back()" class="detail-back-btn">← 解説一覧に戻る</a>
+
+  </div>
+
+  <!-- フッター -->
+  <footer style="text-align:center; padding:20px; font-size:14px; color:#555; border-top:1px solid #ccc; margin-top:40px;">
+    <p>
+      <a href="../../privacy.html" style="color:#003366; text-decoration:none;">プライバシーポリシー</a> |
+      <a href="../../terms.html" style="color:#003366; text-decoration:none;">利用規約</a> |
+      <a href="../../contact.html" style="color:#003366; text-decoration:none;">お問い合わせ</a>
+    </p>
+    <p>&copy; 2025 経済知識チェック</p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Analytics（GA4） -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MTK20NCVW8');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>為替・国際金融｜詳細解説｜経済知識チェック</title>
+  <meta name="description" content="為替レートの決定・変動相場制・円高円安の影響・実効為替レート・国際収支・不可能の三位一体・マーシャル=ラーナー条件など、国際経済の重要概念をわかりやすく解説します。">
+  <!-- SEO: canonical -->
+  <link rel="canonical" href="https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/forex.html" />
+
+  <!-- SEO: keywords -->
+  <meta name="keywords" content="為替,変動相場制,円高,円安,実効為替レート,国際収支,経常収支,トリレンマ,マーシャルラーナー,Jカーブ,経済知識チェック">
+
+  <!-- OGP -->
+  <meta property="og:title" content="為替・国際金融｜詳細解説｜経済知識チェック">
+  <meta property="og:description" content="為替レートの決定・変動相場制・円高円安の影響・実効為替レート・国際収支・不可能の三位一体・マーシャル=ラーナー条件など、国際経済の重要概念をわかりやすく解説します。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/forex.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="経済知識チェック">
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439"
+     crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../../style.css" />
+  <style>
+    .detail-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+    }
+    .detail-breadcrumb {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 24px;
+    }
+    .detail-breadcrumb a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-breadcrumb a:hover { text-decoration: underline; }
+
+    .detail-header {
+      margin-bottom: 36px;
+    }
+    .detail-genre-tag {
+      display: inline-block;
+      background: #003366;
+      color: #fff;
+      font-size: 12px;
+      padding: 3px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .detail-header h1 {
+      font-size: 26px;
+      color: #1a1a2e;
+      margin: 0 0 8px;
+      line-height: 1.4;
+    }
+    .detail-header .detail-subtitle {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .detail-toc {
+      background: #f0f4ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 40px;
+    }
+    .detail-toc h2 {
+      font-size: 14px;
+      color: #003366;
+      margin: 0 0 10px;
+    }
+    .detail-toc ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .detail-toc ol li {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    .detail-toc ol li a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-toc ol li a:hover { text-decoration: underline; }
+
+    .detail-section {
+      margin-bottom: 48px;
+    }
+    .detail-section h2 {
+      font-size: 20px;
+      color: #003366;
+      border-left: 5px solid #003366;
+      padding-left: 12px;
+      margin-bottom: 16px;
+    }
+    .detail-section h3 {
+      font-size: 16px;
+      color: #1a1a2e;
+      margin: 24px 0 10px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .detail-section p {
+      font-size: 15px;
+      line-height: 1.9;
+      color: #333;
+      margin-bottom: 14px;
+    }
+
+    .detail-box {
+      background: #fafafa;
+      border: 1px solid #dde3ef;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .detail-box.blue {
+      background: #e8f0fe;
+      border-color: #aac4f0;
+    }
+    .detail-box.green {
+      background: #e8f5e9;
+      border-color: #a5d6a7;
+    }
+    .detail-box.yellow {
+      background: #fffde7;
+      border-color: #ffe082;
+    }
+
+    .detail-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin: 16px 0;
+    }
+    .detail-table th {
+      background: #003366;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    .detail-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #e0e0e0;
+      vertical-align: top;
+      line-height: 1.7;
+    }
+    .detail-table tr:nth-child(even) td {
+      background: #f5f7fa;
+    }
+
+    .detail-point {
+      background: #fff8e1;
+      border-left: 4px solid #ffc107;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 20px 0;
+    }
+    .detail-point .point-label {
+      font-size: 12px;
+      font-weight: bold;
+      color: #f57f17;
+      margin-bottom: 6px;
+    }
+    .detail-point p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .formula-box {
+      background: #1a1a2e;
+      color: #e0e0ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-family: monospace;
+      font-size: 15px;
+      text-align: center;
+      margin: 16px 0;
+      letter-spacing: 0.05em;
+    }
+
+    .detail-back-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 24px;
+      background: #003366;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 24px;
+      font-size: 14px;
+    }
+    .detail-back-btn:hover { background: #0055aa; }
+  </style>
+</head>
+<body>
+  <div class="detail-wrap">
+
+    <!-- パンくず -->
+    <div class="detail-breadcrumb">
+      <a href="../../index.html">トップ</a> &rsaquo;
+      <a href="../../index.html">経済・金融</a> &rsaquo;
+      為替・国際金融
+    </div>
+
+    <!-- ヘッダー -->
+    <div class="detail-header">
+      <span class="detail-genre-tag">経済・金融</span>
+      <h1>為替・国際金融</h1>
+      <p class="detail-subtitle">為替レートの決定 / 変動相場制 / 円高・円安の影響 / 実効為替レート / 国際収支 / トリレンマ</p>
+    </div>
+
+    <!-- 概要 -->
+    <p style="font-size:15px; line-height:1.9; color:#333; margin-bottom:32px;">
+      為替は輸出入・物価・企業収益に直結する重要テーマです。変動相場制の仕組み・円高円安の経済への影響・
+      国際収支の構造・マーシャル=ラーナー条件・<strong>不可能の三位一体（トリレンマ）</strong>まで体系的に理解することが求められます。
+      本ページでは、国際経済の中核概念を整理します。
+    </p>
+
+    <!-- 目次 -->
+    <div class="detail-toc">
+      <h2>目次</h2>
+      <ol>
+        <li><a href="#forex-basics">為替レートとは</a></li>
+        <li><a href="#exchange-regime">固定相場制と変動相場制</a></li>
+        <li><a href="#yen-impact">円高・円安が経済に与える影響</a></li>
+        <li><a href="#effective-rate">実効為替レート</a></li>
+        <li><a href="#bop">国際収支の構造</a></li>
+        <li><a href="#trilemma">不可能の三位一体（トリレンマ）</a></li>
+        <li><a href="#marshall-lerner">マーシャル=ラーナー条件とJカーブ効果</a></li>
+        <li><a href="#exam-points">試験で問われやすいポイント</a></li>
+      </ol>
+    </div>
+
+    <!-- 1. 為替レートとは -->
+    <div class="detail-section" id="forex-basics">
+      <h2>1. 為替レートとは</h2>
+      <p>
+        為替レートとは、<strong>異なる国の通貨を交換する際の比率</strong>です。
+        例えば「1ドル＝150円」という表記は、1米ドルを手に入れるのに150円が必要ということです。
+      </p>
+
+      <h3>直接表示 vs 間接表示</h3>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>表示方法</th>
+            <th>定義</th>
+            <th>例（日本から見た米ドル）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>直接表示</strong></td>
+            <td>外国通貨1単位 = 自国通貨何単位</td>
+            <td>1USD = 150JPY（最も一般的）</td>
+          </tr>
+          <tr>
+            <td><strong>間接表示</strong></td>
+            <td>自国通貨1単位 = 外国通貨何単位</td>
+            <td>1JPY = 0.0067USD</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="detail-point">
+        <div class="point-label">📌 円高・円安の定義</div>
+        <p>
+          「1ドル＝150円」→「1ドル＝140円」への変化は円高（円の価値が上がった）。<br>
+          数字が小さくなる = 円高、数字が大きくなる = 円安（日本での表記の場合）。
+        </p>
+      </div>
+    </div>
+
+    <!-- 2. 固定相場制と変動相場制 -->
+    <div class="detail-section" id="exchange-regime">
+      <h2>2. 固定相場制と変動相場制</h2>
+      <p>
+        為替相場には大きく2つの制度があります。現在ほぼ全ての先進国は変動相場制を採用しています。
+      </p>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>制度</th>
+            <th>メカニズム</th>
+            <th>メリット・デメリット</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>固定相場制</strong></td>
+            <td>中央銀行が為替を一定に保つ。変動させる場合は国家的決定。</td>
+            <td>メリット：為替リスク小、貿易計画が立てやすい。 デメリット：政策の自由度低下、外貨準備が必要。</td>
+          </tr>
+          <tr>
+            <td><strong>変動相場制</strong></td>
+            <td>市場の需給で為替が自動的に変動。中央銀行は調整役。</td>
+            <td>メリット：政策の自由度大、調整が自動的。 デメリット：為替変動が大きく、企業の負担増。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>ブレトンウッズ体制と変動相場制への移行</h3>
+      <p>
+        1944年のブレトンウッズ会議で、米ドルを中心とした固定相場制国際通貨体制が確立されました。
+        しかし、1971年にニクソン大統領がドル兌換性（金兌換）を停止（ニクソンショック）し、
+        1973年からは各国が変動相場制に移行しました。
+      </p>
+    </div>
+
+    <!-- 3. 円高・円安の影響 -->
+    <div class="detail-section" id="yen-impact">
+      <h2>3. 円高・円安が経済に与える影響</h2>
+      <p>
+        為替変動は、企業の国際競争力・輸出入・物価など経済全体に大きな影響を与えます。
+      </p>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>現象</th>
+            <th>輸出</th>
+            <th>輸入</th>
+            <th>企業利益</th>
+            <th>物価</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>円高</strong><br>（1ドル=100円）</td>
+            <td>ドル建て価格が上がるため競争力低下</td>
+            <td>安くなるため輸入増加</td>
+            <td>輸出企業の利益減少</td>
+            <td>輸入物価下落＝デフレ圧力</td>
+          </tr>
+          <tr>
+            <td><strong>円安</strong><br>（1ドル=150円）</td>
+            <td>ドル建て価格が下がり競争力上昇</td>
+            <td>高くなるため輸入減少</td>
+            <td>輸出企業の利益増加</td>
+            <td>輸入物価上昇＝インフレ圧力</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="detail-box green">
+        <strong>円安の「蜜と毒」</strong><br>
+        円安は輸出企業には朗報（利益増加）ですが、一般消費者には悪い影響（輸入品の値上がり）をもたらします。
+        また、「円の価値が下がった」ことで資産価値に悪影響を及ぼす場合もあります。
+      </div>
+    </div>
+
+    <!-- 4. 実効為替レート -->
+    <div class="detail-section" id="effective-rate">
+      <h2>4. 実効為替レート</h2>
+      <p>
+        実効為替レートとは、<strong>複数の通貨に対する為替変動を加重平均した指標</strong>です。
+        二国間の為替だけでなく、その国の国際競争力全体を示します。
+      </p>
+
+      <h3>名目実効為替レート vs 実質実効為替レート</h3>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>指標</th>
+            <th>定義</th>
+            <th>用途</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>名目実効為替レート</strong></td>
+            <td>複数の通貨に対する名目為替の加重平均</td>
+            <td>為替の単純な水準を把握</td>
+          </tr>
+          <tr>
+            <td><strong>実質実効為替レート</strong></td>
+            <td>名目実効為替に相対的なインフレ率（物価差）を反映</td>
+            <td>国際競争力をより正確に測定</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="detail-box blue">
+        <strong>例：日本円の実効為替レート</strong><br>
+        日本の主要取引国（米国、ユーロ圏、中国、韓国など）に対する為替を、
+        その国との貿易シェアで加重平均したもの。
+      </div>
+    </div>
+
+    <!-- 5. 国際収支の構造 -->
+    <div class="detail-section" id="bop">
+      <h2>5. 国際収支の構造</h2>
+      <p>
+        国際収支とは、<strong>一国と外国との経済的な取引をすべて記録した統計</strong>です。
+        経常収支と資本収支（金融収支）から構成されます。
+      </p>
+
+      <h3>国際収支勘定の概要</h3>
+      <div class="formula-box">
+        国際収支 = 経常収支 + 資本収支（金融収支）+ 誤差脱漏
+      </div>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>区分</th>
+            <th>内容</th>
+            <th>日本の典型例</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>経常収支</strong></td>
+            <td>貿易収支＋サービス収支＋所得収支＋経常移転</td>
+            <td>日本は黒字（輸出＞輸入）</td>
+          </tr>
+          <tr>
+            <td><strong>資本収支</strong></td>
+            <td>直接投資・証券投資・その他投資</td>
+            <td>日本は赤字（対外投資＞対内投資）</td>
+          </tr>
+          <tr>
+            <td><strong>誤差脱漏</strong></td>
+            <td>統計上の記録漏れなど</td>
+            <td>完全には把握できない資金フロー</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>双子の赤字（Twin Deficits）</h3>
+      <p>
+        米国のように財政赤字と経常収支赤字が同時に拡大する現象を指します。
+        財政赤字が国内貯蓄不足→外資依存→経常赤字という経路で発生することが多いです。
+      </p>
+    </div>
+
+    <!-- 6. 不可能の三位一体（トリレンマ） -->
+    <div class="detail-section" id="trilemma">
+      <h2>6. 不可能の三位一体（トリレンマ）</h2>
+      <p>
+        トリレンマ（Trilemma）とは、<strong>以下の3つの目標のうち、最大で2つまでしか同時に達成できない</strong>という理論です。
+        これは国際経済政策の構造的な制約を示しています。
+      </p>
+
+      <div class="detail-box yellow">
+        <strong>3つの目標</strong><br>
+        ① 資本の自由な移動（金融市場の自由化）<br>
+        ② 固定相場制（為替の安定）<br>
+        ③ 独立した金融政策（中央銀行の自由な政策選択）
+      </div>
+
+      <h3>トリレンマの3つの選択肢</h3>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>選択肢</th>
+            <th>達成する目標</th>
+            <th>放棄する目標</th>
+            <th>歴史的事例</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>型A</strong></td>
+            <td>資本移動自由 + 独立金融政策</td>
+            <td>固定相場制</td>
+            <td>現在の日本・米国（変動相場制）</td>
+          </tr>
+          <tr>
+            <td><strong>型B</strong></td>
+            <td>資本移動自由 + 固定相場制</td>
+            <td>独立金融政策</td>
+            <td>ユーロ圏（ECB中心）、香港ドルペッグ</td>
+          </tr>
+          <tr>
+            <td><strong>型C</strong></td>
+            <td>固定相場制 + 独立金融政策</td>
+            <td>資本移動自由</td>
+            <td>昔の日本（資本規制下の固定相場制）</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="detail-box green">
+        <strong>トリレンマの経済学的背景</strong><br>
+        固定相場制で資本移動が自由だと、金利差を使った利益機会から資本流入・流出が起き、
+        中央銀行が為替を支えるために金融政策の自由度を失うという論理です。
+      </div>
+    </div>
+
+    <!-- 7. マーシャル=ラーナー条件 -->
+    <div class="detail-section" id="marshall-lerner">
+      <h2>7. マーシャル=ラーナー条件とJカーブ効果</h2>
+      <p>
+        マーシャル=ラーナー条件（Marshall-Lerner Condition）とは、
+        <strong>為替切下げ（円安）が経常収支を改善するための条件</strong>です。
+      </p>
+
+      <h3>理論的条件</h3>
+      <div class="formula-box">
+        為替切下げが経常収支を改善 ⇔ (輸出価格弾性値 + 輸入価格弾性値) > 1
+      </div>
+
+      <p>
+        つまり、輸出と輸入の合計需要価格弾性値が1より大きければ、為替切下げは経常収支を改善します。
+      </p>
+
+      <h3>Jカーブ効果（遅行調整）</h3>
+      <p>
+        為替が円安に変動しても、すぐには経常収支が改善しません。
+        むしろ短期的には悪化し、時間をかけて改善していく「J字形」の経路をたどります。
+      </p>
+      <div class="detail-box">
+        <strong>Jカーブが発生する理由</strong><br>
+        ① 既に成約された取引はすぐには変わらない<br>
+        ② 円安になっても、企業がすぐには輸出を増やさない（供給側の制約）<br>
+        ③ 消費者がすぐには輸入品の購入を減らさない（需要側の粘着性）
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">⚠️ 為替切下げの限界</div>
+        <p>
+          為替が改善しても、輸出企業が利益を吐き出したり、供給側の制約があれば、
+          経常収支改善の効果は限定的になります。また、マーシャル=ラーナー条件が常に成立するわけではありません。
+        </p>
+      </div>
+    </div>
+
+    <!-- 8. 試験ポイント -->
+    <div class="detail-section" id="exam-points">
+      <h2>8. 試験で問われやすいポイント</h2>
+
+      <div class="detail-box green">
+        <strong>✅ 円高・円安の経済効果を体系的に理解</strong><br>
+        輸出企業 → 利益減少<br>
+        輸入品 → 価格上昇<br>
+        一般消費者 → 生活費上昇
+      </div>
+
+      <div class="detail-box blue">
+        <strong>✅ トリレンマの3つの選択肢を整理</strong><br>
+        「3つのうち2つしか取れない」という基本をしっかり理解し、
+        各国の政策選択をこの枠組みで分析できることが重要です。
+      </div>
+
+      <div class="detail-box yellow">
+        <strong>✅ 国際収支の構造：経常 vs 資本</strong><br>
+        経常黒字 = 実物資産（商品）の輸出超過<br>
+        資本赤字 = 金融資産の対外投資超過（日本の典型パターン）
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 マーシャル=ラーナー条件の出題</div>
+        <p>
+          「為替切下げが経常収支を改善するには、価格弾性値の合計が1より大きい必要がある」という条件を
+          説明できることが重要です。また、Jカーブ効果で短期と長期が異なることも押さえましょう。
+        </p>
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 固定相場制から変動相場制への歴史的背景</div>
+        <p>
+          ブレトンウッズ体制の成立（1944年）と崩壊（1973年）を理解し、
+          なぜ各国は変動相場制に移行したのかを説明できると、高評価を得られます。
+        </p>
+      </div>
+    </div>
+
+    <a href="javascript:history.back()" class="detail-back-btn">← 解説一覧に戻る</a>
+
+  </div>
+
+  <!-- フッター -->
+  <footer style="text-align:center; padding:20px; font-size:14px; color:#555; border-top:1px solid #ccc; margin-top:40px;">
+    <p>
+      <a href="../../privacy.html" style="color:#003366; text-decoration:none;">プライバシーポリシー</a> |
+      <a href="../../terms.html" style="color:#003366; text-decoration:none;">利用規約</a> |
+      <a href="../../contact.html" style="color:#003366; text-decoration:none;">お問い合わせ</a>
+    </p>
+    <p>&copy; 2025 経済知識チェック</p>
+  </footer>
+</body>
+</html>

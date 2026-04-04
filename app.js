@@ -105,8 +105,12 @@ function hideGenreMenuInstant() {
 // --- データ読み込み ---
 async function preloadCategory(category) {
   if (category === 'mixed') {
-    const paths = Object.values(FILE_MAP);
-    const dataSets = await Promise.all(paths.map(p => fetchJsonSafe(p)));
+    const entries = Object.entries(FILE_MAP);
+    const dataSets = await Promise.all(
+      entries.map(([cat, p]) =>
+        fetchJsonSafe(p).then(qs => qs.map((q, i) => ({ ...q, _category: cat, _origIdx: i })))
+      )
+    );
     allQuestions = dataSets.flat();
   } else {
     const path = FILE_MAP[category];
@@ -115,7 +119,8 @@ async function preloadCategory(category) {
       console.warn('未対応カテゴリ:', category);
       return;
     }
-    allQuestions = await fetchJsonSafe(path);
+    const qs = await fetchJsonSafe(path);
+    allQuestions = qs.map((q, i) => ({ ...q, _category: category, _origIdx: i }));
   }
 }
 
@@ -266,6 +271,7 @@ function calculateFinalScore() {
           <button class="toggleBtn" onclick="toggleLong('${longId}', this)">▼</button>
           <div id="${longId}" class="longExplanation hidden">
             <p>${escapeHtml(q.explanation_long)}</p>
+            ${q.detail_page ? `<a href="${q.detail_page}" target="_blank" class="detailLink">📖 さらに詳しく →</a>` : ''}
           </div>` : ''}
       </div>
     `);

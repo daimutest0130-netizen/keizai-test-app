@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Analytics（GA4） -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MTK20NCVW8');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>財務諸表の基礎（BS・PL・CF）｜詳細解説｜経済知識チェック</title>
+  <meta name="description" content="貸借対照表（BS）・損益計算書（PL）・キャッシュフロー計算書（CF）の構造・読み方・主要科目を体系的に解説します。">
+  <link rel="canonical" href="https://daimutest0130-netizen.github.io/keizai-test-app/details/finance/financial_statements.html" />
+  <meta name="keywords" content="貸借対照表,損益計算書,キャッシュフロー計算書,BS,PL,CF,財務諸表,発生主義,減価償却,自己資本,流動資産">
+  <meta property="og:title" content="財務諸表の基礎（BS・PL・CF）｜詳細解説｜経済知識チェック">
+  <meta property="og:description" content="貸借対照表（BS）・損益計算書（PL）・キャッシュフロー計算書（CF）の構造・読み方・主要科目を体系的に解説します。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daimutest0130-netizen.github.io/keizai-test-app/details/finance/financial_statements.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="経済知識チェック">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../style.css" />
+  <style>
+    .detail-wrap { max-width: 800px; margin: 0 auto; padding: 32px 20px 80px; }
+    .detail-breadcrumb { font-size: 13px; color: #777; margin-bottom: 24px; }
+    .detail-breadcrumb a { color: #003366; text-decoration: none; }
+    .detail-breadcrumb a:hover { text-decoration: underline; }
+    .detail-header { margin-bottom: 36px; }
+    .detail-genre-tag { display: inline-block; background: #1565c0; color: #fff; font-size: 12px; padding: 3px 12px; border-radius: 20px; margin-bottom: 12px; }
+    .detail-header h1 { font-size: 26px; color: #1a1a2e; margin: 0 0 8px; line-height: 1.4; }
+    .detail-subtitle { font-size: 14px; color: #666; }
+    .detail-intro { font-size: 15px; line-height: 1.9; color: #333; margin-bottom: 36px; padding: 16px 20px; background: #f8faff; border-left: 4px solid #1565c0; border-radius: 0 8px 8px 0; }
+    .detail-toc { background: #f0f4ff; border-radius: 8px; padding: 16px 20px; margin-bottom: 40px; }
+    .detail-toc h2 { font-size: 14px; color: #003366; margin: 0 0 10px; }
+    .detail-toc ul { margin: 0; padding-left: 20px; }
+    .detail-toc li { margin-bottom: 4px; font-size: 14px; }
+    .detail-toc a { color: #1565c0; text-decoration: none; }
+    .detail-toc a:hover { text-decoration: underline; }
+    .detail-section { margin-bottom: 48px; scroll-margin-top: 20px; }
+    .detail-section h2 { font-size: 20px; color: #003366; border-bottom: 2px solid #1565c0; padding-bottom: 8px; margin-bottom: 16px; }
+    .detail-section h3 { font-size: 16px; color: #1a1a2e; margin-top: 20px; margin-bottom: 8px; }
+    .detail-section p { font-size: 15px; line-height: 1.85; color: #333; margin-bottom: 12px; }
+    .detail-section ul, .detail-section ol { font-size: 15px; line-height: 1.8; color: #333; padding-left: 22px; margin-bottom: 12px; }
+    .formula-box { background: #e3f2fd; border: 1px solid #90caf9; border-radius: 8px; padding: 12px 16px; margin: 12px 0; font-family: monospace; font-size: 14px; color: #1a237e; }
+    .point-box { background: #fff8e1; border-left: 4px solid #f9a825; border-radius: 0 8px 8px 0; padding: 12px 16px; margin: 16px 0; }
+    .point-box strong { color: #e65100; }
+    .exam-box { background: #fce4ec; border-left: 4px solid #e91e63; border-radius: 0 8px 8px 0; padding: 14px 18px; margin-top: 8px; }
+    .exam-box h3 { color: #880e4f; margin: 0 0 10px; font-size: 15px; }
+    .exam-box ul { margin: 0; padding-left: 20px; }
+    .back-btn { display: inline-block; margin-top: 40px; padding: 10px 24px; background: #003366; color: #fff; border-radius: 8px; text-decoration: none; font-size: 14px; }
+    .back-btn:hover { background: #0055aa; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 14px; }
+    th { background: #003366; color: #fff; padding: 8px 12px; text-align: left; }
+    td { border: 1px solid #dde3ef; padding: 8px 12px; vertical-align: top; }
+    tr:nth-child(even) td { background: #f5f7ff; }
+
+    /* ── BS イメージ図 ── */
+    .bs-fig { display: flex; border: 2px solid #5f7d8e; margin: 20px 0 6px; font-size: 13px; }
+    .bs-fig-left { flex: 1; border-right: 2px solid #5f7d8e; display: flex; flex-direction: column; }
+    .bs-fig-right { flex: 1; display: flex; flex-direction: column; }
+    .bs-fig-hd { background: #5f7d8e; color: #fff; text-align: center; font-size: 11px; font-weight: 700; padding: 4px 6px; letter-spacing: .1em; }
+    .bs-fig-cell { padding: 10px 8px; text-align: center; display: flex; flex-direction: column; justify-content: center; border-bottom: 1px solid #c8d6dc; }
+    .bs-fig-cell:last-child { border-bottom: none; }
+    .bs-fig-cell b { font-size: 14px; color: #1a3a4a; }
+    .bs-fig-cell small { font-size: 10px; color: #777; margin-top: 3px; }
+    .bs-fig-a1 { background: #eaf2f5; flex: 2; }
+    .bs-fig-a2 { background: #d6e4ea; flex: 3; }
+    .bs-fig-l1 { background: #f5f0e6; flex: 2; }
+    .bs-fig-l2 { background: #ede4d4; flex: 2; }
+    .bs-fig-sep { background: #5f7d8e; height: 2px; }
+    .bs-fig-eq { background: #e2efe6; flex: 2; }
+
+    /* ── PL 横カスケード ── */
+    .pl-fig { display: flex; align-items: flex-end; gap: 3px; margin: 20px 0 6px; border: 2px solid #5f7d8e; padding: 10px 8px 8px; border-radius: 4px; background: #fafafa; }
+    .pl-col { display: flex; flex-direction: column; }
+    .pl-col-top { background: #f0f0f0; border: 1px solid #bbb; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 10px; color: #555; line-height: 1.3; padding: 2px 4px; }
+    .pl-col-btm { background: #c8d6dc; border: 1px solid #5f7d8e; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 12px; font-weight: 700; color: #1a3a4a; line-height: 1.3; padding: 4px; }
+    .pl-col-full { background: #5f7d8e; border: 1px solid #4a6872; display: flex; align-items: center; justify-content: center; text-align: center; font-size: 13px; font-weight: 700; color: #fff; padding: 4px; }
+  </style>
+</head>
+<body>
+<div class="detail-wrap">
+  <div class="detail-breadcrumb">
+    <a href="../../index.html">トップ</a> &gt; <a href="../../index.html">財務・会計</a> &gt; 財務諸表の基礎（BS・PL・CF）
+  </div>
+  <div class="detail-header">
+    <span class="detail-genre-tag">財務・会計</span>
+    <h1>財務諸表の基礎（BS・PL・CF）</h1>
+    <p class="detail-subtitle">貸借対照表・損益計算書・キャッシュフロー計算書の構造と主要概念</p>
+  </div>
+  <p class="detail-intro">
+    財務諸表は企業の経営実態を数字で表す「共通言語」です。BS（貸借対照表）は「ある時点の財産状況」、PL（損益計算書）は「一定期間の稼ぎ」、CF（キャッシュフロー計算書）は「現金の流れ」を示します。この3表を合わせて読むことで、企業の収益性・安全性・流動性を総合的に評価できます。
+  </p>
+  <div class="detail-toc">
+    <h2>目次</h2>
+    <ul>
+      <li><a href="#bs-basics">① 貸借対照表（BS）の構造と主要科目</a></li>
+      <li><a href="#pl-basics">② 損益計算書（PL）の構造と利益段階</a></li>
+      <li><a href="#cf-basics">③ キャッシュフロー計算書（CF）の区分と見方</a></li>
+      <li><a href="#accrual-depreciation">④ 発生主義会計と減価償却</a></li>
+      <li><a href="#exam-points">⑤ 試験頻出ポイント</a></li>
+    </ul>
+  </div>
+
+  <section class="detail-section" id="bs-basics">
+    <h2>① 貸借対照表（BS）の構造と主要科目</h2>
+    <p>
+      貸借対照表（Balance Sheet）はある時点における企業の「資産」「負債」「純資産（自己資本）」を対照させた表です。
+      資産の合計と「負債＋純資産」の合計は必ず一致します（バランスシート）。
+    </p>
+    <!-- BS イメージ図 -->
+    <div class="bs-fig">
+      <!-- 左列：資産の部 -->
+      <div class="bs-fig-left">
+        <div class="bs-fig-hd">資産の部</div>
+        <div class="bs-fig-cell bs-fig-a1">
+          <b>流動資産</b>
+          <small>現金・売掛金・棚卸資産</small>
+        </div>
+        <div class="bs-fig-cell bs-fig-a2">
+          <b>固定資産</b>
+          <small>土地・建物・機械・のれん</small>
+        </div>
+      </div>
+      <!-- 右列：負債の部 ＋ 純資産の部 -->
+      <div class="bs-fig-right">
+        <div class="bs-fig-hd">負債の部</div>
+        <div class="bs-fig-cell bs-fig-l1">
+          <b>流動負債</b>
+          <small>買掛金・短期借入金</small>
+        </div>
+        <div class="bs-fig-cell bs-fig-l2">
+          <b>固定負債</b>
+          <small>長期借入金・社債</small>
+        </div>
+        <div class="bs-fig-sep"></div>
+        <div class="bs-fig-hd">純資産の部</div>
+        <div class="bs-fig-cell bs-fig-eq">
+          <b>純資産</b>
+          <small>資本金・利益剰余金</small>
+        </div>
+      </div>
+    </div>
+    <p style="font-size:12px; color:#888; margin:4px 0 20px; text-align:center;">
+      資産の部合計 ＝ 負債の部合計 ＋ 純資産の部合計（常に一致）
+    </p>
+
+    <h3>資産の分類</h3>
+    <table>
+      <tr><th>区分</th><th>主な科目</th><th>ポイント</th></tr>
+      <tr><td>流動資産</td><td>現金・預金、売上債権（売掛金・受取手形）、棚卸資産など</td><td>1年以内に現金化できる資産</td></tr>
+      <tr><td>固定資産</td><td>有形固定資産（土地・建物・機械）、無形固定資産（のれん・特許）、投資その他</td><td>長期保有目的の資産</td></tr>
+    </table>
+    <h3>負債・純資産の分類</h3>
+    <table>
+      <tr><th>区分</th><th>主な科目</th><th>ポイント</th></tr>
+      <tr><td>流動負債</td><td>買掛金、支払手形、短期借入金、未払費用など</td><td>1年以内に返済する義務</td></tr>
+      <tr><td>固定負債</td><td>長期借入金、社債、退職給付引当金など</td><td>返済まで1年超の負債</td></tr>
+      <tr><td>純資産（自己資本）</td><td>資本金、資本剰余金、利益剰余金、自己株式（控除）など</td><td>株主の持ち分。返済不要</td></tr>
+    </table>
+    <div class="point-box">
+      <strong>有利子負債</strong>とは、借入金・社債・コマーシャルペーパーなど利息が発生する負債のこと。
+      買掛金・未払費用などは利息がないため有利子負債には含まれません。
+    </div>
+    <p>
+      <strong>利益剰余金</strong>は、過去から積み上げた税引後純利益の累計（配当支払後の残額）です。企業の内部留保とも呼ばれます。
+    </p>
+    <p>
+      <strong>売上債権</strong>には売掛金と受取手形が含まれます。<strong>貸倒引当金</strong>は将来の回収不能リスクに備えた引当金で、売上債権や貸付金から控除する形で計上されます。
+    </p>
+    <p>
+      <strong>未払費用</strong>は、既にサービスを受けているが対価をまだ支払っていない費用（例：月末未払いの給与・利息）で、発生主義に基づき流動負債に計上します。
+    </p>
+    <p>
+      <strong>短期借入金</strong>は返済期限が1年以内の借入金で、流動負債に分類されます。<strong>社債</strong>は一般的に固定負債ですが、1年以内に償還期限が来るものは流動負債（1年内償還社債）に振り替えます。
+    </p>
+    <p>
+      <strong>現金同等物</strong>とは、容易に換金でき、価値の変動が極めて小さい短期投資（取得日から満期まで3ヶ月以内）のことです。定期預金（3ヶ月超）は含まれません。
+    </p>
+  </section>
+
+  <section class="detail-section" id="pl-basics">
+    <h2>② 損益計算書（PL）の構造と利益段階</h2>
+    <p>
+      損益計算書（Profit & Loss Statement）は、一定期間（通常1年）における収益・費用・利益を段階的に示します。
+      利益は5段階に分かれており、それぞれ異なる経営の側面を反映しています。
+    </p>
+    <!-- PL 横カスケード -->
+    <div class="pl-fig">
+      <div class="pl-col" style="flex:1;">
+        <div class="pl-col-full" style="height:240px;">売上高</div>
+      </div>
+      <div class="pl-col" style="flex:1;">
+        <div class="pl-col-top" style="height:65px;">売上原価</div>
+        <div class="pl-col-btm" style="height:175px;">売上総利益①<br>（粗利）</div>
+      </div>
+      <div class="pl-col" style="flex:1;">
+        <div class="pl-col-top" style="height:60px;">販管費</div>
+        <div class="pl-col-btm" style="height:115px;">営業利益②</div>
+      </div>
+      <div class="pl-col" style="flex:1;">
+        <div class="pl-col-top" style="height:32px; font-size:9px;">営業外収益<br>営業外費用</div>
+        <div class="pl-col-btm" style="height:83px;">経常利益③</div>
+      </div>
+      <div class="pl-col" style="flex:1;">
+        <div class="pl-col-top" style="height:24px; font-size:9px;">特別利益<br>特別損失</div>
+        <div class="pl-col-btm" style="height:59px;">税引前<br>利益④</div>
+      </div>
+      <div class="pl-col" style="flex:1;">
+        <div class="pl-col-top" style="height:18px;">法人税等</div>
+        <div class="pl-col-btm" style="height:41px;">当期純利益⑤</div>
+      </div>
+    </div>
+
+    <table>
+      <tr><th>利益の段階</th><th>計算式</th><th>意味</th></tr>
+      <tr><td>売上総利益（粗利）</td><td>売上高 − 売上原価</td><td>本業の商品力・製造力</td></tr>
+      <tr><td>営業利益</td><td>売上総利益 − 販売費・一般管理費</td><td>本業全体の稼ぐ力</td></tr>
+      <tr><td>経常利益</td><td>営業利益 ± 営業外収益・費用</td><td>通常の事業活動の総合力</td></tr>
+      <tr><td>税引前当期純利益</td><td>経常利益 ± 特別損益</td><td>臨時・非経常的な損益を加味</td></tr>
+      <tr><td>当期純利益</td><td>税引前純利益 − 法人税等</td><td>最終的な株主への帰属利益</td></tr>
+    </table>
+    <h3>各費用項目のポイント</h3>
+    <ul>
+      <li><strong>売上原価</strong>：商品の仕入れ・製造コスト。製造業では材料費・労務費・製造経費が含まれる</li>
+      <li><strong>販管費（販売費・一般管理費）</strong>：広告費、人件費（営業・管理部門）、減価償却費（本社）など</li>
+      <li><strong>営業外収益</strong>：受取利息、受取配当金、有価証券売却益など</li>
+      <li><strong>営業外費用</strong>：支払利息（最も代表的）、有価証券評価損など</li>
+      <li><strong>棚卸資産評価損</strong>：在庫の時価が原価を下回った場合の評価損。売上原価または販管費に計上</li>
+    </ul>
+    <div class="point-box">
+      <strong>売上割引</strong>（早期回収に対する値引き）は通常、売上高の減額項目として処理するか、営業外費用として計上します（企業の会計方針による）。
+    </div>
+    <p>
+      <strong>営業利益率</strong> ＝ 営業利益 ÷ 売上高。向上させるには売上総利益率の改善（価格戦略・原価削減）か、販管費の圧縮が有効です。
+    </p>
+    <p>
+      <strong>配当性向</strong> ＝ 1株当たり配当 ÷ EPS（1株当たり当期純利益）× 100（%）。株主還元の度合いを示します。
+    </p>
+  </section>
+
+  <section class="detail-section" id="cf-basics">
+    <h2>③ キャッシュフロー計算書（CF）の区分と見方</h2>
+    <p>
+      キャッシュフロー計算書は、現金及び現金同等物の増減をその原因別に「営業活動」「投資活動」「財務活動」の3区分で示します。
+      PLでは黒字でも倒産（黒字倒産）が起きうるため、CF計算書は企業の実態把握に欠かせません。
+    </p>
+    <table>
+      <tr><th>区分</th><th>内容</th><th>典型的な符号と意味</th></tr>
+      <tr><td>営業CF</td><td>本業から生み出す現金の流れ（収益・費用の現金化）</td><td>プラスが健全。本業の資金創出力</td></tr>
+      <tr><td>投資CF</td><td>固定資産の取得・売却、有価証券の取得・売却など</td><td>成長期はマイナス（設備投資）が自然</td></tr>
+      <tr><td>財務CF</td><td>借入・返済、株式発行・自己株取得、配当金支払など</td><td>返済・配当でマイナスが一般的</td></tr>
+    </table>
+    <div class="point-box">
+      <strong>営業CF＋・投資CF－</strong>の企業は、本業で稼ぎながら積極投資している健全な成長企業の典型パターンです。
+    </div>
+    <h3>間接法による営業CFの調整</h3>
+    <p>
+      間接法は税引後純利益からスタートし、非現金項目・運転資本の変化を加減して営業CFを算出します。
+    </p>
+    <ul>
+      <li>減価償却費・のれん償却費：現金支出を伴わない費用 → <strong>加算（プラス）</strong></li>
+      <li>売上債権の増加：回収前の売上 → 減算（マイナス）</li>
+      <li>棚卸資産の増加：現金で仕入れたが未販売 → 減算</li>
+      <li>買掛金・未払費用の増加：未払いの費用 → <strong>加算（プラス）</strong></li>
+    </ul>
+    <p>
+      <strong>配当金の支払い</strong>は日本基準では財務CFに、IFRSでは営業CFまたは財務CFに区分できます（選択適用）。
+    </p>
+    <p>
+      <strong>支払手形の決済</strong>（手形の満期到来による現金支払）は営業CF（間接法の調整項目）に影響します。支払手形の減少は現金の支出なので営業CFのマイナス調整項目となります。
+    </p>
+  </section>
+
+  <section class="detail-section" id="accrual-depreciation">
+    <h2>④ 発生主義会計と減価償却</h2>
+    <h3>発生主義vs現金主義</h3>
+    <p>
+      <strong>発生主義</strong>とは、現金の受払とは関係なく、経済的事実が発生した時点で収益・費用を認識する会計原則です。
+      現代の財務会計（企業会計原則）の基礎となっています。
+    </p>
+    <p>
+      例えば、12月に商品を販売して代金が翌年1月に入金される場合でも、12月に売上を計上します（<strong>現金主義</strong>では1月に計上）。
+      これにより、現金の動きと関係なく当期の経営成果を正しく示せます。
+    </p>
+    <h3>減価償却の基礎</h3>
+    <p>
+      建物・機械・車両などの有形固定資産は時間の経過や使用によって価値が減少します。
+      <strong>減価償却</strong>とは、取得原価をその資産の耐用年数にわたって費用に配分する手続きです。
+    </p>
+    <p>
+      減価償却費はPL（販管費または売上原価）に費用計上されるとともに、CF計算書（間接法）では非現金費用として営業CFに加算されます。
+    </p>
+    <h3>主な減価償却方法</h3>
+    <table>
+      <tr><th>方法</th><th>内容</th><th>特徴</th></tr>
+      <tr><td>定額法</td><td>毎期均等額を償却</td><td>費用が平準化。日本の建物等に多い</td></tr>
+      <tr><td>定率法</td><td>期首帳簿価額×一定率</td><td>初期に費用大。機械等に多い</td></tr>
+      <tr><td>生産高比例法</td><td>実際生産量に比例</td><td>鉱山・航空機など用途依存の資産</td></tr>
+    </table>
+    <div class="point-box">
+      <strong>定額法・定率法・生産高比例法</strong>はいずれも一般的な減価償却方法として認められています。「均等額法」「逓増法」などは通常の分類には含まれません。
+    </div>
+  </section>
+
+  <section class="detail-section" id="exam-points">
+    <h2>⑤ 試験頻出ポイント</h2>
+    <div class="exam-box">
+      <h3>🎯 よく出る問題パターン</h3>
+      <ul>
+        <li>「BSに計上されるのはどれか」→ 費用・収益はPLのみ。資産・負債・純資産がBS</li>
+        <li>「5段階利益の順番」→ 売上総利益 → 営業利益 → 経常利益 → 税引前 → 当期純利益</li>
+        <li>「営業外費用の代表例」→ <strong>支払利息</strong>（借入金・社債の利息）</li>
+        <li>「間接法で加算されるもの」→ 減価償却費、買掛金の増加、棚卸資産の減少</li>
+        <li>「現金同等物に含まれないもの」→ 3ヶ月超の定期預金、株式など</li>
+        <li>「有利子負債に含まれないもの」→ 買掛金・未払費用（利息がかからない）</li>
+        <li>「減価償却の方法として認められないもの」→ 均等額・逓増法などは非標準</li>
+      </ul>
+    </div>
+  </section>
+  <a href="javascript:history.back()" class="back-btn">← 解説一覧に戻る</a>
+</div>
+<footer style="text-align:center; padding:20px; font-size:14px; color:#555; border-top:1px solid #ccc;">
+  <p>
+    <a href="../../privacy.html" style="color:#003366; text-decoration:none;">プライバシーポリシー</a> |
+    <a href="../../terms.html" style="color:#003366; text-decoration:none;">利用規約</a> |
+    <a href="../../contact.html" style="color:#003366; text-decoration:none;">お問い合わせ</a>
+  </p>
+  <p>&copy; 2025 経済知識チェック</p>
+</footer>
+</body>
+</html>

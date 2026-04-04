@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://daimutest0130-netizen.github.io/keizai-test-app/sitemap.xml

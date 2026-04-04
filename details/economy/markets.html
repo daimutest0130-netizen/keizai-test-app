@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Analytics（GA4） -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MTK20NCVW8');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>金融市場・証券｜詳細解説｜経済知識チェック</title>
+  <meta name="description" content="株式市場の基本指標（PER・PBR）・債券と利回り・信用創造・バーゼル規制・外貨準備・証券化など、金融市場の重要概念をわかりやすく解説します。">
+  <!-- SEO: canonical -->
+  <link rel="canonical" href="https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/markets.html" />
+
+  <!-- SEO: keywords -->
+  <meta name="keywords" content="株式,PER,PBR,債券,利回り,信用創造,バーゼル規制,外貨準備,証券化,経済知識チェック">
+
+  <!-- OGP -->
+  <meta property="og:title" content="金融市場・証券｜詳細解説｜経済知識チェック">
+  <meta property="og:description" content="株式市場の基本指標（PER・PBR）・債券と利回り・信用創造・バーゼル規制・外貨準備・証券化など、金融市場の重要概念をわかりやすく解説します。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/markets.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="経済知識チェック">
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439"
+     crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../../style.css" />
+  <style>
+    .detail-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+    }
+    .detail-breadcrumb {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 24px;
+    }
+    .detail-breadcrumb a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-breadcrumb a:hover { text-decoration: underline; }
+
+    .detail-header {
+      margin-bottom: 36px;
+    }
+    .detail-genre-tag {
+      display: inline-block;
+      background: #003366;
+      color: #fff;
+      font-size: 12px;
+      padding: 3px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .detail-header h1 {
+      font-size: 26px;
+      color: #1a1a2e;
+      margin: 0 0 8px;
+      line-height: 1.4;
+    }
+    .detail-header .detail-subtitle {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .detail-toc {
+      background: #f0f4ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 40px;
+    }
+    .detail-toc h2 {
+      font-size: 14px;
+      color: #003366;
+      margin: 0 0 10px;
+    }
+    .detail-toc ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .detail-toc ol li {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    .detail-toc ol li a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-toc ol li a:hover { text-decoration: underline; }
+
+    .detail-section {
+      margin-bottom: 48px;
+    }
+    .detail-section h2 {
+      font-size: 20px;
+      color: #003366;
+      border-left: 5px solid #003366;
+      padding-left: 12px;
+      margin-bottom: 16px;
+    }
+    .detail-section h3 {
+      font-size: 16px;
+      color: #1a1a2e;
+      margin: 24px 0 10px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .detail-section p {
+      font-size: 15px;
+      line-height: 1.9;
+      color: #333;
+      margin-bottom: 14px;
+    }
+
+    .detail-box {
+      background: #fafafa;
+      border: 1px solid #dde3ef;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .detail-box.blue {
+      background: #e8f0fe;
+      border-color: #aac4f0;
+    }
+    .detail-box.green {
+      background: #e8f5e9;
+      border-color: #a5d6a7;
+    }
+    .detail-box.yellow {
+      background: #fffde7;
+      border-color: #ffe082;
+    }
+
+    .detail-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin: 16px 0;
+    }
+    .detail-table th {
+      background: #003366;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    .detail-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #e0e0e0;
+      vertical-align: top;
+      line-height: 1.7;
+    }
+    .detail-table tr:nth-child(even) td {
+      background: #f5f7fa;
+    }
+
+    .detail-point {
+      background: #fff8e1;
+      border-left: 4px solid #ffc107;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 20px 0;
+    }
+    .detail-point .point-label {
+      font-size: 12px;
+      font-weight: bold;
+      color: #f57f17;
+      margin-bottom: 6px;
+    }
+    .detail-point p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .formula-box {
+      background: #1a1a2e;
+      color: #e0e0ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-family: monospace;
+      font-size: 15px;
+      text-align: center;
+      margin: 16px 0;
+      letter-spacing: 0.05em;
+    }
+
+    .detail-back-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 24px;
+      background: #003366;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 24px;
+      font-size: 14px;
+    }
+    .detail-back-btn:hover { background: #0055aa; }
+  </style>
+</head>
+<body>
+  <div class="detail-wrap">
+
+    <!-- パンくず -->
+    <div class="detail-breadcrumb">
+      <a href="../../index.html">トップ</a> &rsaquo;
+      <a href="../../index.html">経済・金融</a> &rsaquo;
+      金融市場・証券
+    </div>
+
+    <!-- ヘッダー -->
+    <div class="detail-header">
+      <span class="detail-genre-tag">経済・金融</span>
+      <h1>金融市場・証券</h1>
+      <p class="detail-subtitle">株式市場 / PER・PBR / 債券と利回り / 信用創造 / バーゼル規制 / 外貨準備</p>
+    </div>
+
+    <!-- 概要 -->
+    <p style="font-size:15px; line-height:1.9; color:#333; margin-bottom:32px;">
+      金融市場は資金の需給をつなぐ経済の血流です。株式・債券の基本指標の読み方、信用創造のメカニズム、
+      国際的な金融規制（バーゼル規制）、外貨準備の役割、証券化のメリットとリスクまで体系的に理解することが、
+      金融経済学の試験対策の鍵となります。本ページでは、金融市場の主要概念を整理します。
+    </p>
+
+    <!-- 目次 -->
+    <div class="detail-toc">
+      <h2>目次</h2>
+      <ol>
+        <li><a href="#stock-metrics">株式市場の基本指標</a></li>
+        <li><a href="#bonds-yields">債券と利回りの関係</a></li>
+        <li><a href="#credit-creation">信用創造のメカニズム</a></li>
+        <li><a href="#basel-regulation">国際金融規制（バーゼルⅢ）</a></li>
+        <li><a href="#foreign-reserves">外貨準備の役割</a></li>
+        <li><a href="#securitization">証券化（セキュリタイゼーション）</a></li>
+        <li><a href="#exam-points">試験で問われやすいポイント</a></li>
+      </ol>
+    </div>
+
+    <!-- 1. 株式市場の基本指標 -->
+    <div class="detail-section" id="stock-metrics">
+      <h2>1. 株式市場の基本指標</h2>
+      <p>
+        株価の割安・割高を判断するには、複数の指標を組み合わせて分析する必要があります。
+        以下は試験頻出の主要指標です。
+      </p>
+
+      <h3>PER（株価収益率）</h3>
+      <div class="formula-box">
+        PER = 株価 ÷ 1株当たり利益（EPS）
+      </div>
+      <p>
+        PERが低いほど割安とされます。例えばPER＝15倍は「1年の利益の15倍の価格で取引されている」という意味です。
+      </p>
+
+      <h3>PBR（株価純資産倍率）</h3>
+      <div class="formula-box">
+        PBR = 株価 ÷ 1株当たり純資産（Book Value）
+      </div>
+      <p>
+        PBRが1倍なら「帳簿価額と同じ価格」、1倍未満なら「帳簿価額より割安」です。
+      </p>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>指標</th>
+            <th>計算式</th>
+            <th>意味</th>
+            <th>割安・割高の判断</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>配当利回り</strong></td>
+            <td>配当 ÷ 株価</td>
+            <td>投資に対する配当の比率</td>
+            <td>高いほど「配当ベース」では魅力的</td>
+          </tr>
+          <tr>
+            <td><strong>ROE（自己資本利益率）</strong></td>
+            <td>当期利益 ÷ 自己資本</td>
+            <td>株主資本がどのくらい利益を生むか</td>
+            <td>高いほど効率的な企業経営</td>
+          </tr>
+          <tr>
+            <td><strong>ROA（資産利益率）</strong></td>
+            <td>当期利益 ÷ 総資産</td>
+            <td>全資産がどのくらい利益を生むか</td>
+            <td>業種間比較に有用</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="detail-point">
+        <div class="point-label">⚠️ 複数指標の併用が重要</div>
+        <p>
+          PERが低くても利益が減少傾向なら割安とは言えません。複数の指標を組み合わせて総合判断する必要があります。
+        </p>
+      </div>
+    </div>
+
+    <!-- 2. 債券と利回り -->
+    <div class="detail-section" id="bonds-yields">
+      <h2>2. 債券と利回りの関係</h2>
+      <p>
+        債券（Bond）とは、企業・政府が資金を借り入れるために発行する貸付金証券です。
+        株式と異なり、償還期日と利息が事前に決定しています。
+      </p>
+
+      <h3>債券価格と利回りの逆相関</h3>
+      <p>
+        債券の利回りと価格には逆の関係があります。これは債券投資で極めて重要な概念です。
+      </p>
+      <div class="detail-box green">
+        <strong>例：利率5%の10年物国債（額面100万円）を購入</strong><br>
+        ① その後、市場金利が3%に低下した場合<br>
+        &nbsp;&nbsp;→ 「5%の利息を受け取れる債券」の価値が上昇 → 債券価格上昇（130万円等)<br>
+        ② その後、市場金利が7%に上昇した場合<br>
+        &nbsp;&nbsp;→ 「5%の利息」は相対的に低い → 債券価格下落（70万円等）
+      </div>
+
+      <h3>利回りの種類</h3>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>利回り</th>
+            <th>定義</th>
+            <th>計算例</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>クーポン利回り</strong></td>
+            <td>額面に対する年間利息</td>
+            <td>額面100万円、年間利息5万円 → 5%</td>
+          </tr>
+          <tr>
+            <td><strong>満期利回り</strong></td>
+            <td>購入から償還までの実質的な利回り</td>
+            <td>購入価格90万円、クーポン5% → 利回りは5%以上</td>
+          </tr>
+          <tr>
+            <td><strong>タームプレミアム</strong></td>
+            <td>長期債の利回りが短期債より高い部分</td>
+            <td>長期金利が短期金利より高い時に発生</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 3. 信用創造 -->
+    <div class="detail-section" id="credit-creation">
+      <h2>3. 信用創造のメカニズム</h2>
+      <p>
+        信用創造（Credit Creation）とは、<strong>銀行が預金者の資金を基礎に、
+        それ以上の金額を貸し出す仕組み</strong>です。経済全体のマネーサプライを増加させます。
+      </p>
+
+      <h3>信用創造の具体例</h3>
+      <div class="detail-box">
+        <strong>預金準備率が10%の場合：</strong><br>
+        ① A氏が銀行に1,000万円預金<br>
+        ② 銀行は900万円をB氏に貸出（100万円は準備金として保持）<br>
+        ③ B氏は借金を使ってC社に支払い、C社は銀行に預金<br>
+        ④ 銀行は810万円をD氏に貸出（90万円は準備金）<br>
+        ⑤ このプロセスが何度も繰り返される<br><br>
+        結果：最初の1,000万円 → 最大10,000万円のマネーサプライ！
+      </div>
+
+      <h3>信用乗数（Money Multiplier）</h3>
+      <div class="formula-box">
+        信用乗数 = 1 ÷ 預金準備率
+      </div>
+      <p>
+        例えば、預金準備率が10%なら信用乗数は10倍です。つまり、中央銀行が100万円の通貨を供給すると、
+        10倍の1,000万円のマネーサプライが創出される可能性があります。
+      </p>
+
+      <div class="detail-point">
+        <div class="point-label">⚠️ 信用創造の限界</div>
+        <p>
+          信用乗数は理論値です。実際には、銀行が自発的に多くを貸し出さなかったり、
+          個人が現金を保有したりするため、理論値より小さいことが多いです。
+        </p>
+      </div>
+    </div>
+
+    <!-- 4. バーゼル規制 -->
+    <div class="detail-section" id="basel-regulation">
+      <h2>4. 国際金融規制（バーゼルⅢ）</h2>
+      <p>
+        バーゼル規制とは、国際的な金融システムの安定を目指し、
+        スイスのバーゼルに本部を置くBIS（国際決済銀行）が策定した<strong>自己資本規制</strong>です。
+      </p>
+
+      <h3>バーゼル規制の進化</h3>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>規制版</th>
+            <th>導入年</th>
+            <th>主な特徴</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>バーゼルⅠ</strong></td>
+            <td>1988年</td>
+            <td>自己資本比率8%以上を要求。信用リスク対象。</td>
+          </tr>
+          <tr>
+            <td><strong>バーゼルⅡ</strong></td>
+            <td>2004年</td>
+            <td>信用リスク + 市場リスク + オペリスクを対象。内部格付け活用。</td>
+          </tr>
+          <tr>
+            <td><strong>バーゼルⅢ</strong></td>
+            <td>2010年（段階実施）</td>
+            <td>資本規制強化、流動性規制追加、レバレッジ比率新設。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>自己資本比率の意味</h3>
+      <div class="formula-box">
+        自己資本比率 = 自己資本 ÷ リスク加重資産
+      </div>
+      <p>
+        銀行が貸し出した金額（特にリスク資産）に対して、自己資本がどのくらい充実しているかを表します。
+        高いほど、借金返済不可能が生じた場合の損失吸収能力が高いということです。
+      </p>
+    </div>
+
+    <!-- 5. 外貨準備 -->
+    <div class="detail-section" id="foreign-reserves">
+      <h2>5. 外貨準備の役割</h2>
+      <p>
+        外貨準備（Foreign Exchange Reserves）とは、<strong>中央銀行が保有する外国通貨・外国債券・金などの資産</strong>です。
+      </p>
+
+      <h3>外貨準備の役割</h3>
+      <div class="detail-box yellow">
+        ① <strong>為替安定機能</strong>：自国通貨が暴騰・暴落する場合に、市場介入で安定化<br>
+        ② <strong>対外支払い確保</strong>：国際取引で信用を示す（経常収支赤字を補う）<br>
+        ③ <strong>金融危機対応</strong>：国際的な資金需要に対応<br>
+        ④ <strong>通貨信認維持</strong>：外貨準備が豊富 = 国際的な信用が高い
+      </div>
+
+      <h3>日本の外貨準備の特徴</h3>
+      <p>
+        日本は経常収支黒字を背景に、世界的に見ても有数の外貨準備保有国です。
+        米ドル建ての資産が大部分（約60-70%）を占めており、安全資産中心の運用が行われています。
+      </p>
+    </div>
+
+    <!-- 6. 証券化（セキュリタイゼーション） -->
+    <div class="detail-section" id="securitization">
+      <h2>6. 証券化（セキュリタイゼーション）</h2>
+      <p>
+        証券化とは、<strong>銀行が融資した債権（ローン）を証券化して投資家に売却し、
+        資金を回収する仕組み</strong>です。
+      </p>
+
+      <h3>証券化のメカニズム</h3>
+      <div class="detail-box">
+        <strong>例：住宅ローン証券化</strong><br>
+        ① 銀行が個人に住宅ローンを貸出（金利5%）<br>
+        ② 銀行が複数の住宅ローン債権を集約<br>
+        ③ 特別目的会社（SPC）を設立し、SPC が債権を買収<br>
+        ④ SPC が「住宅ローン担保証券」を発行して投資家に販売<br>
+        ⑤ ローン返済 → SPC → 投資家に配分
+      </div>
+
+      <h3>証券化のメリット</h3>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>メリット</th>
+            <th>説明</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>銀行のメリット</strong></td>
+            <td>資金を回収でき、新規融資に充当可能。バランスシートが圧縮。</td>
+          </tr>
+          <tr>
+            <td><strong>投資家のメリット</strong></td>
+            <td>高利回り資産を取得。分散投資が容易。</td>
+          </tr>
+          <tr>
+            <td><strong>経済全体</strong></td>
+            <td>融資が活発化し、経済活動が促進される。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>2008年金融危機と証券化のリスク</h3>
+      <div class="detail-box green">
+        <strong>リーマンショック時に何が起きたか</strong><br>
+        ① サブプライムローン（低信用度の住宅ローン）が大量に証券化<br>
+        ② 住宅価格下落で返済不可能に<br>
+        ③ 証券価値が暴落、その証券を保有する銀行・投資家が破綻<br>
+        ④ 金融システム全体の信用が崩壊
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">⚠️ 証券化の リスク</div>
+        <p>
+          銀行が借貸債権を売却してしまえば、「貸し手としての責任感」が薄れ、
+          低信用度の借り手にも無差別に融資する傾向が生じます。これが2008年危機につながりました。
+        </p>
+      </div>
+    </div>
+
+    <!-- 7. 試験ポイント -->
+    <div class="detail-section" id="exam-points">
+      <h2>7. 試験で問われやすいポイント</h2>
+
+      <div class="detail-box green">
+        <strong>✅ PER・PBR・配当利回りの計算と解釈</strong><br>
+        「PER＝15倍」の意味を正確に説明でき、複数指標を組み合わせて割安・割高を判断できること。
+      </div>
+
+      <div class="detail-box blue">
+        <strong>✅ 債券価格と利回りの逆相関</strong><br>
+        「金利上昇 → 既存債券価格下落」という関係を理解することで、金融市場全体が見えてきます。
+      </div>
+
+      <div class="detail-box yellow">
+        <strong>✅ 信用創造と信用乗数</strong><br>
+        預金準備率と信用乗数の関係式を覚え、金融緩和がなぜマネーサプライを増加させるのかを説明できること。
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 バーゼルⅢの出題</div>
+        <p>
+          「自己資本比率規制の目的」と「各段階での進化」を整理しておきましょう。
+          特に2008年危機後の強化内容が重要です。
+        </p>
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 証券化のメリット・デメリット</div>
+        <p>
+          証券化は本来メリット（流動性向上、リスク分散）がありますが、
+          「貸し手の責任放棄」というモラルハザード問題も同時に理解する必要があります。
+        </p>
+      </div>
+    </div>
+
+    <a href="javascript:history.back()" class="detail-back-btn">← 解説一覧に戻る</a>
+
+  </div>
+
+  <!-- フッター -->
+  <footer style="text-align:center; padding:20px; font-size:14px; color:#555; border-top:1px solid #ccc; margin-top:40px;">
+    <p>
+      <a href="../../privacy.html" style="color:#003366; text-decoration:none;">プライバシーポリシー</a> |
+      <a href="../../terms.html" style="color:#003366; text-decoration:none;">利用規約</a> |
+      <a href="../../contact.html" style="color:#003366; text-decoration:none;">お問い合わせ</a>
+    </p>
+    <p>&copy; 2025 経済知識チェック</p>
+  </footer>
+</body>
+</html>

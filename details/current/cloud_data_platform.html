@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>クラウド・データ基盤 徹底解説｜経済知識チェック</title>
+  <meta name="description" content="マルチクラウド・SASE・データレイク・データメッシュ・エッジコンピューティング・FinOps・グリーンITを体系解説。試験対策に最適。">
+  <meta name="keywords" content="マルチクラウド,SASE,データレイク,データウェアハウス,CDP,データメッシュ,エッジコンピューティング,FinOps,グリーンIT">
+  <link rel="canonical" href="https://daijunakazaki.github.io/keizai-test-app/details/current/cloud_data_platform.html">
+  <meta property="og:title" content="クラウド・データ基盤 徹底解説｜経済知識チェック">
+  <meta property="og:description" content="マルチクラウド・SASE・データレイク・データメッシュ・エッジコンピューティング・FinOps・グリーンITを体系解説。試験対策に最適。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daijunakazaki.github.io/keizai-test-app/details/current/cloud_data_platform.html">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MTK20NCVW8');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --primary: #00695c;
+      --primary-dark: #004d40;
+      --primary-light: #e0f2f1;
+      --text: #212121;
+      --border: #b2dfdb;
+      --bg: #f9fafb;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; font-size: 15px; }
+    header { background: var(--primary-dark); color: var(--white); padding: 18px 24px; }
+    header .breadcrumb { font-size: 12px; opacity: 0.75; margin-bottom: 6px; }
+    header .breadcrumb a { color: #aaa; text-decoration: none; }
+    header .breadcrumb a:hover { color: var(--white); }
+    header h1 { font-size: 1.45rem; font-weight: 700; }
+    header p.subtitle { font-size: 0.85rem; opacity: 0.85; margin-top: 4px; }
+    .container { max-width: 860px; margin: 0 auto; padding: 24px 16px 60px; }
+    .toc { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; }
+    .toc h2 { font-size: 1rem; color: var(--primary-dark); margin-bottom: 12px; }
+    .toc ol { padding-left: 20px; }
+    .toc li { margin-bottom: 6px; }
+    .toc a { color: var(--primary); text-decoration: none; font-size: 0.9rem; }
+    .toc a:hover { text-decoration: underline; }
+    section { background: var(--white); border-radius: 10px; padding: 28px 28px 32px; margin-bottom: 28px; border-left: 5px solid var(--primary); box-shadow: 0 1px 4px rgba(0,0,0,0.07); scroll-margin-top: 20px; }
+    section h2 { font-size: 1.25rem; color: var(--primary-dark); margin-bottom: 18px; padding-bottom: 10px; border-bottom: 2px solid var(--primary-light); }
+    section h3 { font-size: 1rem; color: var(--primary-dark); margin: 20px 0 8px; font-weight: 700; }
+    section p { margin-bottom: 12px; }
+    ul.body-list { padding-left: 20px; margin: 12px 0; }
+    ul.body-list li { margin-bottom: 6px; }
+    .point-box { background: var(--primary-light); border-left: 4px solid var(--primary); border-radius: 6px; padding: 14px 18px; margin: 16px 0; }
+    .point-box .label { font-size: 0.75rem; font-weight: 700; color: var(--primary-dark); margin-bottom: 6px; }
+    .point-box p { margin: 0; font-size: 0.9rem; }
+    .warn-box { background: #fff8e1; border-left: 4px solid #f9a825; border-radius: 6px; padding: 14px 18px; margin: 16px 0; }
+    .warn-box .label { font-size: 0.75rem; font-weight: 700; color: #e65100; margin-bottom: 6px; }
+    .warn-box p { margin: 0; font-size: 0.9rem; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.88rem; }
+    th { background: var(--primary); color: var(--white); padding: 10px 14px; text-align: left; }
+    td { padding: 9px 14px; border-bottom: 1px solid #e0e0e0; vertical-align: top; }
+    tr:nth-child(even) td { background: #f5f5f5; }
+    footer { background: var(--primary-dark); color: #aaa; text-align: center; padding: 20px; font-size: 0.8rem; }
+    footer a { color: #80cbc4; text-decoration: none; }
+    @media (max-width: 600px) { section { padding: 20px 16px 24px; } header h1 { font-size: 1.2rem; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="breadcrumb"><a href="../../index.html">トップ</a> › 時事・応用 › クラウド・データ基盤</div>
+  <h1>☁️ クラウド・データ基盤 徹底解説</h1>
+  <p class="subtitle">クラウドモデル／データアーキテクチャ／エッジコンピューティング／データガバナンス／FinOps・グリーンIT</p>
+</header>
+<div class="container">
+  <div class="toc"><h2>📋 目次</h2><ol><li><a href="#cloud-models">クラウドモデル・戦略</a></li><li><a href="#data-architecture">データアーキテクチャ</a></li><li><a href="#edge-computing">エッジコンピューティング</a></li><li><a href="#data-governance">データガバナンス</a></li><li><a href="#finops-green">FinOps・グリーンIT</a></li><li><a href="#exam-points">試験直前チェック</a></li></ol></div>
+  <section id="cloud-models">
+<h2>1. クラウドモデル・戦略</h2>
+<h3>責任共有モデル</h3><p>クラウドの責任共有モデルでは、<strong>クラウドプロバイダーはインフラ（ハード・ネットワーク・物理施設）の安全性を責任を持ち、利用者はデータ・アプリ・アクセス管理の安全性に責任を持ちます</strong>。SaaSではプロバイダーの責任範囲が最も広く、IaaSでは利用者の責任範囲が最も広い。</p><h3>マルチクラウド戦略の狙い</h3><ul class="body-list"><li>ベンダーロックイン回避（特定プロバイダーへの依存排除）</li><li>コスト最適化（ワークロードに最適なクラウドを選択）</li><li>レジリエンス向上（一社障害時の事業継続）</li><li>規制対応（データ保管場所の要件に対応）</li></ul><h3>ソブリン・クラウドの選択動機</h3><p>ソブリン・クラウドは国・地域内でデータ主権を確保するためのクラウド環境。主な選択動機は<strong>データの国内保管要件・規制対応（金融・医療・政府機関）・地政学的リスク管理</strong>です。</p><h3>SASE（Secure Access Service Edge）</h3><p>ネットワークとセキュリティ機能をクラウドで統合した概念。従来は別々だったSD-WAN（ネットワーク）とCASB・SWG・ZTNA（セキュリティ）を一体化し、<strong>どこからでも安全にクラウド・SaaSにアクセスできる</strong>環境を実現します。</p>
+</section>
+<section id="data-architecture">
+<h2>2. データアーキテクチャ</h2>
+<h3>データレイク vs データウェアハウス</h3><table><tr><th>比較</th><th>データレイク</th><th>データウェアハウス（DWH）</th></tr><tr><td>データ形式</td><td>生データ（構造化・非構造化・半構造化）</td><td>構造化データのみ</td></tr><tr><td>スキーマ</td><td>Schema-on-Read（読み込み時に定義）</td><td>Schema-on-Write（書き込み時に定義）</td></tr><tr><td>用途</td><td>探索的分析・ML・データサイエンス</td><td>定型レポート・BIダッシュボード</td></tr><tr><td>コスト</td><td>低コストストレージ</td><td>高コスト・最適化済</td></tr></table><h3>CDP（Customer Data Platform）</h3><p>CDPは複数のチャネル（Web・アプリ・CRM・POS等）から顧客データを統合し、<strong>統一された顧客プロファイル（ゴールデンレコード）を構築・活用</strong>するプラットフォーム。マーケティングのパーソナライゼーション基盤として機能します。</p><h3>データメッシュの中核原則</h3><p>データメッシュは従来の中央集権型データ管理に代わり、<strong>ドメイン（事業部門）が自らのデータを「データプロダクト」として所有・管理・提供</strong>する分散アーキテクチャです。</p><div class="point-box"><div class="label">📌 データプロダクト思考の価値</div><p>アナリティクスのボトルネック（中央データチームへの依頼待ち）を解消する。ドメインが自律的にデータを整備・提供するため、データ利活用のスピードと品質が向上する。</p></div><h3>データメッシュの4原則</h3><ul class="body-list"><li>ドメイン・オーナーシップ（事業部門がデータを所有）</li><li>データ・アズ・ア・プロダクト（利用者視点のデータ品質）</li><li>セルフサーブ・データインフラ（共通基盤の提供）</li><li>連合型ガバナンス（標準化と自律のバランス）</li></ul>
+</section>
+<section id="edge-computing">
+<h2>3. エッジコンピューティング</h2>
+<h3>エッジコンピューティングが適した状況</h3><p>エッジコンピューティングはデータをクラウドへ送らず<strong>発生源（端末・現場）の近くで処理</strong>する手法。適しているのは：</p><ul class="body-list"><li>超低遅延が必要な用途（自動運転・産業ロボット・リモート手術）</li><li>ネットワーク帯域が限られる環境（工場・農地・海上）</li><li>プライバシー・セキュリティ上、データをクラウドに送れない場合</li><li>データ量が膨大で全量をクラウド送信するとコスト過大な場合</li></ul><h3>オンデバイスAIの利点</h3><p>スマートフォン等のデバイス上でAI推論を実行する手法。主な利点は<strong>①オフライン動作（通信不要）②プライバシー保護（データがデバイス外に出ない）③低遅延（通信往復なし）④通信コスト削減</strong>。</p><h3>レイテンシ敏感なアプリの設計</h3><p>金融取引・リアルタイムゲーム・医療機器など、ミリ秒単位の遅延が致命的なアプリでは、<strong>エッジ処理＋インメモリDB＋ネットワーク最適化（anycast・CDN）</strong>の組み合わせが適切な設計選択です。</p>
+</section>
+<section id="data-governance">
+<h2>4. データガバナンス</h2>
+<h3>データリネージ</h3><p>データリネージとは、<strong>データがどこから来て、どのような変換を経て、どこに使われているかの追跡可能性（トレーサビリティ）</strong>を指します。データ品質問題の根本原因特定・規制対応・影響範囲分析に不可欠。</p><h3>越境データ移転とコンプライアンス</h3><p>グローバルにCDPや広告計測を運用する場合、<strong>データ発生地域の規制要件（GDPR・CCPA等）をマッピングし、SCCや十分性認定を活用した法的根拠を管轄ごとに整備</strong>することが実務的対応。域内処理を原則とし、必要最小限の越境に留める設計が重要。</p><h3>オルタナティブデータの活用とリスク</h3><p>衛星画像・クレジットカード取引・SNS・位置情報など非伝統的データを投資判断に活用するオルタナティブデータ。注意すべきリスクは<strong>個人情報・インサイダー情報に該当するデータの混入リスク・取得の適法性・データ品質の不確実性</strong>。</p>
+</section>
+<section id="finops-green">
+<h2>5. FinOps・グリーンIT</h2>
+<h3>FinOps（クラウドコスト最適化）</h3><p>FinOpsはクラウドコストの可視化・最適化・文化変容を推進する実践フレームワーク。コストが可視化されても削減効果が出にくい典型理由は、<strong>エンジニアリングチームが最適化よりも機能開発を優先し、コスト責任の所在が曖昧なため</strong>。FinOpsは技術だけでなくアカウンタビリティの文化変容が鍵。</p><h3>グリーンIT</h3><p>グリーンITとは、ITシステム・データセンターのエネルギー消費・CO₂排出量を削減する取り組みです。主目的は<strong>環境負荷の低減</strong>であり、コスト削減はその副次的効果。</p><h3>グリーンソフトウェアの実践</h3><p>AI・データ基盤の環境負荷を下げつつビジネス価値を損ねない方策として、<strong>推論の効率化（モデル軽量化・量子化）・不要なデータ収集・学習の削減・エネルギー効率の高いリージョン選択・ワークロードのスケジューリング最適化</strong>が有効です。</p><div class="point-box"><div class="label">📌 試験ポイント</div><p>FinOps失敗の原因＝「可視化で止まる」「コスト責任が不明確」。グリーンITの目的＝環境負荷低減（省コストは副次効果）。混同しないこと。</p></div>
+</section>
+<section id="exam-points">
+<h2>6. 試験直前チェックポイント</h2>
+<table><tr><th>キーワード</th><th>正解の方向性</th></tr><tr><td>責任共有モデル</td><td>インフラ=プロバイダー責任 / データ・アクセス=利用者責任</td></tr><tr><td>マルチクラウドの狙い</td><td>ベンダーロックイン回避・コスト最適化・レジリエンス向上</td></tr><tr><td>SASE</td><td>ネットワーク＋セキュリティのクラウド統合</td></tr><tr><td>データレイク</td><td>生データ・Schema-on-Read・探索的分析・ML</td></tr><tr><td>DWH</td><td>構造化データ・スキーマ定義済・定型レポートBIツール</td></tr><tr><td>データメッシュ</td><td>ドメインがデータを自律管理（データプロダクト）</td></tr><tr><td>エッジコンピューティング</td><td>低遅延・オフライン・プライバシー保護・帯域節約</td></tr><tr><td>FinOps失敗の原因</td><td>可視化で満足・コスト責任の曖昧さ・文化変容の欠如</td></tr><tr><td>グリーンITの目的</td><td>環境負荷低減（省コストは副次効果）</td></tr></table>
+</section>
+</div>
+<footer><p><a href="../../index.html">← 経済知識チェックに戻る</a> ｜ © 2024 経済知識チェック</p></footer>
+</body>
+</html>

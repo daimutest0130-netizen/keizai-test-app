@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MTK20NCVW8');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>企業価値評価・財務戦略（CAPM・DCF・EVA）｜詳細解説｜経済知識チェック</title>
+  <meta name="description" content="CAPM・WACC・NPV・IRR・DCF・フリーキャッシュフロー・EVA・リアルオプション・最適資本構成の理論と実践を解説します。">
+  <link rel="canonical" href="https://daimutest0130-netizen.github.io/keizai-test-app/details/finance/valuation.html" />
+  <meta name="keywords" content="CAPM,WACC,NPV,IRR,DCF,EVA,フリーキャッシュフロー,APV,リアルオプション,企業価値評価,ベータ,資本コスト">
+  <meta property="og:title" content="企業価値評価・財務戦略（CAPM・DCF・EVA）｜詳細解説｜経済知識チェック">
+  <meta property="og:description" content="CAPM・WACC・NPV・IRR・DCF・フリーキャッシュフロー・EVA・リアルオプション・最適資本構成の理論と実践を解説します。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daimutest0130-netizen.github.io/keizai-test-app/details/finance/valuation.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="経済知識チェック">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../style.css" />
+
+  <style>
+    .detail-wrap { max-width: 800px; margin: 0 auto; padding: 32px 20px 80px; }
+    .detail-breadcrumb { font-size: 13px; color: #777; margin-bottom: 24px; }
+    .detail-breadcrumb a { color: #003366; text-decoration: none; }
+    .detail-breadcrumb a:hover { text-decoration: underline; }
+    .detail-header { margin-bottom: 36px; }
+    .detail-genre-tag { display: inline-block; background: #1565c0; color: #fff; font-size: 12px; padding: 3px 12px; border-radius: 20px; margin-bottom: 12px; }
+    .detail-header h1 { font-size: 26px; color: #1a1a2e; margin: 0 0 8px; line-height: 1.4; }
+    .detail-subtitle { font-size: 14px; color: #666; }
+    .detail-intro { font-size: 15px; line-height: 1.9; color: #333; margin-bottom: 36px; padding: 16px 20px; background: #f8faff; border-left: 4px solid #1565c0; border-radius: 0 8px 8px 0; }
+    .detail-toc { background: #f0f4ff; border-radius: 8px; padding: 16px 20px; margin-bottom: 40px; }
+    .detail-toc h2 { font-size: 14px; color: #003366; margin: 0 0 10px; }
+    .detail-toc ul { margin: 0; padding-left: 20px; }
+    .detail-toc li { margin-bottom: 4px; font-size: 14px; }
+    .detail-toc a { color: #1565c0; text-decoration: none; }
+    .detail-toc a:hover { text-decoration: underline; }
+    .detail-section { margin-bottom: 48px; scroll-margin-top: 20px; }
+    .detail-section h2 { font-size: 20px; color: #003366; border-bottom: 2px solid #1565c0; padding-bottom: 8px; margin-bottom: 16px; }
+    .detail-section h3 { font-size: 16px; color: #1a1a2e; margin-top: 20px; margin-bottom: 8px; }
+    .detail-section p { font-size: 15px; line-height: 1.85; color: #333; margin-bottom: 12px; }
+    .detail-section ul, .detail-section ol { font-size: 15px; line-height: 1.8; color: #333; padding-left: 22px; margin-bottom: 12px; }
+    .formula-box { background: #e3f2fd; border: 1px solid #90caf9; border-radius: 8px; padding: 12px 16px; margin: 12px 0; font-family: monospace; font-size: 14px; color: #1a237e; }
+    .point-box { background: #fff8e1; border-left: 4px solid #f9a825; border-radius: 0 8px 8px 0; padding: 12px 16px; margin: 16px 0; }
+    .point-box strong { color: #e65100; }
+    .exam-box { background: #fce4ec; border-left: 4px solid #e91e63; border-radius: 0 8px 8px 0; padding: 14px 18px; margin-top: 8px; }
+    .exam-box h3 { color: #880e4f; margin: 0 0 10px; font-size: 15px; }
+    .exam-box ul { margin: 0; padding-left: 20px; }
+    .back-btn { display: inline-block; margin-top: 40px; padding: 10px 24px; background: #003366; color: #fff; border-radius: 8px; text-decoration: none; font-size: 14px; }
+    .back-btn:hover { background: #0055aa; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 14px; }
+    th { background: #003366; color: #fff; padding: 8px 12px; text-align: left; }
+    td { border: 1px solid #dde3ef; padding: 8px 12px; vertical-align: top; }
+    tr:nth-child(even) td { background: #f5f7ff; }
+  </style>
+</head>
+<body>
+<div class="detail-wrap">
+  <div class="detail-breadcrumb">
+    <a href="../../index.html">トップ</a> &gt; <a href="../../index.html">財務・会計</a> &gt; 企業価値評価・財務戦略
+  </div>
+
+  <div class="detail-header">
+    <span class="detail-genre-tag">財務・会計</span>
+    <h1>企業価値評価・財務戦略（CAPM・DCF・EVA）</h1>
+    <p class="detail-subtitle">CAPM・WACC・NPV・IRR・DCF・EVA・リアルオプションの理論と実践</p>
+  </div>
+  <p class="detail-intro">
+    企業価値評価は「この投資は価値を生み出すか」という問いへの答えです。CAPM（資本資産価格モデル）でリスクに見合う期待リターンを求め、WACCで資本コストを加重平均し、DCFで将来キャッシュフローを現在価値に割り引く——この一連の枠組みは、M&A・設備投資・事業ポートフォリオ判断のあらゆる場面で使われます。
+  </p>
+  <div class="detail-toc">
+    <h2>目次</h2>
+    <ul>
+      <li><a href="#capm-wacc">① CAPM・WACC・ベータ・負債コスト</a></li>
+      <li><a href="#npv-irr">② NPV・IRRによる投資判断</a></li>
+      <li><a href="#dcf-fcf">③ DCF法・フリーキャッシュフロー</a></li>
+      <li><a href="#eva-advanced">④ EVA・APV・リアルオプション</a></li>
+      <li><a href="#capital-structure">⑤ 最適資本構成の理論</a></li>
+      <li><a href="#exam-points">⑥ 試験頻出ポイント</a></li>
+    </ul>
+  </div>
+
+  <section class="detail-section" id="capm-wacc">
+    <h2>① CAPM・WACC・ベータ・負債コスト</h2>
+    <h3>CAPM（資本資産価格モデル）</h3>
+    <p>CAPMは、株式（リスク資産）への期待リターンをリスクフリーレートと市場リスクプレミアムの関数として表します。</p>
+    <div class="formula-box">期待リターン（株主資本コスト）= Rf + β × （Rm − Rf）
+　Rf：リスクフリーレート（国債利回りなど）
+　β：市場との連動性（ベータ）
+　Rm：市場全体の期待リターン
+　（Rm − Rf）：市場リスクプレミアム</div>
+    <h3>ベータ（β）の解釈</h3>
+    <p>ベータは個別株が市場全体の動きに対してどれだけ敏感かを示す指数です。</p>
+    <table>
+      <tr><th>ベータ値</th><th>意味</th><th>典型例</th></tr>
+      <tr><td>β = 1.0</td><td>市場と同じ動き</td><td>インデックスファンド</td></tr>
+      <tr><td>β &gt; 1.0</td><td>市場より変動大（ハイリスク・ハイリターン）</td><td>ハイテク株、新興株</td></tr>
+      <tr><td>β &lt; 1.0</td><td>市場より変動小（ディフェンシブ）</td><td>電力・食品株</td></tr>
+      <tr><td>β = 0</td><td>市場と無相関</td><td>リスクフリー資産</td></tr>
+    </table>
+    <h3>WACC（加重平均資本コスト）</h3>
+    <p>企業が調達した資本（株主資本＋有利子負債）の平均的なコストです。事業投資のハードルレートとして使われます。</p>
+    <div class="formula-box">WACC = Ke × E/(D+E) + Kd × (1−t) × D/(D+E)
+　Ke：株主資本コスト（CAPM等で算出）
+　Kd：負債の表面金利
+　t：実効税率
+　E：自己資本時価、D：有利子負債時価</div>
+    <div class="point-box">
+      <strong>負債コストに税率を掛けて調整する理由</strong>：支払利息は損金算入（費用扱い）されるため、税負担が軽減されます。税引後の実質的な負債コスト = Kd × (1 − 税率) です。
+    </div>
+    <h3>税引後負債コスト</h3>
+    <div class="formula-box">税引後負債コスト = 表面利率（Kd） × （1 − 実効税率）</div>
+    <p>例：表面利率3%、税率30% → 税引後負債コスト = 3% × 0.7 = 2.1%</p>
+  </section>
+
+  <section class="detail-section" id="npv-irr">
+    <h2>② NPV・IRRによる投資判断</h2>
+    <h3>NPV（正味現在価値）</h3>
+    <p>投資から生まれる将来キャッシュフローをWACCで割り引いた現在価値の合計から、初期投資額を引いた値です。</p>
+    <div class="formula-box">NPV = Σ（CFt ÷ (1+r)^t） − 初期投資額
+　CFt：t年目のキャッシュフロー、r：割引率（WACC）</div>
+    <ul>
+      <li><strong>NPV &gt; 0</strong>：投資は価値を創出する → 投資実行を推奨</li>
+      <li><strong>NPV &lt; 0</strong>：投資は価値を破壊する → 見送りを推奨</li>
+      <li><strong>NPV = 0</strong>：資本コストぴったり回収するだけ（価値創出なし）</li>
+    </ul>
+    <h3>IRR（内部収益率）</h3>
+    <p>NPVをゼロにする割引率のことです。IRR &gt; WACCであれば投資採択です。</p>
+    <div class="point-box">
+      <strong>IRRの注意点</strong>：複数のIRRが存在する場合がある（キャッシュフローの符号が複数回変わる場合）。また、投資規模の異なる案件を比較するにはNPVが優れています。
+    </div>
+  </section>
+
+  <section class="detail-section" id="dcf-fcf">
+    <h2>③ DCF法・フリーキャッシュフロー</h2>
+    <h3>フリーキャッシュフロー（FCF）</h3>
+    <p>事業が生み出す「自由に使えるキャッシュ」。株主・債権者双方に帰属するキャッシュフローです。</p>
+    <div class="formula-box">FCF ≒ 営業CF − 設備投資額（Capex）
+　または
+FCF = EBIT × (1 − 税率) + 減価償却費 − 設備投資 − 運転資本増加額</div>
+    <h3>DCF法の割引率</h3>
+    <p>DCFで将来FCFを割り引く際、事業全体（負債＋株主に帰属するキャッシュ）を評価するならWACCを、株主帰属のキャッシュを評価するなら株主資本コスト（Ke）を使います。</p>
+    <div class="point-box">
+      WACCはリスクに応じたハードルレートです。高リスク事業ほどWACCが高くなり、同じFCFでも現在価値（企業価値）は低く評価されます。
+    </div>
+  </section>
+
+  <section class="detail-section" id="eva-advanced">
+    <h2>④ EVA・APV・リアルオプション</h2>
+    <h3>EVA（経済的付加価値）</h3>
+    <p>税引後営業利益から投下資本コストを引いた「真の超過利益」です。会計上の利益がプラスでもEVAがマイナスなら価値破壊となります。</p>
+    <div class="formula-box">EVA = NOPAT − (投下資本 × WACC)
+　NOPAT = 営業利益 × (1 − 税率)</div>
+    <h3>APV（調整現在価値）法</h3>
+    <p>プロジェクトを「無借金の場合の価値（ベースケースNPV）」と「節税効果などの財務副次効果の価値」に分けて評価する手法です。WACCではなく株主資本コストを使ってベースNPVを算出するため、資本構成が複雑な場合や変化するLBO案件に適しています。</p>
+    <div class="formula-box">APV = ベースケースNPV（無借金） + 節税効果の現在価値 ± その他財務副次効果</div>
+    <h3>実物オプション（リアルオプション）</h3>
+    <p>投資案件に内在する「柔軟性の価値」をオプション理論で定量化します。</p>
+    <table>
+      <tr><th>オプション種類</th><th>内容</th></tr>
+      <tr><td>拡張オプション</td><td>好調なら事業規模を拡大できる権利</td></tr>
+      <tr><td>撤退オプション</td><td>不調なら損失を限定して撤退できる権利</td></tr>
+      <tr><td>待機オプション</td><td>不確実性が解消するまで投資を延期できる権利</td></tr>
+    </table>
+    <p>DCFだけでは捉えられない「不確実性下での柔軟な意思決定の価値」を定量化できる点が実物オプションの強みです。</p>
+  </section>
+
+  <section class="detail-section" id="capital-structure">
+    <h2>⑤ 最適資本構成の理論</h2>
+    <p>企業はどの程度を負債で、どの程度を株主資本で調達すべきか——この問いへの主な理論的回答を整理します。</p>
+    <table>
+      <tr><th>理論</th><th>主張</th><th>ポイント</th></tr>
+      <tr><td>MM定理（修正前）</td><td>完全市場では資本構成は企業価値に無関係</td><td>税金・倒産コストなし前提</td></tr>
+      <tr><td>MM定理（修正後）</td><td>節税効果により負債が多いほど企業価値大</td><td>法人税を考慮</td></tr>
+      <tr><td>トレードオフ理論</td><td>節税メリットと財務困難コストのトレードオフで最適点が存在</td><td>最も現実的</td></tr>
+      <tr><td>ペッキングオーダー理論</td><td>情報の非対称性から内部留保→負債→株式発行の順に資金調達を優先</td><td>株式発行は最後の手段</td></tr>
+    </table>
+    <div class="point-box">
+      実務では<strong>トレードオフ理論</strong>と<strong>ペッキングオーダー理論</strong>の両方が使われます。業界平均・格付け維持・財務柔軟性の確保などを踏まえた総合判断が必要です。
+    </div>
+  </section>
+
+  <section class="detail-section" id="exam-points">
+    <h2>⑥ 試験頻出ポイント</h2>
+    <div class="exam-box">
+      <h3>🎯 よく出る問題パターン</h3>
+      <ul>
+        <li>「CAPMの株主資本コスト計算式」→ Rf + β(Rm − Rf)。βは市場連動性を示す係数</li>
+        <li>「WACCで負債コストに掛けるもの」→ (1 − 実効税率)。支払利息の節税効果を考慮</li>
+        <li>「NPVとIRRの違い」→ NPVは絶対額、IRRは割引率。規模の異なる比較はNPV優先</li>
+        <li>「DCFの割引率」→ WACC（または事業リスクに応じた資本コスト）</li>
+        <li>「EVAの計算式」→ NOPAT − (投下資本 × WACC)。会計利益≠経済的価値創出</li>
+        <li>「APVとWACCの違い」→ APVは財務副次効果を別途加算。LBO等に適する</li>
+        <li>「実物オプションの価値」→ 不確実性が高いほど、拡張・撤退・待機の柔軟性価値が上がる</li>
+        <li>「ベータ &gt; 1の意味」→ 市場より大きく変動するハイリスク株</li>
+      </ul>
+    </div>
+  </section>
+
+  <a href="javascript:history.back()" class="back-btn">← 解説一覧に戻る</a>
+</div>
+<footer style="text-align:center; padding:20px; font-size:14px; color:#555; border-top:1px solid #ccc;">
+  <p>
+    <a href="../../privacy.html" style="color:#003366; text-decoration:none;">プライバシーポリシー</a> |
+    <a href="../../terms.html" style="color:#003366; text-decoration:none;">利用規約</a> |
+    <a href="../../contact.html" style="color:#003366; text-decoration:none;">お問い合わせ</a>
+  </p>
+  <p>&copy; 2025 経済知識チェック</p>
+</footer>
+</body>
+</html>

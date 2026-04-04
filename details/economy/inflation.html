@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Analytics（GA4） -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MTK20NCVW8');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>インフレ・デフレ｜詳細解説｜経済知識チェック</title>
+  <meta name="description" content="インフレ・デフレの定義・種類・消費者物価指数（CPI）・フィリップス曲線・スタグフレーション・デフレスパイラルなど、価格動向に関する重要概念をわかりやすく解説します。">
+  <!-- SEO: canonical -->
+  <link rel="canonical" href="https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/inflation.html" />
+
+  <!-- SEO: keywords -->
+  <meta name="keywords" content="インフレ,デフレ,消費者物価指数,CPI,フィリップス曲線,スタグフレーション,デフレスパイラル,経済知識チェック">
+
+  <!-- OGP -->
+  <meta property="og:title" content="インフレ・デフレ｜詳細解説｜経済知識チェック">
+  <meta property="og:description" content="インフレ・デフレの定義・種類・消費者物価指数（CPI）・フィリップス曲線・スタグフレーション・デフレスパイラルなど、価格動向に関する重要概念をわかりやすく解説します。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/inflation.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="経済知識チェック">
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439"
+     crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../../style.css" />
+  <style>
+    .detail-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+    }
+    .detail-breadcrumb {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 24px;
+    }
+    .detail-breadcrumb a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-breadcrumb a:hover { text-decoration: underline; }
+
+    .detail-header {
+      margin-bottom: 36px;
+    }
+    .detail-genre-tag {
+      display: inline-block;
+      background: #003366;
+      color: #fff;
+      font-size: 12px;
+      padding: 3px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .detail-header h1 {
+      font-size: 26px;
+      color: #1a1a2e;
+      margin: 0 0 8px;
+      line-height: 1.4;
+    }
+    .detail-header .detail-subtitle {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .detail-toc {
+      background: #f0f4ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 40px;
+    }
+    .detail-toc h2 {
+      font-size: 14px;
+      color: #003366;
+      margin: 0 0 10px;
+    }
+    .detail-toc ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .detail-toc ol li {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    .detail-toc ol li a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-toc ol li a:hover { text-decoration: underline; }
+
+    .detail-section {
+      margin-bottom: 48px;
+    }
+    .detail-section h2 {
+      font-size: 20px;
+      color: #003366;
+      border-left: 5px solid #003366;
+      padding-left: 12px;
+      margin-bottom: 16px;
+    }
+    .detail-section h3 {
+      font-size: 16px;
+      color: #1a1a2e;
+      margin: 24px 0 10px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .detail-section p {
+      font-size: 15px;
+      line-height: 1.9;
+      color: #333;
+      margin-bottom: 14px;
+    }
+
+    .detail-box {
+      background: #fafafa;
+      border: 1px solid #dde3ef;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .detail-box.blue {
+      background: #e8f0fe;
+      border-color: #aac4f0;
+    }
+    .detail-box.green {
+      background: #e8f5e9;
+      border-color: #a5d6a7;
+    }
+    .detail-box.yellow {
+      background: #fffde7;
+      border-color: #ffe082;
+    }
+
+    .detail-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin: 16px 0;
+    }
+    .detail-table th {
+      background: #003366;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    .detail-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #e0e0e0;
+      vertical-align: top;
+      line-height: 1.7;
+    }
+    .detail-table tr:nth-child(even) td {
+      background: #f5f7fa;
+    }
+
+    .detail-point {
+      background: #fff8e1;
+      border-left: 4px solid #ffc107;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 20px 0;
+    }
+    .detail-point .point-label {
+      font-size: 12px;
+      font-weight: bold;
+      color: #f57f17;
+      margin-bottom: 6px;
+    }
+    .detail-point p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .formula-box {
+      background: #1a1a2e;
+      color: #e0e0ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-family: monospace;
+      font-size: 15px;
+      text-align: center;
+      margin: 16px 0;
+      letter-spacing: 0.05em;
+    }
+
+    .detail-back-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 24px;
+      background: #003366;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 24px;
+      font-size: 14px;
+    }
+    .detail-back-btn:hover { background: #0055aa; }
+  </style>
+</head>
+<body>
+  <div class="detail-wrap">
+
+    <!-- パンくず -->
+    <div class="detail-breadcrumb">
+      <a href="../../index.html">トップ</a> &rsaquo;
+      <a href="../../index.html">経済・金融</a> &rsaquo;
+      インフレ・デフレ
+    </div>
+
+    <!-- ヘッダー -->
+    <div class="detail-header">
+      <span class="detail-genre-tag">経済・金融</span>
+      <h1>インフレ・デフレ</h1>
+      <p class="detail-subtitle">インフレーション / デフレーション / CPI / フィリップス曲線 / スタグフレーション</p>
+    </div>
+
+    <!-- 概要 -->
+    <p style="font-size:15px; line-height:1.9; color:#333; margin-bottom:32px;">
+      インフレ・デフレは金融政策の根幹に関わる重要テーマです。単なる「物価が上がる」「物価が下がる」という現象の理解にとどまらず、
+      <strong>CPIの読み方</strong>・<strong>フィリップス曲線の短期・長期の差異</strong>・<strong>デフレスパイラルのメカニズム</strong>・
+      <strong>期待拡張モデル</strong>まで体系的に理解することが試験対策の鍵となります。このページでは、試験で問われやすいポイントを中心に、
+      価格動向に関する主要概念を整理します。
+    </p>
+
+    <!-- 目次 -->
+    <div class="detail-toc">
+      <h2>目次</h2>
+      <ol>
+        <li><a href="#inflation-definition">インフレーションとは</a></li>
+        <li><a href="#deflation-definition">デフレーションとは</a></li>
+        <li><a href="#cpi">消費者物価指数（CPI）</a></li>
+        <li><a href="#phillips-curve">フィリップス曲線と期待インフレ</a></li>
+        <li><a href="#stagflation">スタグフレーションと構造的インフレ</a></li>
+        <li><a href="#exam-points">試験で問われやすいポイント</a></li>
+      </ol>
+    </div>
+
+    <!-- 1. インフレーションとは -->
+    <div class="detail-section" id="inflation-definition">
+      <h2>1. インフレーションとは</h2>
+      <p>
+        インフレーション（インフレ）とは、<strong>一般的な物価水準が持続的に上昇する現象</strong>です。
+        同じ金額で買える財・サービスの量が減少し、お金の価値が低下します。低率のインフレは経済成長の指標ともなりますが、
+        過度なインフレは資産の実質価値を減らし、貯蓄を蝕みます。
+      </p>
+
+      <h3>インフレの種類：需要プル型 vs コストプッシュ型</h3>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>種類</th>
+            <th>発生メカニズム</th>
+            <th>典型例</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>需要プル型インフレ</strong></td>
+            <td>総需要が総供給を上回る（「多すぎるお金が少なすぎる商品を追う」）。生産能力限界に達した経済で、需要が増えると価格が上昇。</td>
+            <td>好況期・バブル期の物価上昇、先進国の過熱経済</td>
+          </tr>
+          <tr>
+            <td><strong>コストプッシュ型インフレ</strong></td>
+            <td>原油価格上昇・賃金上昇・為替円安などにより企業の生産コストが増加し、それが価格転嫁される。供給側の制約が原因。</td>
+            <td>オイルショック、2022年の世界的インフレ、円安による輸入品の値上げ</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="detail-box blue">
+        <strong>インフレの定義における重要な語句</strong><br>
+        「持続的な」という言葉が重要です。1回きりの価格上昇は除外されます。また、「一般的な」という表現から、
+        全ての財の価格が同じペースで上がるわけではなく、平均的な水準が上昇することを意味します。
+      </div>
+    </div>
+
+    <!-- 2. デフレーションとは -->
+    <div class="detail-section" id="deflation-definition">
+      <h2>2. デフレーションとは</h2>
+      <p>
+        デフレーション（デフレ）とは、<strong>一般的な物価水準が持続的に下落する現象</strong>です。
+        一見すると物価が安くなるため消費者にとって有利に思えますが、実は極めて深刻な経済危機です。
+      </p>
+
+      <h3>デフレスパイラルのメカニズム</h3>
+      <p>
+        デフレの最も恐ろしい側面は「デフレスパイラル」です。以下の悪循環が自動的に拡大していきます：
+      </p>
+      <div class="formula-box">
+        物価下落 → 将来の購買力が高まる期待 → 消費延期
+        → 需要減 → 企業収益悪化 → 賃金カット
+        → さらに消費減 → さらに物価下落（ループ）
+      </div>
+
+      <div class="detail-box green">
+        <strong>デフレスパイラルの実例：日本の「失われた20年」</strong><br>
+        1990年代初頭のバブル崩壊後、日本はデフレに陥りました。企業は在庫を処分するため価格を下げ、
+        消費者は「さらに安くなるまで待とう」と購買を延期し、企業の業績悪化で給与が上がらなくなりました。
+        この悪循環を抜け出すのに20年以上かかったのです。
+      </div>
+
+      <h3>デフレがもたらす悪影響</h3>
+      <div class="detail-box yellow">
+        ① <strong>実質債務の増加</strong>：借金の返済が相対的に重くなる<br>
+        ② <strong>失業の増加</strong>：企業の経営悪化により人員削減が進む<br>
+        ③ <strong>投資の延期</strong>：企業が将来不安から投資を控える<br>
+        ④ <strong>消費の減少</strong>：「待つ」ことで最大限の価値を得られると考える
+      </div>
+    </div>
+
+    <!-- 3. 消費者物価指数（CPI） -->
+    <div class="detail-section" id="cpi">
+      <h2>3. 消費者物価指数（CPI）</h2>
+      <p>
+        CPI（Consumer Price Index）は、<strong>一般家庭の購入する財・サービスの物価変動を測定する指数</strong>です。
+        中央銀行や政府が物価を把握し、金融政策・財政政策を立案する際の最重要統計です。
+      </p>
+
+      <h3>CPI（総合指数）の計算方法</h3>
+      <p>
+        統計局が毎月全国の約2万店舗から約600品目の価格を調査し、「基準時点（通常2020年＝100）」との比較で指数化します。
+        各品目には消費ウェイト（ウエイト）が付けられます。
+      </p>
+      <div class="formula-box">
+        CPI（総合） = Σ（品目別価格指数 × 消費ウェイト）
+      </div>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>品目グループ</th>
+            <th>代表例</th>
+            <th>ウェイト（目安）</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>食料</strong></td>
+            <td>米、野菜、食肉、水道代</td>
+            <td>約23%</td>
+          </tr>
+          <tr>
+            <td><strong>交通・通信</strong></td>
+            <td>ガソリン、電車、携帯電話、インターネット</td>
+            <td>約19%</td>
+          </tr>
+          <tr>
+            <td><strong>教養娯楽</strong></td>
+            <td>書籍、レジャー、教科書</td>
+            <td>約11%</td>
+          </tr>
+          <tr>
+            <td><strong>その他</strong></td>
+            <td>衣類、住居、医療、家具など</td>
+            <td>約47%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>CPIとGDPデフレーターの違い</h3>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>指標</th>
+            <th>対象</th>
+            <th>特徴</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>CPI</strong></td>
+            <td>消費者が購入する品目</td>
+            <td>毎月公表で速度が速い。生活への実感に近い。</td>
+          </tr>
+          <tr>
+            <td><strong>GDPデフレーター</strong></td>
+            <td>GDP全体（消費＋投資＋政府支出＋輸出など）</td>
+            <td>四半期ごと。経済全体の物価動向をより広く反映。</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="detail-point">
+        <div class="point-label">⚠️ CPIの読み方の注意</div>
+        <p>「CPI＝100を超えた」≠「物価が100%上昇」。例えばCPI＝105は「基準年比で5%上昇」という意味です。</p>
+      </div>
+    </div>
+
+    <!-- 4. フィリップス曲線 -->
+    <div class="detail-section" id="phillips-curve">
+      <h2>4. フィリップス曲線と期待インフレ</h2>
+      <p>
+        フィリップス曲線は、<strong>失業率とインフレ率の関係</strong>を示した古典的な経済学の重要概念です。
+        短期と長期で異なる関係が成立することが、現代マクロ経済学の中心的な議論です。
+      </p>
+
+      <h3>短期フィリップス曲線</h3>
+      <p>
+        短期的には、失業率が低下（経済が過熱）するとインフレ率が上昇し、
+        失業率が上昇（景気が悪い）するとインフレ率が低下する、という負の相関が観察されます。
+      </p>
+      <div class="detail-box">
+        <strong>メカニズム</strong><br>
+        失業率低下 → 労働需給が逼迫 → 賃金上昇 → 企業のコスト増 → 価格転嫁 → インフレ上昇
+      </div>
+
+      <h3>長期フィリップス曲線と期待拡張モデル</h3>
+      <p>
+        しかし、1970年代のスタグフレーション（高失業・高インフレが同時発生）により、
+        短期フィリップス曲線の安定性に疑問が生じました。現代経済学は「期待拡張フィリップス曲線」を採用しています。
+      </p>
+      <div class="formula-box">
+        π = π<sup>e</sup> − α(u − u<sup>n</sup>)
+      </div>
+      <p style="font-size:13px; color:#666; text-align:center; margin-top:-8px;">
+        π：実現インフレ率 / π<sup>e</sup>：期待インフレ率 / u：失業率 / u<sup>n</sup>：自然失業率
+      </p>
+
+      <div class="detail-box green">
+        <strong>期待拡張モデルの意味</strong><br>
+        インフレ率は「期待インフレ率から、失業ギャップ（実失業率−自然失業率）に応じた調整」で決まります。
+        つまり、期待インフレ率が高まれば、フィリップス曲線全体が上方シフトしてしまうのです。
+      </div>
+
+      <h3>長期フィリップス曲線はほぼ垂直</h3>
+      <p>
+        人々がインフレを完全に予想するようになると、失業率がどのような水準であっても、
+        実現インフレ率は期待インフレ率に収束します。つまり、長期的には失業率を恒久的に低下させることはできず、
+        金融政策はインフレ率にのみ影響します（垂直なフィリップス曲線）。
+      </p>
+    </div>
+
+    <!-- 5. スタグフレーション -->
+    <div class="detail-section" id="stagflation">
+      <h2>5. スタグフレーションと構造的インフレ</h2>
+      <p>
+        スタグフレーション（stagflation）とは、<strong>低成長と高インフレが同時に発生する現象</strong>です。
+        語呼は「停滞（stagnation）」と「インフレーション」の合成語です。通常、これら2つは同時に発生しないはずなのですが、
+        供給ショックで可能になります。
+      </p>
+
+      <h3>スタグフレーション発生のメカニズム</h3>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>原因</th>
+            <th>経路</th>
+            <th>歴史的事例</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>供給ショック</strong>（特にコストプッシュ型）</td>
+            <td>原油価格急上昇 → 生産コスト増 → 価格上昇 + 生産低迷 → インフレ + 低成長</td>
+            <td>1973年と1979年のオイルショック</td>
+          </tr>
+          <tr>
+            <td><strong>構造的問題</strong></td>
+            <td>労働生産性の低迷 + 独占力のある企業の価格引き上げ → 実質賃金低迷でも名目インフレ</td>
+            <td>2022年の供給制約による世界的インフレ</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="detail-box yellow">
+        <strong>1970年代のスタグフレーションが経済学に与えた衝撃</strong><br>
+        従来のケインズ経済学は「失業率とインフレの trade-off がある」と教えていました。
+        ところが1970年代、両者が同時に悪化するスタグフレーションが発生し、政策当局を困惑させました。
+        これがサプライサイド経済学の台頭につながったのです。
+      </div>
+
+      <h3>構造的インフレとは</h3>
+      <p>
+        需要不足ではなく、産業構造や労働市場の硬直性など「構造的な理由」によるインフレを指します。
+        特に労働市場が硬直的で賃金が下がりにくい場合、一度上がったインフレ率が容易に下がりません。
+      </p>
+    </div>
+
+    <!-- 6. 試験ポイント -->
+    <div class="detail-section" id="exam-points">
+      <h2>6. 試験で問われやすいポイント</h2>
+
+      <div class="detail-box green">
+        <strong>✅ インフレとデフレの定義の違いを押さえる</strong><br>
+        「インフレ = 物価上昇」ではなく「持続的な物価上昇」。同様に「デフレ = 物価下落」ではなく「持続的な物価下落」。
+        重要なのは「一般的な」「持続的な」という限定です。
+      </div>
+
+      <div class="detail-box blue">
+        <strong>✅ デフレスパイラルのメカニズムを論述できる</strong><br>
+        「物価下落 → 消費延期 → 需要減 → 企業収益悪化 → 賃金カット → さらに消費減」という
+        自己強化的な悪循環を説明できることが重要です。日本の事例と結びつけるのも効果的。
+      </div>
+
+      <div class="detail-box yellow">
+        <strong>✅ 需要プル型とコストプッシュ型の使い分け</strong><br>
+        「好況期のインフレは需要プル型」「原油価格上昇によるインフレはコストプッシュ型」というように
+        原因と現象を結び付けられるようにしましょう。政策対応も異なります。
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 フィリップス曲線の出題パターン</div>
+        <p>
+          ① 「短期は負の相関、長期は垂直」という基本を押さえる<br>
+          ② 「期待インフレ率の上昇 = フィリップス曲線全体の上方シフト」<br>
+          ③ 「自然失業率での失業 = 加速インフレを起こさない失業率」
+        </p>
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 スタグフレーションに関する注意点</div>
+        <p>
+          「スタグフレーション = 金融政策で対応不可能」という特徴を理解しましょう。
+          インフレを抑えるため金融引き締めをすると失業が増加し、
+          失業を減らすため金融緩和をするとインフレが加速してしまいます。
+        </p>
+      </div>
+    </div>
+
+    <a href="javascript:history.back()" class="detail-back-btn">← 解説一覧に戻る</a>
+
+  </div>
+
+  <!-- フッター -->
+  <footer style="text-align:center; padding:20px; font-size:14px; color:#555; border-top:1px solid #ccc; margin-top:40px;">
+    <p>
+      <a href="../../privacy.html" style="color:#003366; text-decoration:none;">プライバシーポリシー</a> |
+      <a href="../../terms.html" style="color:#003366; text-decoration:none;">利用規約</a> |
+      <a href="../../contact.html" style="color:#003366; text-decoration:none;">お問い合わせ</a>
+    </p>
+    <p>&copy; 2025 経済知識チェック</p>
+  </footer>
+</body>
+</html>

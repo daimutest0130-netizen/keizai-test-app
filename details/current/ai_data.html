@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI・データ技術 徹底解説｜経済知識チェック</title>
+  <meta name="description" content="生成AI・ChatGPT・XAI・RAG・LLM・差分プライバシー・連合学習・MLOps・AIガバナンスを体系解説。試験対策に最適。">
+  <meta name="keywords" content="生成AI,AIガバナンス,RAG,LLM,XAI,差分プライバシー,連合学習,準同型暗号,MLOps,AI規制">
+  <link rel="canonical" href="https://daijunakazaki.github.io/keizai-test-app/details/current/ai_data.html">
+  <meta property="og:title" content="AI・データ技術 徹底解説｜経済知識チェック">
+  <meta property="og:description" content="生成AI・ChatGPT・XAI・RAG・LLM・差分プライバシー・連合学習・MLOps・AIガバナンスを体系解説。試験対策に最適。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daijunakazaki.github.io/keizai-test-app/details/current/ai_data.html">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-MTK20NCVW8');</script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439" crossorigin="anonymous"></script>
+  <style>
+    :root {
+      --primary: #00695c;
+      --primary-dark: #004d40;
+      --primary-light: #e0f2f1;
+      --text: #212121;
+      --border: #b2dfdb;
+      --bg: #f9fafb;
+      --white: #ffffff;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: 'Hiragino Kaku Gothic ProN', 'Noto Sans JP', sans-serif; background: var(--bg); color: var(--text); line-height: 1.8; font-size: 15px; }
+    header { background: var(--primary-dark); color: var(--white); padding: 18px 24px; }
+    header .breadcrumb { font-size: 12px; opacity: 0.75; margin-bottom: 6px; }
+    header .breadcrumb a { color: #aaa; text-decoration: none; }
+    header .breadcrumb a:hover { color: var(--white); }
+    header h1 { font-size: 1.45rem; font-weight: 700; }
+    header p.subtitle { font-size: 0.85rem; opacity: 0.85; margin-top: 4px; }
+    .container { max-width: 860px; margin: 0 auto; padding: 24px 16px 60px; }
+    .toc { background: var(--white); border: 1px solid var(--border); border-radius: 8px; padding: 20px 24px; margin-bottom: 32px; }
+    .toc h2 { font-size: 1rem; color: var(--primary-dark); margin-bottom: 12px; }
+    .toc ol { padding-left: 20px; }
+    .toc li { margin-bottom: 6px; }
+    .toc a { color: var(--primary); text-decoration: none; font-size: 0.9rem; }
+    .toc a:hover { text-decoration: underline; }
+    section { background: var(--white); border-radius: 10px; padding: 28px 28px 32px; margin-bottom: 28px; border-left: 5px solid var(--primary); box-shadow: 0 1px 4px rgba(0,0,0,0.07); scroll-margin-top: 20px; }
+    section h2 { font-size: 1.25rem; color: var(--primary-dark); margin-bottom: 18px; padding-bottom: 10px; border-bottom: 2px solid var(--primary-light); }
+    section h3 { font-size: 1rem; color: var(--primary-dark); margin: 20px 0 8px; font-weight: 700; }
+    section p { margin-bottom: 12px; }
+    ul.body-list { padding-left: 20px; margin: 12px 0; }
+    ul.body-list li { margin-bottom: 6px; }
+    .point-box { background: var(--primary-light); border-left: 4px solid var(--primary); border-radius: 6px; padding: 14px 18px; margin: 16px 0; }
+    .point-box .label { font-size: 0.75rem; font-weight: 700; color: var(--primary-dark); margin-bottom: 6px; }
+    .point-box p { margin: 0; font-size: 0.9rem; }
+    .warn-box { background: #fff8e1; border-left: 4px solid #f9a825; border-radius: 6px; padding: 14px 18px; margin: 16px 0; }
+    .warn-box .label { font-size: 0.75rem; font-weight: 700; color: #e65100; margin-bottom: 6px; }
+    .warn-box p { margin: 0; font-size: 0.9rem; }
+    table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 0.88rem; }
+    th { background: var(--primary); color: var(--white); padding: 10px 14px; text-align: left; }
+    td { padding: 9px 14px; border-bottom: 1px solid #e0e0e0; vertical-align: top; }
+    tr:nth-child(even) td { background: #f5f5f5; }
+    footer { background: var(--primary-dark); color: #aaa; text-align: center; padding: 20px; font-size: 0.8rem; }
+    footer a { color: #80cbc4; text-decoration: none; }
+    @media (max-width: 600px) { section { padding: 20px 16px 24px; } header h1 { font-size: 1.2rem; } }
+</style>
+</head>
+<body>
+<header>
+  <div class="breadcrumb"><a href="../../index.html">トップ</a> › 時事・応用 › AI・データ技術</div>
+  <h1>🤖 AI・データ技術 徹底解説</h1>
+  <p class="subtitle">生成AI／AIガバナンス／RAG・LLM／プライバシー保護技術／MLOps／AI規制</p>
+</header>
+<div class="container">
+  <div class="toc"><h2>📋 目次</h2><ol><li><a href="#generative-ai">生成AIの特徴と活用</a></li><li><a href="#ai-governance">AIガバナンス・AI利用規程</a></li><li><a href="#rag-llm">RAG・LLMの仕組みと評価</a></li><li><a href="#privacy-tech">プライバシー保護技術</a></li><li><a href="#mlops">MLOps・モデル監視</a></li><li><a href="#ai-regulation">AI規制・リスク管理</a></li><li><a href="#exam-points">試験直前チェック</a></li></ol></div>
+  <section id="generative-ai">
+<h2>1. 生成AIの特徴と活用</h2>
+<h3>生成AIとは</h3><p><strong>生成AI（Generative AI）</strong>は、学習したデータから新しいコンテンツ（テキスト・画像・音声・コード等）を生成するAIです。従来の判別型AI（分類・予測）と異なり、<strong>入力に対して新たなアウトプットを創造</strong>する点が特徴です。</p><table><tr><th>特徴</th><th>内容</th></tr><tr><td>大規模モデル</td><td>大量データで事前学習したLLM（大規模言語モデル）がベース</td></tr><tr><td>汎用性</td><td>プログラミングなしで多様なタスクに対応</td></tr><tr><td>ハルシネーション</td><td>もっともらしい誤情報を自信を持って生成する問題</td></tr><tr><td>プロンプト依存</td><td>入力の質によって出力品質が大きく変わる</td></tr></table><h3>ビジネス利用で注意すべき点</h3><ul class="body-list"><li>ハルシネーション（誤情報）の出力リスク→人間によるファクトチェック必須</li><li>著作権・知的財産の侵害リスク</li><li>機密情報の入力（外部サービスへの情報漏洩）</li><li>プロンプトインジェクション攻撃（悪意ある指示の埋め込み）</li></ul><div class="warn-box"><div class="label">⚠️ 誤答パターン</div><p>「生成AIは常に正確な情報を生成する」は完全に誤り。ハルシネーションは生成AIの本質的な問題。「活用＝人間のチェック不要」は危険な誤解。</p></div>
+</section>
+<section id="ai-governance">
+<h2>2. AIガバナンス・AI利用規程</h2>
+<h3>AIガバナンスの原則設計</h3><p>AIガバナンスで最も重要な原則の組み合わせは<strong>透明性・説明可能性・公平性・人間によるオーバーサイト（監視）・プライバシー保護</strong>です。</p><h3>AI利用規程の必須項目</h3><ul class="body-list"><li>利用可能なAIツールの範囲・承認プロセス</li><li>入力禁止情報（個人情報・機密情報・顧客データ）</li><li>アウトプットのファクトチェック・承認フロー</li><li>著作権・知的財産に関するルール</li><li>違反時の対応・インシデント報告体制</li></ul><div class="point-box"><div class="label">📌 試験ポイント</div><p>「AI利用規程で法務・情報セキュリティ・人事が連携して盛り込むべき項目」→ 入力禁止情報ルール＋ファクトチェック義務＋著作権ルール＋インシデント対応が4本柱。</p></div><h3>AIレッドチーミング</h3><p>AIシステムに対して攻撃者視点で脆弱性・不適切動作・バイアスを意図的に探索するテスト手法。<strong>リリース前にリスクを発見し、安全性・信頼性を高める</strong>ことが主目的。</p><h3>XAI（説明可能なAI）</h3><p>AIの判断根拠を人間が理解できる形で説明する技術。<strong>信頼性向上・規制対応・バイアス検出</strong>が主目的。金融・医療など高リスク分野で特に重要。</p>
+</section>
+<section id="rag-llm">
+<h2>3. RAG・LLMの仕組みと評価</h2>
+<h3>RAG（検索拡張生成）の優位点</h3><p>RAG（Retrieval-Augmented Generation）は、LLMが回答を生成する際に<strong>外部知識ベースをリアルタイムに検索し参照</strong>する手法です。</p><table><tr><th>比較</th><th>ファインチューニング</th><th>RAG</th></tr><tr><td>知識更新</td><td>再学習が必要（コスト高）</td><td>検索DB更新だけで対応可（低コスト）</td></tr><tr><td>鮮度</td><td>学習データ時点で固定</td><td>最新情報をリアルタイム参照可能</td></tr><tr><td>出典提示</td><td>困難</td><td>参照文書を明示しやすい</td></tr></table><h3>LLM評価（Eval）設計</h3><p>実運用の品質保証に直結するLLM評価には、<strong>ゴールデンセット（正解付きテストケース）による自動評価＋人間評価の組み合わせ</strong>が有効です。また、本番入出力からの継続的サンプリング評価（オンライン評価）が品質維持に不可欠。</p><h3>ハルシネーション対策</h3><ul class="body-list"><li>RAGによる根拠文書の参照・出典明示</li><li>回答の確信度（confidence）に基づく不確実性提示</li><li>人間によるファクトチェックフローの組み込み</li><li>重要分野（医療・法律・財務）での出力の専門家レビュー</li></ul><h3>社内検索への生成AI展開アーキテクチャ</h3><p>社内知識検索に生成AIを活用する場合、<strong>RAG＋ベクターDB（社内文書のembedding検索）</strong>の組み合わせが事実性と鮮度を両立する最適構成です。LLMだけに頼ると古い知識や誤情報のリスクが増大します。</p>
+</section>
+<section id="privacy-tech">
+<h2>4. プライバシー保護技術</h2>
+<h3>差分プライバシー（Differential Privacy）</h3><p>データ集合に統計的ノイズを加えることで、<strong>個人データを特定されることなく統計分析を可能にする</strong>技術。「あるデータに1人のレコードを追加/除外しても集計結果がほぼ変わらない」という数学的保証を提供。</p><h3>連合学習（Federated Learning）</h3><p><strong>データを中央サーバーに集めずに、各端末でモデルを学習し勾配（更新情報）だけを共有</strong>する分散機械学習手法。医療・金融など機密データをクラウドに送れない領域で有効。</p><h3>準同型暗号（Homomorphic Encryption）</h3><p><strong>暗号化したままデータを演算でき、復号せずに計算結果を得られる</strong>暗号技術。クラウドへのデータ提供なしに第三者が計算サービスを提供できる実務的価値がある。計算コストが高い点が課題。</p><h3>ゼロ知識証明（ZKP）</h3><p><strong>証明者が「知っていること」を、その内容を一切開示せずに検証者に証明できる</strong>暗号プロトコル。本人確認・ブロックチェーン取引のプライバシー保護などに応用。</p><h3>合成データ（Synthetic Data）の留意点</h3><p>合成データは元データの統計的性質を模倣して人工的に生成されたデータ。プライバシー保護に有用ですが、<strong>元データの偏りをそのまま引き継ぐリスク</strong>があります。偏り緩和には「元データの偏りを意図的に修正した合成データ生成」と「統計的品質検証」が必要。</p>
+</section>
+<section id="mlops">
+<h2>5. MLOps・モデル監視</h2>
+<h3>モデルドリフトとは</h3><p>本番環境でのデータ分布が学習時から変化し、<strong>モデルの精度が経時劣化する現象</strong>。データドリフト（入力の変化）とコンセプトドリフト（入力と出力の関係自体の変化）がある。</p><h3>モデルドリフト対処のMLOps実践</h3><ul class="body-list"><li>本番予測値の継続的監視（精度指標・分布変化の検出）</li><li>閾値を超えた劣化を検出した際の自動アラートと再学習トリガー</li><li>A/Bテストによる新旧モデルの比較評価</li><li>定期的な本番データでの再学習・再デプロイパイプラインの自動化</li></ul><h3>SHAP値（説明可能性）</h3><p>SHAPは各特徴量が予測結果にどれだけ貢献したかを定量化する手法。<strong>「この予測値がこの数値になったのは、特徴量Aが+X影響し、特徴量Bが-Y影響したから」という形で解釈</strong>できます。個別の予測説明に特に有効。</p>
+</section>
+<section id="ai-regulation">
+<h2>6. AI規制・リスク管理</h2>
+<h3>リスクベース・アプローチ（EU AI法）</h3><p>AIをリスクの高さで分類し、<strong>高リスクAIには厳格な規制・低リスクには軽い義務</strong>を課すアプローチ。EUのAI法（AI Act）が採用。禁止用途（社会スコアリング等）・高リスク（医療・インフラ）・限定リスク・最小リスクの4層。</p><h3>プロンプトインジェクション対策</h3><p>悪意ある指示をプロンプトに埋め込みAIの動作を乗っ取る攻撃。対策として<strong>入力のサニタイズ・システムプロンプトと外部入力の分離・出力の監視・権限の最小化</strong>が有効。</p><h3>LLM監査（AI Audit）の観点</h3><p>LLMの最低限の監査項目は①<strong>バイアス・公平性</strong>（差別的出力がないか）②<strong>ハルシネーション率</strong>③<strong>プロンプトインジェクション耐性</strong>④<strong>著作権侵害リスク</strong>⑤<strong>有害コンテンツ生成リスク</strong>。</p><div class="point-box"><div class="label">📌 試験ポイント</div><p>「XAIの主目的」→ モデルの判断を人間が理解・信頼できるようにすること（ブラックボックス問題の解消）。「性能向上」や「計算速度改善」は誤り。</p></div>
+</section>
+<section id="exam-points">
+<h2>7. 試験直前チェックポイント</h2>
+<table><tr><th>キーワード</th><th>正解の方向性</th></tr><tr><td>生成AIの特徴</td><td>新コンテンツを生成・汎用性・ハルシネーションのリスクあり</td></tr><tr><td>ハルシネーション対策</td><td>RAG＋人間チェック。出典明示。</td></tr><tr><td>RAGの優位点</td><td>ファインチューニング不要・知識の鮮度維持・出典提示</td></tr><tr><td>差分プライバシー</td><td>統計ノイズで個人特定を防ぎながら集計分析</td></tr><tr><td>連合学習</td><td>データ非送信でモデル学習・プライバシー保護</td></tr><tr><td>モデルドリフト対処</td><td>継続監視・自動アラート・定期再学習パイプライン</td></tr><tr><td>SHAP値</td><td>各特徴量の予測貢献度の定量化・個別説明</td></tr><tr><td>AIリスクベース</td><td>リスク高さで規制の重さを変える（EU AI法）</td></tr><tr><td>XAI目的</td><td>判断根拠を人間が理解できるようにする（信頼性・規制対応）</td></tr><tr><td>AI利用規程の必須項目</td><td>入力禁止情報＋ファクトチェック義務＋著作権ルール</td></tr></table>
+</section>
+</div>
+<footer><p><a href="../../index.html">← 経済知識チェックに戻る</a> ｜ © 2024 経済知識チェック</p></footer>
+</body>
+</html>

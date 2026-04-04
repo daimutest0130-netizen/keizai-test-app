@@ -1,0 +1,699 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Analytics（GA4） -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MTK20NCVW8');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>戦略理論｜詳細解説｜経済知識チェック</title>
+  <meta name="description" content="資源ベース理論（RBV）・ゲーム理論・リアルオプション・シナリオプランニング・ミンツバーグなど、経営戦略を支える理論基盤を体系的に解説。">
+  <!-- SEO: canonical -->
+  <link rel="canonical" href="https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/theory.html" />
+
+  <!-- SEO: keywords -->
+  <meta name="keywords" content="戦略理論,資源ベース理論,RBV,VRIO,ゲーム理論,囚人のジレンマ,リアルオプション,シナリオプランニング,ミンツバーグ,スラック資源">
+
+  <!-- OGP -->
+  <meta property="og:title" content="戦略理論｜詳細解説｜経済知識チェック">
+  <meta property="og:description" content="資源ベース理論（RBV）・ゲーム理論・リアルオプション・シナリオプランニング・ミンツバーグなど、経営戦略を支える理論基盤を体系的に解説。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/theory.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="経済知識チェック">
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439"
+     crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../../style.css" />
+  <style>
+    .detail-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+    }
+    .detail-breadcrumb {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 24px;
+    }
+    .detail-breadcrumb a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-breadcrumb a:hover { text-decoration: underline; }
+
+    .detail-header {
+      margin-bottom: 36px;
+    }
+    .detail-genre-tag {
+      display: inline-block;
+      background: #003366;
+      color: #fff;
+      font-size: 12px;
+      padding: 3px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .detail-header h1 {
+      font-size: 26px;
+      color: #1a1a2e;
+      margin: 0 0 8px;
+      line-height: 1.4;
+    }
+    .detail-header .detail-subtitle {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .detail-toc {
+      background: #f0f4ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 40px;
+    }
+    .detail-toc h2 {
+      font-size: 14px;
+      color: #003366;
+      margin: 0 0 10px;
+    }
+    .detail-toc ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .detail-toc ol li {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    .detail-toc ol li a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-toc ol li a:hover { text-decoration: underline; }
+
+    .detail-section {
+      margin-bottom: 48px;
+    }
+    .detail-section h2 {
+      font-size: 20px;
+      color: #003366;
+      border-left: 5px solid #003366;
+      padding-left: 12px;
+      margin-bottom: 16px;
+    }
+    .detail-section h3 {
+      font-size: 16px;
+      color: #1a1a2e;
+      margin: 24px 0 10px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .detail-section p {
+      font-size: 15px;
+      line-height: 1.9;
+      color: #333;
+      margin-bottom: 14px;
+    }
+
+    .detail-box {
+      background: #fafafa;
+      border: 1px solid #dde3ef;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .detail-box.blue {
+      background: #e8f0fe;
+      border-color: #aac4f0;
+    }
+    .detail-box.green {
+      background: #e8f5e9;
+      border-color: #a5d6a7;
+    }
+    .detail-box.yellow {
+      background: #fffde7;
+      border-color: #ffe082;
+    }
+
+    .detail-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin: 16px 0;
+    }
+    .detail-table th {
+      background: #003366;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    .detail-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #e0e0e0;
+      vertical-align: top;
+      line-height: 1.7;
+    }
+    .detail-table tr:nth-child(even) td {
+      background: #f5f7fa;
+    }
+
+    .detail-point {
+      background: #fff8e1;
+      border-left: 4px solid #ffc107;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 20px 0;
+    }
+    .detail-point .point-label {
+      font-size: 12px;
+      font-weight: bold;
+      color: #f57f17;
+      margin-bottom: 6px;
+    }
+    .detail-point p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .formula-box {
+      background: #1a1a2e;
+      color: #e0e0ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-family: monospace;
+      font-size: 15px;
+      text-align: center;
+      margin: 16px 0;
+      letter-spacing: 0.05em;
+    }
+
+    .detail-back-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 24px;
+      background: #003366;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 24px;
+      font-size: 14px;
+    }
+    .detail-back-btn:hover { background: #0055aa; }
+  </style>
+</head>
+<body>
+  <div class="detail-wrap">
+
+    <!-- パンくず -->
+    <div class="detail-breadcrumb">
+      <a href="../../index.html">トップ</a> &rsaquo;
+      <a href="../../index.html">経営戦略</a> &rsaquo;
+      戦略理論
+    </div>
+
+    <!-- ヘッダー -->
+    <div class="detail-header">
+      <span class="detail-genre-tag">経営戦略</span>
+      <h1>戦略理論</h1>
+      <p class="detail-subtitle">資源ベース理論（RBV）/ ゲーム理論 / リアルオプション / シナリオプランニング / ミンツバーグ</p>
+    </div>
+
+    <!-- 概要 -->
+    <p style="font-size:15px; line-height:1.9; color:#333; margin-bottom:32px;">
+      経営戦略を支える理論的基盤を理解することは、応用問題への対応力を高めます。
+      <strong>資源ベース理論（RBV）とコア・コンピタンス</strong>、
+      <strong>ゲーム理論の経営への応用</strong>、
+      <strong>リアルオプション思考</strong>、
+      <strong>シナリオプランニング</strong>、
+      <strong>リソース・ディペンデンス理論</strong>、
+      <strong>スラック資源</strong>、
+      <strong>ミンツバーグの戦略論</strong>まで、
+      経営戦略の理論的基礎を体系的に整理します。
+    </p>
+
+    <!-- 目次 -->
+    <div class="detail-toc">
+      <h2>目次</h2>
+      <ol>
+        <li><a href="#rbv">資源ベース理論（RBV）とコア・コンピタンス</a></li>
+        <li><a href="#game-theory">ゲーム理論の経営への応用</a></li>
+        <li><a href="#real-options">リアルオプション思考</a></li>
+        <li><a href="#scenario-planning">シナリオプランニング</a></li>
+        <li><a href="#resource-dependence">リソース・ディペンデンス理論とスラック資源</a></li>
+        <li><a href="#slack-mintzberg">スラック資源・ミンツバーグの戦略論</a></li>
+        <li><a href="#exam-points">試験で問われやすいポイント</a></li>
+      </ol>
+    </div>
+
+    <!-- 1. 資源ベース理論 -->
+    <div class="detail-section" id="rbv">
+      <h2>1. 資源ベース理論（RBV）とコア・コンピタンス</h2>
+      <p>
+        <strong>資源ベース理論（RBV：Resource Based View）</strong>は、
+        企業の内部資源が競争優位の源泉であると考える理論です。
+        外部環境分析よりも、内部の経営資源に焦点を当てます。
+      </p>
+
+      <h3>RBVの基本概念</h3>
+
+      <div class="detail-box blue">
+        <strong>企業の資源の分類</strong><br>
+        <br>
+        ① <strong>物的資源</strong>：工場、設備、原材料<br>
+        ② <strong>人的資源</strong>：従業員のスキル、経験<br>
+        ③ <strong>組織的資源</strong>：企業文化、システム、ブランド<br>
+        ④ <strong>金銭的資源</strong>：資本、流動性
+      </div>
+
+      <h3>VRIO分析（既出だが、RBVの核）</h3>
+      <p>
+        企業資源が持続的な競争優位を生み出すかを判定するのがVRIO分析です。
+      </p>
+
+      <div class="formula-box">
+        V（Value）○ + R（Rareness）○ + I（Imitability困難）○ + O（Organization）○
+        = 持続的競争優位
+      </div>
+
+      <h3>コア・コンピタンス（中核的能力）</h3>
+      <p>
+        <strong>コア・コンピタンス</strong>は、企業が持つ競争優位の源となる「中核的能力」です。
+        複数の経営資源の組み合わせで実現し、模倣されにくいもの。
+      </p>
+
+      <div class="detail-box green">
+        <strong>コア・コンピタンスの条件</strong><br>
+        ① 顧客にとって価値がある<br>
+        ② 他社が模倣しにくい<br>
+        ③ 複数の市場・製品に応用可能<br><br>
+        <strong>例</strong><br>
+        Apple：ユーザー体験設計（デザイン+エンジニアリング+マーケティングの統合）<br>
+        Amazonの物流システム（テクノロジー+人材+組織力の統合）
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 RBV vs ポジショナル分析</div>
+        <p>ポジショナル分析（業界ポジション重視）：外部環境が競争優位を決定。RBV（内部資源重視）：内部資源が競争優位を決定。</p>
+      </div>
+    </div>
+
+    <!-- 2. ゲーム理論 -->
+    <div class="detail-section" id="game-theory">
+      <h2>2. ゲーム理論の経営への応用</h2>
+      <p>
+        <strong>ゲーム理論</strong>は、複数のプレイヤー（企業）が相互依存する状況で、
+        最適な戦略を分析する理論です。経営戦略の競争関係に適用できます。
+      </p>
+
+      <h3>囚人のジレンマ</h3>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th colspan="2">シナリオ：2企業が協力か競争かを選択</th>
+            <th>企業B：協力</th>
+            <th>企業B：競争</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td rowspan="2"><strong>企業A</strong></td>
+            <td><strong>協力</strong></td>
+            <td>両者とも利益（3, 3）</td>
+            <td>Aが損、Bが得（1, 4）</td>
+          </tr>
+          <tr>
+            <td><strong>競争</strong></td>
+            <td>Aが得、Bが損（4, 1）</td>
+            <td>両者ともダメ（2, 2）</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>囚人のジレンマの問題点</h3>
+
+      <div class="detail-box yellow">
+        <strong>パラドックス</strong><br>
+        個別には「競争（裏切り）」が最適だが、<br>
+        両者が「競争」を選ぶと、お互いに損をする（2, 2）<br>
+        両者が「協力」すれば、より良い結果（3, 3）が得られるのに。<br><br>
+        <strong>経営への示唆</strong><br>
+        短期的には競争が有利に見えるが、長期的には協力（戦略的同盟）の方が全体価値が高い。<br>
+        しかし、相手の裏切りリスクのため、協力が困難。
+      </div>
+
+      <h3>ゲーム理論の応用</h3>
+
+      <div class="detail-box blue">
+        <strong>① コーペティション（Coopetition）</strong><br>
+        競争相手とも協力。例：AppleとMicrosoftの過去のアライアンス<br><br>
+        <strong>② 契約による相互拘束</strong><br>
+        協力を契約化し、裏切りコストを高める<br><br>
+        <strong>③ 繰り返しゲーム</strong><br>
+        1回限りの取引ではなく、長期関係を構築。相手の信用に依存<br><br>
+        <strong>④ 市場規制</strong><br>
+        ダンピングや過度な競争を規制。業界全体の利益を守る
+      </div>
+    </div>
+
+    <!-- 3. リアルオプション -->
+    <div class="detail-section" id="real-options">
+      <h2>3. リアルオプション思考</h2>
+      <p>
+        <strong>リアルオプション思考</strong>は、不確実な投資判断を行う際に、
+        <strong>柔軟性・待機・段階的投資</strong>を評価する考え方です。
+      </p>
+
+      <h3>従来的投資判断 vs リアルオプション</h3>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>従来的なNPV法</th>
+            <th>リアルオプション</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>判定方法</strong></td>
+            <td>期待値計算で正負判定</td>
+            <td>柔軟性・待機の価値も考慮</td>
+          </tr>
+          <tr>
+            <td><strong>意思決定</strong></td>
+            <td>「今すぐ投資か、しないか」の二者択一</td>
+            <td>「待つ」「段階投資」「撤退」など選択肢が多い</td>
+          </tr>
+          <tr>
+            <td><strong>評価</strong></td>
+            <td>確実性が重視される</td>
+            <td>不確実性への対応能力が価値</td>
+          </tr>
+          <tr>
+            <td><strong>失敗後</strong></td>
+            <td>後悔（ロスが確定）</td>
+            <td>学習機会。次の意思決定の基礎</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>リアルオプションの戦略的価値</h3>
+
+      <div class="detail-box green">
+        <strong>① 待機オプション</strong><br>
+        市場が確実になるまで待つ。パイロット事業で検証<br><br>
+        <strong>② 成長オプション</strong><br>
+        初期投資を小さく保ち、成功時に段階的に拡大<br><br>
+        <strong>③ 放棄オプション</strong><br>
+        うまくいかない時は撤退。ロス最小化<br><br>
+        <strong>④ 切り替えオプション</strong><br>
+        状況に応じて戦略を柔軟に変更
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 起業・イノベーション戦略での活用</div>
+        <p>不確実性が高いスタートアップやイノベーション投資では、「大きな賭け」より「小さく始めて、学んで、拡大する」リアルオプション思考が有効。</p>
+      </div>
+    </div>
+
+    <!-- 4. シナリオプランニング -->
+    <div class="detail-section" id="scenario-planning">
+      <h2>4. シナリオプランニング</h2>
+      <p>
+        <strong>シナリオプランニング</strong>は、複数の「起こりうる将来」を想定し、
+        それぞれに対応する戦略を立案する手法です。
+        不確実性が高い環境での戦略立案に有効。
+      </p>
+
+      <h3>シナリオプランニングの設計</h3>
+
+      <div class="detail-box blue">
+        <strong>① 外部環境の重要な変数を特定</strong><br>
+        経済成長率、技術進展速度、規制環境など<br><br>
+        <strong>② 高い確度でシナリオを設定</strong><br>
+        2つの重要変数で4象限のシナリオを作成<br><br>
+        <strong>③ 各シナリオで何が起きるかを描写</strong><br>
+        市場規模、競争構図、規制など<br><br>
+        <strong>④ 各シナリオ対応の戦略を開発</strong><br>
+        どのシナリオでも生き残る戦略、各シナリオ最適の戦略
+      </div>
+
+      <h3>シナリオプランニングの例</h3>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th colspan="2"></th>
+            <th>高成長</th>
+            <th>低成長</th>
+          </tr>
+          <tr>
+            <th>高規制</th>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <th>低規制</th>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td colspan="2"><strong>シナリオA：高成長・高規制</strong></td>
+            <td>成長機会は大きいが、規制対応コストが高い。大企業向け市場</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong>シナリオB：高成長・低規制</strong></td>
+            <td>最も好ましい。競争激化も予想</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong>シナリオC：低成長・高規制</strong></td>
+            <td>最も厳しい。効率化と規制対応が重要</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td colspan="2"><strong>シナリオD：低成長・低規制</strong></td>
+            <td>競争激化だが、規制コストは低い。ニッチ市場を狙う</td>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="detail-point">
+        <div class="point-label">📌 シナリオプランニングの活用</div>
+        <p>将来を予測するのではなく、複数の可能性を想定し、各パターンに対応できる戦略の柔軟性を高めることが目的。</p>
+      </div>
+    </div>
+
+    <!-- 5. リソース・ディペンデンス理論 -->
+    <div class="detail-section" id="resource-dependence">
+      <h2>5. リソース・ディペンデンス理論とスラック資源</h2>
+      <p>
+        <strong>リソース・ディペンデンス理論</strong>は、企業が外部資源に依存していることに焦点を当てます。
+        その依存関係を管理することが戦略の要点。
+      </p>
+
+      <h3>リソース・ディペンデンスの管理</h3>
+
+      <div class="detail-box blue">
+        <strong>① 供給源の多元化</strong><br>
+        重要な部材は複数の供給元を確保。単一依存のリスク回避<br><br>
+        <strong>② 垂直統合</strong><br>
+        重要な供給業務を内製化。例：キーエンスがサーボモーター内製化<br><br>
+        <strong>③ ジョイントベンチャー</strong><br>
+        共同出資で相互依存性を高め、関係を安定化<br><br>
+        <strong>④ 組織間ネットワーク</strong><br>
+        協力企業との長期関係構築（トヨタのサプライチェーン）
+      </div>
+
+      <h3>スラック資源（Slack Resources）</h3>
+
+      <p>
+        <strong>スラック資源</strong>とは、企業が現在の事業継続に必要以上に保有している資源（余剰資源）です。
+        経営的には「無駄」に見えるが、戦略的価値があります。
+      </p>
+
+      <div class="detail-box green">
+        <strong>スラック資源の戦略的価値</strong><br>
+        ① <strong>環境変化への適応</strong><br>
+        不測の事態（経済危機、技術変化）に対応する余裕<br><br>
+        ② <strong>イノベーション投資</strong><br>
+        余剰資金・人材でR&Dや新事業開発が可能<br><br>
+        ③ <strong>リスク緩衝</strong><br>
+        現金流出や損失に対する緩衝<br><br>
+        ④ <strong>戦略的柔軟性</strong><br>
+        新しい機会が出現した際に、素早く対応
+      </div>
+
+      <div class="detail-box yellow">
+        <strong>スラック資源のトレードオフ</strong><br>
+        余剰資源を持つことは、短期的には利益率を低下させます。<br>
+        しかし、イノベーションや危機対応の観点では、これが競争優位を生む。<br>
+        特に、不確実性が高い環境では、スラック資源の価値が上昇。
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 スラック資源と経営スタイル</div>
+        <p>効率重視の経営（ジャストインタイム）はスラック資源を排除。イノベーション重視の経営（Google）はスラック資源を保有。</p>
+      </div>
+    </div>
+
+    <!-- 6. スラック資源・ミンツバーグ -->
+    <div class="detail-section" id="slack-mintzberg">
+      <h2>6. スラック資源・ミンツバーグの戦略論</h2>
+
+      <h3>ミンツバーグの戦略の5P</h3>
+
+      <p>
+        <strong>ヘンリー・ミンツバーグ</strong>は、戦略を多角的に捉える「5P」フレームワークを提唱しました。
+      </p>
+
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>5P</th>
+            <th>意味</th>
+            <th>説明</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Plan</strong></td>
+            <td>計画</td>
+            <td>経営トップが立案した戦略計画</td>
+          </tr>
+          <tr>
+            <td><strong>Ploy</strong></td>
+            <td>策略</td>
+            <td>競争相手への戦術的な動き</td>
+          </tr>
+          <tr>
+            <td><strong>Pattern</strong></td>
+            <td>パターン</td>
+            <td>意図しない結果として現れた行動パターン</td>
+          </tr>
+          <tr>
+            <td><strong>Position</strong></td>
+            <td>ポジション</td>
+            <td>市場での位置付け・ポジショニング</td>
+          </tr>
+          <tr>
+            <td><strong>Perspective</strong></td>
+            <td>視点</td>
+            <td>企業全体の価値観・ビジョン</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>創発的戦略（Emergent Strategy）</h3>
+
+      <p>
+        ミンツバーグが強調したのは、戦略のすべてが計画的（Plan）ではなく、
+        <strong>創発的（Emergent）</strong>に生まれるものもあるということです。
+      </p>
+
+      <div class="detail-box blue">
+        <strong>計画的戦略（Deliberate Strategy）</strong><br>
+        トップが意図的に立案。実行可能性が高い。ただし、環境変化への対応が遅い。<br><br>
+        <strong>創発的戦略（Emergent Strategy）</strong><br>
+        現場が発見した機会や、予期しない成功パターン。<br>
+        例：ポストイットの開発（3M）、ゲーボーイの大ヒット（任天堂）。<br>
+        計画には含まれていなかったが、結果として大成功。
+      </div>
+
+      <h3>セグメント・オブ・ワン（Segment of One）</h3>
+
+      <p>
+        ミンツバーグが現代戦略に対する警告として述べたのが、
+        <strong>個別カスタマイズされた戦略</strong>の危険性です。
+      </p>
+
+      <div class="detail-box yellow">
+        <strong>危険性</strong><br>
+        大規模なカスタマイズは、スケール喪失につながり、利益率低下。<br>
+        「顧客のために」という名目で、企業の採算性が悪化する可能性。<br><br>
+        <strong>バランスの重要性</strong><br>
+        標準化（スケール効果）と個別対応（顧客満足）のバランスが重要。
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 ミンツバーグの示唆</div>
+        <p>戦略は計画だけではなく、現場の創意・創発から生まれることもある。組織全体が戦略立案に参加する体制が重要。</p>
+      </div>
+    </div>
+
+    <!-- 7. 試験ポイント -->
+    <div class="detail-section" id="exam-points">
+      <h2>7. 試験で問われやすいポイント</h2>
+
+      <div class="detail-box green">
+        <strong>✅ RBVとVRIO分析</strong><br>
+        競争優位の源泉は外部環境ではなく、内部資源<br>
+        VRIO：4つすべてが○で持続的競争優位<br>
+        コア・コンピタンスは複数資源の統合
+      </div>
+
+      <div class="detail-box blue">
+        <strong>✅ 囚人のジレンマの経営的示唆</strong><br>
+        短期的には競争が有利だが、長期的には協力が最適<br>
+        戦略的同盟・協力関係の価値
+      </div>
+
+      <div class="detail-box yellow">
+        <strong>✅ リアルオプション思考</strong><br>
+        不確実性下では、「待つ」「段階投資」の価値を評価<br>
+        従来的NPV法よりも、柔軟性を重視する判断
+      </div>
+
+      <div class="detail-box green">
+        <strong>✅ シナリオプランニング</strong><br>
+        単一の将来予測ではなく、複数シナリオを想定<br>
+        各シナリオに対応する戦略を用意
+      </div>
+
+      <div class="detail-box blue">
+        <strong>✅ スラック資源の価値</strong><br>
+        一見「無駄」に見える余剰資源が戦略的価値を持つ<br>
+        イノベーション、危機対応、戦略的柔軟性の源泉
+      </div>
+
+      <div class="detail-box yellow">
+        <strong>✅ ミンツバーグの戦略論</strong><br>
+        戦略は計画的（Plan）なものと創発的（Emergent）なものが共存<br>
+        組織全体の参加と現場の創意が重要
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">⚠️ 出題パターン</div>
+        <p>「この企業の競争優位を理論で説明しなさい」などの統合問題が出題されます。経営事例と理論を組み合わせ、実践的に答える力が求められます。</p>
+      </div>
+    </div>
+
+    <a href="javascript:history.back()" class="detail-back-btn">← 解説一覧に戻る</a>
+
+  </div>
+
+  <!-- フッター -->
+  <footer style="text-align:center; padding:20px; font-size:14px; color:#555; border-top:1px solid #ccc; margin-top:40px;">
+    <p>
+      <a href="../../privacy.html" style="color:#003366; text-decoration:none;">プライバシーポリシー</a> |
+      <a href="../../terms.html" style="color:#003366; text-decoration:none;">利用規約</a> |
+      <a href="../../contact.html" style="color:#003366; text-decoration:none;">お問い合わせ</a>
+    </p>
+    <p>&copy; 2025 経済知識チェック</p>
+  </footer>
+</body>
+</html>

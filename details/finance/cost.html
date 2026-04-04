@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Analytics（GA4） -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MTK20NCVW8');
+  </script>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>原価計算・CVP分析・在庫評価｜詳細解説｜経済知識チェック</title>
+  <meta name="description" content="原価計算の種類、CVP分析・損益分岐点・限界利益、標準原価計算の差異分析、在庫評価方法（先入先出・後入先出・平均法）を解説します。">
+  <link rel="canonical" href="https://daimutest0130-netizen.github.io/keizai-test-app/details/finance/cost.html" />
+  <meta name="keywords" content="原価計算,CVP分析,損益分岐点,限界利益,標準原価,製造間接費,在庫評価,先入先出,後入先出,固変分解">
+  <meta property="og:title" content="原価計算・CVP分析・在庫評価｜詳細解説｜経済知識チェック">
+  <meta property="og:description" content="原価計算の種類、CVP分析・損益分岐点・限界利益、標準原価計算の差異分析、在庫評価方法（先入先出・後入先出・平均法）を解説します。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daimutest0130-netizen.github.io/keizai-test-app/details/finance/cost.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="経済知識チェック">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="../../style.css" />
+  <style>
+    .detail-wrap { max-width: 800px; margin: 0 auto; padding: 32px 20px 80px; }
+    .detail-breadcrumb { font-size: 13px; color: #777; margin-bottom: 24px; }
+    .detail-breadcrumb a { color: #003366; text-decoration: none; }
+    .detail-breadcrumb a:hover { text-decoration: underline; }
+    .detail-header { margin-bottom: 36px; }
+    .detail-genre-tag { display: inline-block; background: #1565c0; color: #fff; font-size: 12px; padding: 3px 12px; border-radius: 20px; margin-bottom: 12px; }
+    .detail-header h1 { font-size: 26px; color: #1a1a2e; margin: 0 0 8px; line-height: 1.4; }
+    .detail-subtitle { font-size: 14px; color: #666; }
+    .detail-intro { font-size: 15px; line-height: 1.9; color: #333; margin-bottom: 36px; padding: 16px 20px; background: #f8faff; border-left: 4px solid #1565c0; border-radius: 0 8px 8px 0; }
+    .detail-toc { background: #f0f4ff; border-radius: 8px; padding: 16px 20px; margin-bottom: 40px; }
+    .detail-toc h2 { font-size: 14px; color: #003366; margin: 0 0 10px; }
+    .detail-toc ul { margin: 0; padding-left: 20px; }
+    .detail-toc li { margin-bottom: 4px; font-size: 14px; }
+    .detail-toc a { color: #1565c0; text-decoration: none; }
+    .detail-toc a:hover { text-decoration: underline; }
+    .detail-section { margin-bottom: 48px; scroll-margin-top: 20px; }
+    .detail-section h2 { font-size: 20px; color: #003366; border-bottom: 2px solid #1565c0; padding-bottom: 8px; margin-bottom: 16px; }
+    .detail-section h3 { font-size: 16px; color: #1a1a2e; margin-top: 20px; margin-bottom: 8px; }
+    .detail-section p { font-size: 15px; line-height: 1.85; color: #333; margin-bottom: 12px; }
+    .detail-section ul, .detail-section ol { font-size: 15px; line-height: 1.8; color: #333; padding-left: 22px; margin-bottom: 12px; }
+    .formula-box { background: #e3f2fd; border: 1px solid #90caf9; border-radius: 8px; padding: 12px 16px; margin: 12px 0; font-family: monospace; font-size: 14px; color: #1a237e; }
+    .point-box { background: #fff8e1; border-left: 4px solid #f9a825; border-radius: 0 8px 8px 0; padding: 12px 16px; margin: 16px 0; }
+    .point-box strong { color: #e65100; }
+    .exam-box { background: #fce4ec; border-left: 4px solid #e91e63; border-radius: 0 8px 8px 0; padding: 14px 18px; margin-top: 8px; }
+    .exam-box h3 { color: #880e4f; margin: 0 0 10px; font-size: 15px; }
+    .exam-box ul { margin: 0; padding-left: 20px; }
+    .back-btn { display: inline-block; margin-top: 40px; padding: 10px 24px; background: #003366; color: #fff; border-radius: 8px; text-decoration: none; font-size: 14px; }
+    .back-btn:hover { background: #0055aa; }
+    table { width: 100%; border-collapse: collapse; margin: 12px 0 20px; font-size: 14px; }
+    th { background: #003366; color: #fff; padding: 8px 12px; text-align: left; }
+    td { border: 1px solid #dde3ef; padding: 8px 12px; vertical-align: top; }
+    tr:nth-child(even) td { background: #f5f7ff; }
+  </style>
+</head>
+<body>
+<div class="detail-wrap">
+  <div class="detail-breadcrumb">
+    <a href="../../index.html">トップ</a> &gt; <a href="../../index.html">財務・会計</a> &gt; 原価計算・CVP分析・在庫評価
+  </div>
+  <div class="detail-header">
+    <span class="detail-genre-tag">財務・会計</span>
+    <h1>原価計算・CVP分析・在庫評価</h1>
+    <p class="detail-subtitle">損益分岐点・限界利益・標準原価・在庫評価方法の基礎</p>
+  </div>
+  <p class="detail-intro">
+    原価計算は企業内部の意思決定支援のための「管理会計」の中核です。CVP（Cost-Volume-Profit）分析は、コスト・販売量・利益の関係を明らかにし、損益分岐点の把握や価格戦略の立案に役立ちます。在庫評価方法の選択は利益額に直接影響するため、会計原則として重要です。
+  </p>
+  <div class="detail-toc">
+    <h2>目次</h2>
+    <ul>
+      <li><a href="#cost-types">① 原価の分類と製造間接費</a></li>
+      <li><a href="#break-even">② 損益分岐点分析</a></li>
+      <li><a href="#cvp-marginal">③ CVP分析と限界利益</a></li>
+      <li><a href="#inventory-valuation">④ 在庫評価方法と利益への影響</a></li>
+      <li><a href="#standard-cost">⑤ 標準原価計算と差異分析</a></li>
+      <li><a href="#exam-points">⑥ 試験頻出ポイント</a></li>
+    </ul>
+  </div>
+
+  <section class="detail-section" id="cost-types">
+    <h2>① 原価の分類と製造間接費</h2>
+    <p>原価は複数の観点から分類されます。</p>
+    <table>
+      <tr><th>分類軸</th><th>種類</th><th>内容</th></tr>
+      <tr><td>製品との関連</td><td>直接費</td><td>特定製品に直接追跡できる（直接材料費、直接労務費）</td></tr>
+      <tr><td>製品との関連</td><td>間接費</td><td>複数製品に共通して発生（製造間接費）</td></tr>
+      <tr><td>操業度との関連</td><td>変動費</td><td>生産量に比例して増減（材料費、出来高給など）</td></tr>
+      <tr><td>操業度との関連</td><td>固定費</td><td>生産量に関わらず一定（工場賃料、固定給など）</td></tr>
+    </table>
+    <p>
+      <strong>製造間接費</strong>には、工場の電力費・修繕費・減価償却費・工場長の給与・消耗品費などが含まれます。
+      これらは個別製品への追跡が困難なため、一定の配賦基準（機械時間・直接労務時間など）を用いて各製品に配分します。
+    </p>
+  </section>
+
+  <section class="detail-section" id="break-even">
+    <h2>② 損益分岐点分析</h2>
+    <p>損益分岐点（BEP：Break-Even Point）とは、売上高と総費用（固定費＋変動費）が等しくなる売上高または販売量のことです。</p>
+    <div class="formula-box">損益分岐点売上高 = 固定費 ÷ 限界利益率　（= 固定費 ÷ （1 − 変動費率））</div>
+    <p>損益分岐点売上高に最も直接影響するのは<strong>固定費の大きさと限界利益率</strong>です。固定費が高いほどBEPが上昇し、損失リスクが高まります。</p>
+    <div class="point-box">
+      <strong>安全余裕率</strong> ＝（実際売上高 − BEP売上高）÷ 実際売上高<br>
+      この値が大きいほど赤字転落リスクが低い。
+    </div>
+  </section>
+
+  <section class="detail-section" id="cvp-marginal">
+    <h2>③ CVP分析と限界利益</h2>
+    <h3>限界利益とは</h3>
+    <div class="formula-box">限界利益 = 売上高 − 変動費</div>
+    <div class="formula-box">限界利益率 = 限界利益 ÷ 売上高</div>
+    <p>限界利益は固定費の回収と利益に充てられる金額です。1単位追加販売したときに得られる追加利益とも言えます。</p>
+    <p>
+      CVP分析の基本的な概念構造は「売上高 − 変動費 = 限界利益、限界利益 − 固定費 = 利益」です。
+      CVP分析の基本概念に含まれないものとして「のれん償却」などが選択肢に入ることがあります（のれんは固定費でも変動費でもない非現金科目）。
+    </p>
+  </section>
+
+  <section class="detail-section" id="inventory-valuation">
+    <h2>④ 在庫評価方法と利益への影響</h2>
+    <p>棚卸資産の評価方法は、期末在庫価額と売上原価（利益）に影響します。</p>
+    <table>
+      <tr><th>方法</th><th>考え方</th><th>IFRS</th><th>価格上昇局面</th></tr>
+      <tr><td>先入先出法（FIFO）</td><td>古いものから先に払い出す</td><td>認められる</td><td>期末在庫が高く評価 → 利益大</td></tr>
+      <tr><td>後入先出法（LIFO）</td><td>新しいものから先に払い出す</td><td><strong>認められない</strong></td><td>期末在庫が低く評価 → 利益小</td></tr>
+      <tr><td>加重平均法</td><td>平均単価で評価</td><td>認められる</td><td>中間的な利益水準</td></tr>
+      <tr><td>個別法</td><td>個々の原価を追跡</td><td>認められる</td><td>実際コストをそのまま反映</td></tr>
+    </table>
+    <div class="point-box">
+      <strong>価格上昇局面</strong>では後入先出法（LIFO）が利益を押し下げやすい（高コストが先に費用化されるため）。ただしIFRSではLIFOは禁止です。
+    </div>
+  </section>
+
+  <section class="detail-section" id="standard-cost">
+    <h2>⑤ 標準原価計算と差異分析</h2>
+    <p>
+      <strong>標準原価計算</strong>とは、あらかじめ設定した標準コスト（予定単価×予定数量）と実際原価の差異を分析する管理会計手法です。
+    </p>
+    <h3>材料費差異の分解</h3>
+    <table>
+      <tr><th>差異</th><th>原因</th><th>計算式</th></tr>
+      <tr><td>価格差異</td><td>実際購入単価と標準単価の差</td><td>（標準単価 − 実際単価）× 実際数量</td></tr>
+      <tr><td>数量差異</td><td>実際使用量と標準使用量の差</td><td>（標準数量 − 実際数量）× 標準単価</td></tr>
+    </table>
+    <p><strong>価格差異</strong>の主因は、仕入れ市場での価格変動や仕入れ先との交渉力の差です。計画外の値上がりは不利差異（Unfavorable Variance）となります。</p>
+  </section>
+
+  <section class="detail-section" id="exam-points">
+    <h2>⑥ 試験頻出ポイント</h2>
+    <div class="exam-box">
+      <h3>🎯 よく出る問題パターン</h3>
+      <ul>
+        <li>「損益分岐点に最も直接関係する」→ 固定費と限界利益率（変動費率）</li>
+        <li>「限界利益の計算式」→ 売上高 − <strong>変動費</strong>（固定費は引かない）</li>
+        <li>「価格上昇で利益を押し下げやすい在庫評価法」→ 後入先出法（LIFO）</li>
+        <li>「IFRSで認められない在庫評価法」→ 後入先出法（LIFO）</li>
+        <li>「製造間接費の例」→ 工場賃料・電力費・工場長給与。直接材料費は含まない</li>
+        <li>「CVP分析の基本概念でないもの」→ のれん償却・減損損失など財務会計特有の概念</li>
+        <li>「標準原価の価格差異の主因」→ 仕入れ単価の変動（交渉力・市場価格変動）</li>
+      </ul>
+    </div>
+  </section>
+  <a href="javascript:history.back()" class="back-btn">← 解説一覧に戻る</a>
+</div>
+<footer style="text-align:center; padding:20px; font-size:14px; color:#555; border-top:1px solid #ccc;">
+  <p>
+    <a href="../../privacy.html" style="color:#003366; text-decoration:none;">プライバシーポリシー</a> |
+    <a href="../../terms.html" style="color:#003366; text-decoration:none;">利用規約</a> |
+    <a href="../../contact.html" style="color:#003366; text-decoration:none;">お問い合わせ</a>
+  </p>
+  <p>&copy; 2025 経済知識チェック</p>
+</footer>
+</body>
+</html>

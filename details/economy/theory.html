@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <!-- Google Analytics（GA4） -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-MTK20NCVW8"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-MTK20NCVW8');
+  </script>
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>経済理論｜詳細解説｜経済知識チェック</title>
+  <meta name="description" content="ケインズ経済学・乗数効果・合理的期待仮説・フィッシャー方程式・貨幣数量説・ソロー成長モデルなど、現代経済学の根幹となる重要理論をわかりやすく解説します。">
+  <!-- SEO: canonical -->
+  <link rel="canonical" href="https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/theory.html" />
+
+  <!-- SEO: keywords -->
+  <meta name="keywords" content="ケインズ,乗数効果,合理的期待仮説,フィッシャー方程式,貨幣数量説,ソロー成長モデル,有効需要,経済知識チェック">
+
+  <!-- OGP -->
+  <meta property="og:title" content="経済理論｜詳細解説｜経済知識チェック">
+  <meta property="og:description" content="ケインズ経済学・乗数効果・合理的期待仮説・フィッシャー方程式・貨幣数量説・ソロー成長モデルなど、現代経済学の根幹となる重要理論をわかりやすく解説します。">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/theory.html">
+  <meta property="og:locale" content="ja_JP">
+  <meta property="og:site_name" content="経済知識チェック">
+
+  <!-- Google AdSense -->
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1486524041596439"
+     crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="../../style.css" />
+  <style>
+    .detail-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 32px 20px 80px;
+    }
+    .detail-breadcrumb {
+      font-size: 13px;
+      color: #777;
+      margin-bottom: 24px;
+    }
+    .detail-breadcrumb a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-breadcrumb a:hover { text-decoration: underline; }
+
+    .detail-header {
+      margin-bottom: 36px;
+    }
+    .detail-genre-tag {
+      display: inline-block;
+      background: #003366;
+      color: #fff;
+      font-size: 12px;
+      padding: 3px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    .detail-header h1 {
+      font-size: 26px;
+      color: #1a1a2e;
+      margin: 0 0 8px;
+      line-height: 1.4;
+    }
+    .detail-header .detail-subtitle {
+      font-size: 14px;
+      color: #666;
+    }
+
+    .detail-toc {
+      background: #f0f4ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin-bottom: 40px;
+    }
+    .detail-toc h2 {
+      font-size: 14px;
+      color: #003366;
+      margin: 0 0 10px;
+    }
+    .detail-toc ol {
+      margin: 0;
+      padding-left: 20px;
+    }
+    .detail-toc ol li {
+      font-size: 14px;
+      margin-bottom: 4px;
+    }
+    .detail-toc ol li a {
+      color: #003366;
+      text-decoration: none;
+    }
+    .detail-toc ol li a:hover { text-decoration: underline; }
+
+    .detail-section {
+      margin-bottom: 48px;
+    }
+    .detail-section h2 {
+      font-size: 20px;
+      color: #003366;
+      border-left: 5px solid #003366;
+      padding-left: 12px;
+      margin-bottom: 16px;
+    }
+    .detail-section h3 {
+      font-size: 16px;
+      color: #1a1a2e;
+      margin: 24px 0 10px;
+      padding-bottom: 4px;
+      border-bottom: 1px solid #e0e0e0;
+    }
+    .detail-section p {
+      font-size: 15px;
+      line-height: 1.9;
+      color: #333;
+      margin-bottom: 14px;
+    }
+
+    .detail-box {
+      background: #fafafa;
+      border: 1px solid #dde3ef;
+      border-radius: 8px;
+      padding: 16px 20px;
+      margin: 16px 0;
+    }
+    .detail-box.blue {
+      background: #e8f0fe;
+      border-color: #aac4f0;
+    }
+    .detail-box.green {
+      background: #e8f5e9;
+      border-color: #a5d6a7;
+    }
+    .detail-box.yellow {
+      background: #fffde7;
+      border-color: #ffe082;
+    }
+
+    .detail-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      margin: 16px 0;
+    }
+    .detail-table th {
+      background: #003366;
+      color: #fff;
+      padding: 10px 14px;
+      text-align: left;
+    }
+    .detail-table td {
+      padding: 10px 14px;
+      border-bottom: 1px solid #e0e0e0;
+      vertical-align: top;
+      line-height: 1.7;
+    }
+    .detail-table tr:nth-child(even) td {
+      background: #f5f7fa;
+    }
+
+    .detail-point {
+      background: #fff8e1;
+      border-left: 4px solid #ffc107;
+      border-radius: 0 8px 8px 0;
+      padding: 14px 18px;
+      margin: 20px 0;
+    }
+    .detail-point .point-label {
+      font-size: 12px;
+      font-weight: bold;
+      color: #f57f17;
+      margin-bottom: 6px;
+    }
+    .detail-point p {
+      margin: 0;
+      font-size: 14px;
+      line-height: 1.8;
+    }
+
+    .formula-box {
+      background: #1a1a2e;
+      color: #e0e0ff;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-family: monospace;
+      font-size: 15px;
+      text-align: center;
+      margin: 16px 0;
+      letter-spacing: 0.05em;
+    }
+
+    .detail-back-btn {
+      display: inline-block;
+      margin-top: 40px;
+      padding: 10px 24px;
+      background: #003366;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 24px;
+      font-size: 14px;
+    }
+    .detail-back-btn:hover { background: #0055aa; }
+  </style>
+</head>
+<body>
+  <div class="detail-wrap">
+
+    <!-- パンくず -->
+    <div class="detail-breadcrumb">
+      <a href="../../index.html">トップ</a> &rsaquo;
+      <a href="../../index.html">経済・金融</a> &rsaquo;
+      経済理論
+    </div>
+
+    <!-- ヘッダー -->
+    <div class="detail-header">
+      <span class="detail-genre-tag">経済・金融</span>
+      <h1>経済理論</h1>
+      <p class="detail-subtitle">ケインズ経済学 / 乗数効果 / 合理的期待仮説 / フィッシャー方程式 / 貨幣数量説 / ソロー成長モデル</p>
+    </div>
+
+    <!-- 概要 -->
+    <p style="font-size:15px; line-height:1.9; color:#333; margin-bottom:32px;">
+      経済理論は現代の政策立案の根幹をなします。ケインズ経済学の有効需要・乗数効果から、
+      合理的期待仮説・フィッシャー方程式・ソロー成長モデルまで、試験頻出の理論を体系的に整理することが、
+      経済学的思考を身につける鍵となります。本ページでは、現代マクロ経済学の重要な各理論を解説します。
+    </p>
+
+    <!-- 目次 -->
+    <div class="detail-toc">
+      <h2>目次</h2>
+      <ol>
+        <li><a href="#keynes">ケインズ経済学と有効需要の原理</a></li>
+        <li><a href="#multiplier">乗数効果</a></li>
+        <li><a href="#fisher">フィッシャー方程式と実質金利</a></li>
+        <li><a href="#quantity">貨幣数量説</a></li>
+        <li><a href="#rae">合理的期待仮説</a></li>
+        <li><a href="#solow">ソロー成長モデルとハロッド=ドーマーモデル</a></li>
+        <li><a href="#supply-side">ダイナミック・ケイパビリティとサプライサイド経済学</a></li>
+        <li><a href="#exam-points">試験で問われやすいポイント</a></li>
+      </ol>
+    </div>
+
+    <!-- 1. ケインズ経済学 -->
+    <div class="detail-section" id="keynes">
+      <h2>1. ケインズ経済学と有効需要の原理</h2>
+      <p>
+        ジョン・メイナード・ケインズは1936年に『雇用、利子および貨幣の一般理論』を著し、
+        現代マクロ経済学の基礎を確立しました。その中心は「有効需要」という概念です。
+      </p>
+
+      <h3>有効需要とは</h3>
+      <p>
+        有効需要とは、<strong>家計と企業の支出意欲によって決定される総需要</strong>です。
+        一見当たり前に思えますが、古典派経済学は「セイの法則」（供給はその需要を自動的に創出する）を信じていました。
+      </p>
+
+      <div class="detail-box blue">
+        <strong>セイの法則との対比</strong><br>
+        古典派：供給 → 自動的に需要が生じる → 不況は一時的<br>
+        ケインズ：需要が不足 → 供給も減少 → 不況が継続する可能性
+      </div>
+
+      <h3>ケインズの革新</h3>
+      <p>
+        失業の存在を説明できなかった古典派に対し、ケインズは
+        「有効需要が不足すれば、資源が遊休状態になり、失業が続く」と指摘しました。
+        これが政府の財政政策の根拠となったのです。
+      </p>
+    </div>
+
+    <!-- 2. 乗数効果 -->
+    <div class="detail-section" id="multiplier">
+      <h2>2. 乗数効果</h2>
+      <p>
+        乗数効果（Multiplier Effect）とは、<strong>政府支出や投資の増加が、
+        最終的にはそれ以上のGDP増加をもたらす現象</strong>です。
+      </p>
+
+      <h3>乗数の仕組み</h3>
+      <div class="detail-box">
+        <strong>例：政府が100億円の公共工事を発注</strong><br>
+        ① 建設企業が100億円のGDP（一次効果）<br>
+        ② 建設企業の従業員が給与を受け取り、消費支出（二次効果）<br>
+        ③ 消費先の商店が売上を記録、従業員に給与を支払い（三次効果）<br>
+        ④ この連鎖が繰り返される → GDPが100億円以上に増加
+      </div>
+
+      <h3>投資乗数の計算</h3>
+      <div class="formula-box">
+        投資乗数 = 1 ÷ (1 − 限界消費性向)
+      </div>
+      <p>
+        限界消費性向（MPC）が0.8の場合、乗数は1÷(1−0.8)＝5。
+        つまり、100億円の投資は最終的に500億円のGDP増加をもたらします。
+      </p>
+
+      <div class="detail-point">
+        <div class="point-label">⚠️ 乗数効果の限界</div>
+        <p>
+          乗数効果は失業が存在する時に最大です。経済が完全雇用に近づくと、
+          労働供給制約やインフレが生じ、乗数効果が減少します。
+        </p>
+      </div>
+    </div>
+
+    <!-- 3. フィッシャー方程式 -->
+    <div class="detail-section" id="fisher">
+      <h2>3. フィッシャー方程式と実質金利</h2>
+      <p>
+        フィッシャー方程式は、<strong>名目金利・実質金利・インフレ率の関係</strong>を示す基本式です。
+      </p>
+
+      <div class="formula-box">
+        実質金利 ≈ 名目金利 − インフレ率
+      </div>
+
+      <h3>実例で理解する</h3>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>シナリオ</th>
+            <th>名目金利</th>
+            <th>インフレ率</th>
+            <th>実質金利</th>
+            <th>貸し手の実益</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>通常期</td>
+            <td>2%</td>
+            <td>1%</td>
+            <td>1%</td>
+            <td>実際の利益は1%</td>
+          </tr>
+          <tr>
+            <td>インフレ期</td>
+            <td>2%</td>
+            <td>3%</td>
+            <td>−1%</td>
+            <td>実際には損失！</td>
+          </tr>
+          <tr>
+            <td>デフレ期</td>
+            <td>2%</td>
+            <td>−2%</td>
+            <td>4%</td>
+            <td>実際の利益は4%</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <div class="detail-box green">
+        <strong>フィッシャー効果</strong><br>
+        インフレが加速すると、貸し手が実質金利の低下を懸念し、名目金利を引き上げる傾向があります。
+        これが「インフレ期には金利が上昇する」理由の一つです。
+      </div>
+    </div>
+
+    <!-- 4. 貨幣数量説 -->
+    <div class="detail-section" id="quantity">
+      <h2>4. 貨幣数量説</h2>
+      <p>
+        貨幣数量説（Quantity Theory of Money）とは、<strong>通貨供給量がインフレ率を決定する</strong>という古典的な理論です。
+      </p>
+
+      <div class="formula-box">
+        M × V = P × Y<br>
+        （マネーサプライ × 流通速度 = 物価 × 実質GDP）
+      </div>
+
+      <h3>各変数の意味</h3>
+      <table class="detail-table">
+        <thead>
+          <tr>
+            <th>記号</th>
+            <th>定義</th>
+            <th>例・解釈</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>M</strong></td>
+            <td>マネーサプライ（通貨供給量）</td>
+            <td>日銀が供給した通貨量</td>
+          </tr>
+          <tr>
+            <td><strong>V</strong></td>
+            <td>流通速度（1年に何回使用されるか）</td>
+            <td>同じ100円が何回取引に使われるか</td>
+          </tr>
+          <tr>
+            <td><strong>P</strong></td>
+            <td>物価水準</td>
+            <td>CPIなど</td>
+          </tr>
+          <tr>
+            <td><strong>Y</strong></td>
+            <td>実質GDP</td>
+            <td>経済の実際の生産量</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>貨幣数量説の示唆</h3>
+      <p>
+        V（流通速度）とY（実質GDP）が短期的に固定されると仮定すると、M（通貨供給）の増加は直接Pを引き上げます。
+        つまり「マネーサプライを2倍にすると、物価も2倍になる」という結論です。
+      </p>
+    </div>
+
+    <!-- 5. 合理的期待仮説 -->
+    <div class="detail-section" id="rae">
+      <h2>5. 合理的期待仮説</h2>
+      <p>
+        合理的期待仮説（Rational Expectations Hypothesis）とは、
+        <strong>経済人は利用可能なすべての情報を合理的に処理し、期待を形成する</strong>という仮説です。
+      </p>
+
+      <h3>政策の無効性命題</h3>
+      <p>
+        この仮説から導かれる重要な結論が「政策の無効性命題」です。
+      </p>
+      <div class="detail-box yellow">
+        <strong>推論：</strong><br>
+        政府が金融緩和を発表 → 経済人は「インフレが来る」と予想 → 賃金引き上げ要求
+        → 企業のコスト増 → 景気刺激効果なし（インフレだけが発生）
+      </div>
+
+      <h3>新しい古典派マクロ経済学</h3>
+      <p>
+        合理的期待仮説を採用する「新古典派」は、「金融政策・財政政策による景気刺激は無効」と結論づけます。
+        これはケインズ経済学への強力な異議です。
+      </p>
+
+      <div class="detail-point">
+        <div class="point-label">⚠️ 合理的期待仮説の批判</div>
+        <p>
+          現実の人々が「完全に合理的」かどうかは疑問です。情報不完全性、認知的バイアス、
+          長期的には「予想を修正する学習プロセス」などが無視されています。
+        </p>
+      </div>
+    </div>
+
+    <!-- 6. ソロー成長モデル -->
+    <div class="detail-section" id="solow">
+      <h2>6. ソロー成長モデルとハロッド=ドーマーモデル</h2>
+      <p>
+        経済成長の源泉を説明する最も基本的なモデルがソロー成長モデルです。
+      </p>
+
+      <h3>ソロー成長モデル</h3>
+      <p>
+        経済成長は以下の要因で説明されます：
+      </p>
+      <div class="detail-box">
+        <strong>経済成長率 = 労働力増加率 + 資本蓄積 + 技術進歩</strong><br><br>
+        特に重要なのは「技術進歩」（全要素生産性向上）です。
+        同じ労働と資本で、より多くの産出が可能になることが長期成長の源泉。
+      </div>
+
+      <h3>定常状態（Steady State）</h3>
+      <p>
+        ソロー・モデルでは、経済は自然増加率（人口増加率+技術進歩率）に等しい成長率へ収束します。
+        これが「定常状態」です。
+      </p>
+
+      <div class="detail-box green">
+        <strong>政策的含意</strong><br>
+        短期的な景気刺激は可能ですが、長期的な成長率は「資本蓄積と技術進歩」で決まります。
+        つまり、教育・R&D投資・インフラ整備が重要です。
+      </div>
+
+      <h3>ハロッド=ドーマーモデルとの違い</h3>
+      <p>
+        より古いハロッド=ドーマーモデルは「経済が定常状態に自動的には収束しない」と主張しました。
+        つまり、「ナイフの刃の上」のような不安定な均衡しか存在しないということです。
+      </p>
+    </div>
+
+    <!-- 7. サプライサイド経済学 -->
+    <div class="detail-section" id="supply-side">
+      <h2>7. ダイナミック・ケイパビリティとサプライサイド経済学</h2>
+      <p>
+        1970年代のスタグフレーションにより、ケインズ経済学への疑問が生じ、
+        「サプライサイド経済学」が注目を集めました。
+      </p>
+
+      <h3>サプライサイド経済学の主張</h3>
+      <div class="detail-box">
+        <strong>需要側の政策よりも「供給能力の強化」が重要</strong><br>
+        ① 減税 → 労働・投資意欲向上 → 生産能力向上<br>
+        ② 規制緩和 → 企業の効率性向上<br>
+        ③ 教育・技術開発投資 → 生産性向上
+      </div>
+
+      <h3>ダイナミック・ケイパビリティ</h3>
+      <p>
+        現代の経営学・経済学では「ダイナミック・ケイパビリティ」が注目されています。
+        これは「変化する環境に適応し、組織能力を動的に構築・再構成する能力」を指します。
+      </p>
+
+      <div class="detail-point">
+        <div class="point-label">📌 デジタル経済への示唆</div>
+        <p>
+          DX（デジタルトランスフォーメーション）、AI、データ活用といった
+          「ダイナミック・ケイパビリティの強化」が、現代の経済成長の最も重要な源泉になっています。
+        </p>
+      </div>
+    </div>
+
+    <!-- 8. 試験ポイント -->
+    <div class="detail-section" id="exam-points">
+      <h2>8. 試験で問われやすいポイント</h2>
+
+      <div class="detail-box green">
+        <strong>✅ ケインズ vs 古典派：有効需要の違い</strong><br>
+        古典派は「需要を疑わない」が、ケインズは「需要不足の可能性」を指摘。
+        この差が政府の財政政策正当化の根拠になったことを理解する。
+      </div>
+
+      <div class="detail-box blue">
+        <strong>✅ 乗数効果と限界消費性向</strong><br>
+        計算式を覚え、「失業時には乗数が大きい」「完全雇用時には小さい」という条件付けを理解。
+      </div>
+
+      <div class="detail-box yellow">
+        <strong>✅ フィッシャー方程式の実践的理解</strong><br>
+        「高インフレ期には実質金利が低下」「デフレ期には高くなる」という非直感的な関係を把握。
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 貨幣数量説と現代金融政策</div>
+        <p>
+          「マネーサプライを増やせばインフレ」という単純な公式が常に成立するわけではないことを理解。
+          流通速度の変化（デジタル化による決済加速など）も考慮する必要があります。
+        </p>
+      </detail-point>
+
+      <div class="detail-point">
+        <div class="point-label">📌 合理的期待仮説のジレンマ</div>
+        <p>
+          政策の無効性命題は理論的には精緻ですが、現実の複雑性を完全には説明できません。
+          この限界を認識することが重要です。
+        </p>
+      </div>
+
+      <div class="detail-point">
+        <div class="point-label">📌 ソロー・モデルの意義</div>
+        <p>
+          「長期成長は技術進歩に依存」という結論から、教育・R&D・イノベーションの重要性を導き出せるか。
+          日本の「失われた30年」を分析する際もこの枠組みが有効です。
+        </p>
+      </div>
+    </div>
+
+    <a href="javascript:history.back()" class="detail-back-btn">← 解説一覧に戻る</a>
+
+  </div>
+
+  <!-- フッター -->
+  <footer style="text-align:center; padding:20px; font-size:14px; color:#555; border-top:1px solid #ccc; margin-top:40px;">
+    <p>
+      <a href="../../privacy.html" style="color:#003366; text-decoration:none;">プライバシーポリシー</a> |
+      <a href="../../terms.html" style="color:#003366; text-decoration:none;">利用規約</a> |
+      <a href="../../contact.html" style="color:#003366; text-decoration:none;">お問い合わせ</a>
+    </p>
+    <p>&copy; 2025 経済知識チェック</p>
+  </footer>
+</body>
+</html>
