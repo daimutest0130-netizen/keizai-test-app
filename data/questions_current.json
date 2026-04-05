@@ -2375,5 +2375,1126 @@
     "explanation_short": "生成AIは文章・画像などを生成するAIです。",
     "explanation_long": "生成AIは大規模データを学習し、新しい文章・画像・音声などを生成する技術です。ただし誤情報を出す可能性もあり、利用時の確認が必要です。",
     "detail_page": "details/current/ai_data.html#generative-ai"
+  },
+  {
+    "q": "TCFD（気候関連財務情報開示タスクフォース）勧告が企業に求める開示の4つの柱はどれか？",
+    "options": [
+      "ガバナンス・戦略・リスク管理・指標と目標",
+      "財務・人事・環境・社会",
+      "気候変動・水資源・生物多様性・廃棄物",
+      "CDP・GRI・SASB・ISSB"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "TCFD開示4柱：ガバナンス・戦略・リスク管理・指標と目標。",
+    "explanation_long": "TCFD（Task Force on Climate-related Financial Disclosures）：FSBが設立した気候リスクの財務情報開示フレームワーク。4つの開示項目：①Governance（気候関連リスクのガバナンス）、②Strategy（ビジネスへの影響と適応戦略）、③Risk Management（リスクの識別・評価・管理）、④Metrics & Targets（指標・目標）。",
+    "detail_page": "details/current/esg_sustainability.html#esg"
+  },
+  {
+    "q": "EU「炭素国境調整メカニズム（CBAM）」が導入される主な目的はどれか？",
+    "options": [
+      "EU域外の排出規制が緩い国からの輸入品にカーボンコストを課しカーボンリーケージを防ぐ",
+      "EU企業の輸出競争力を高めるため",
+      "途上国への技術移転を促進するため",
+      "再生可能エネルギーの普及コストを分担するため"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "CBAM：排出規制の緩い国からの輸入にカーボン費用を課す。",
+    "explanation_long": "CBAM（Carbon Border Adjustment Mechanism）：EUが2023年に移行期間を開始（2026年本格適用）。セメント・鉄鋼・アルミ・肥料・電力等の輸入品にEU-ETS相当のカーボンコストを課す。カーボンリーケージ（EU企業が規制の緩い地域へ生産移転）を防ぐ狙い。日本製品への影響も大きい。",
+    "detail_page": "details/current/esg_sustainability.html#climate"
+  },
+  {
+    "q": "「ネイチャーポジティブ（Nature Positive）」の概念として正しいものはどれか？",
+    "options": [
+      "2030年までに生物多様性の損失を止め回復軌道に乗せることを目指す概念",
+      "カーボンニュートラルと同義の概念",
+      "経済成長を自然環境に負荷なく実現する概念",
+      "森林のみを保護対象とする環境政策"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "ネイチャーポジティブ：2030年までに生物多様性の損失を止め回復へ転換。",
+    "explanation_long": "ネイチャーポジティブ：2022年のCOP15（モントリオール）で採択された昆明・モントリオール生物多様性枠組の中核概念。2030年までに生物多様性の損失を止め、回復軌道に乗せることを目指す。自然関連財務情報開示（TNFD）フレームワークと連動し企業の開示が求められる。",
+    "detail_page": "details/current/esg_sustainability.html#biodiversity"
+  },
+  {
+    "q": "国際サステナビリティ基準審議会（ISSB）が策定したIFRS S1・S2が要求する開示はどれか？",
+    "options": [
+      "S1は全般的なサステナビリティリスク開示、S2は気候関連情報の開示",
+      "S1は環境情報、S2は社会情報",
+      "S1は財務情報、S2は非財務情報",
+      "S1は短期リスク、S2は長期リスク"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "IFRS S1：全般的サステナビリティ、S2：気候関連情報の開示。",
+    "explanation_long": "ISSB（International Sustainability Standards Board）が策定：IFRS S1「サステナビリティ関連財務情報の開示に関する全般的要求事項」（全サステナビリティリスク・機会の開示）とIFRS S2「気候関連開示」（TCFDベース）を2023年に公表。日本でも2025年以降に大企業から適用予定。",
+    "detail_page": "details/current/esg_sustainability.html#esg"
+  },
+  {
+    "q": "「循環経済（サーキュラーエコノミー）」の基本原則として正しいものはどれか？",
+    "options": [
+      "廃棄物・汚染を設計段階で排除し、製品・材料を循環させ、自然を再生する",
+      "リサイクルを最大化することのみを目指す",
+      "使い捨て製品の安価化で消費を促進する",
+      "製品の長期使用を禁止して頻繁に買い換える"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "サーキュラーエコノミー：廃棄ゼロ設計・循環利用・自然再生の3原則。",
+    "explanation_long": "サーキュラーエコノミー（CE）：エレン・マッカーサー財団が提唱。3原則：①廃棄物・汚染を設計段階で排除する（Eliminate Waste & Pollution）、②製品・材料を最高の価値で循環させる（Circulate Products & Materials）、③自然を再生させる（Regenerate Nature）。線形経済（採取→製造→廃棄）からの転換。",
+    "detail_page": "details/current/esg_sustainability.html#circular"
+  },
+  {
+    "q": "ESGインテグレーションとはどのような投資アプローチか？",
+    "options": [
+      "財務分析にESG要素を体系的に組み込んで投資判断を行う手法",
+      "ESGスコアが高い企業のみに投資を限定する手法",
+      "社会問題の解決のみを目的とした慈善的投資",
+      "環境に優しい会社にのみ投資する手法"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ESGインテグレーション：ESG要素を財務分析に統合して投資判断に使う。",
+    "explanation_long": "ESGインテグレーション：環境（E）・社会（S）・ガバナンス（G）の要素を従来の財務・業績分析に組み込み、リスク・リターン評価の精度を高める投資アプローチ。PRI（責任投資原則）署名機関が採用する手法の一つ。ESGスクリーニング（除外型・ポジティブ型）とは異なる。",
+    "detail_page": "details/current/esg_sustainability.html#esg"
+  },
+  {
+    "q": "「スコープ3（Scope 3）排出量」の特徴として正しいものはどれか？",
+    "options": [
+      "サプライチェーン全体（上流・下流）の間接排出量で、企業のCO2排出の大部分を占めることが多い",
+      "自社所有設備の直接排出量",
+      "購入した電力の排出量",
+      "工場内の化学反応による排出量"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "Scope3はサプライチェーン全体の間接排出で全体の70〜90%を占めることも。",
+    "explanation_long": "GHGプロトコルのスコープ分類：Scope1（直接排出：自社燃焼等）・Scope2（購入電力・熱の間接排出）・Scope3（その他の間接排出：原材料調達・製品使用・廃棄など上流・下流全体）。多くの企業でScope3が排出の70〜90%を占め、サプライヤーや顧客との協力が削減に不可欠。",
+    "detail_page": "details/current/esg_sustainability.html#climate"
+  },
+  {
+    "q": "「インパクト投資（Impact Investing）」の定義として正しいものはどれか？",
+    "options": [
+      "財務リターンと並んで、社会・環境への測定可能なポジティブインパクトを意図的に生み出す投資",
+      "社会問題のある企業を排除するネガティブスクリーニング投資",
+      "高リターンを追求した結果、副次的に社会課題を解決する投資",
+      "ESGスコアが最高の企業に投資するベストインクラス投資"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "インパクト投資：財務リターン＋社会・環境への意図的・測定可能な正のインパクト。",
+    "explanation_long": "インパクト投資（Impact Investing）：GIIN（Global Impact Investing Network）の定義に基づく。特徴：①意図性（Intentionality）：社会・環境課題解決を明確な意図として持つ、②測定可能性（Measurability）：インパクトをKPIで定量評価する、③財務リターンの追求を同時に行う。マイクロファイナンス・グリーンボンド等が代表例。",
+    "detail_page": "details/current/esg_sustainability.html#impact"
+  },
+  {
+    "q": "生成AI（Generative AI）における「ハルシネーション（Hallucination）」とはどのような現象か？",
+    "options": [
+      "AIが事実と異なる情報を自信満々に生成・提示する現象",
+      "AIが極端に遅い処理速度になる現象",
+      "AIが同じ回答を繰り返す現象",
+      "AIがユーザーを感情的に操作する現象"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ハルシネーション＝LLMが事実と異なる情報をもっともらしく生成する現象。",
+    "explanation_long": "ハルシネーション（Hallucination）：大規模言語モデル（LLM）が実際には存在しない情報・引用・統計を自信を持って提示する現象。LLMが「正しい確率の高い次のトークン」を予測する仕組みに起因する。RAG（検索拡張生成）・ファインチューニング・ファクトチェック統合で軽減を試みる。",
+    "detail_page": "details/current/ai_data.html#genai"
+  },
+  {
+    "q": "AIの「EU AI法（EU Artificial Intelligence Act）」における「高リスクAI」の例として含まれるものはどれか？",
+    "options": [
+      "採用・信用スコアリング・医療診断・重要インフラ管理に使われるAI",
+      "一般的な会話型チャットボット",
+      "ゲームのキャラクターAI",
+      "天気予測AI"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "EU AI法の高リスクAI：採用・与信・医療・インフラ等の重要意思決定に使われるAI。",
+    "explanation_long": "EU AI法（2024年施行）：AIをリスクレベル別に規制する世界初の包括的AI規制法。高リスクAI（Annex III）：①教育・採用における分類・選考AI、②信用スコアリング・保険評価、③医療診断支援、④重要インフラ管理、⑤法執行・司法など。高リスクAIには適合性評価・文書化・人間による監視義務が課される。",
+    "detail_page": "details/current/ai_data.html#regulation"
+  },
+  {
+    "q": "「フェデレーテッドラーニング（Federated Learning）」の特徴として正しいものはどれか？",
+    "options": [
+      "データを中央に集めず各デバイス・サーバーでモデルを学習し集約するプライバシー保護型AI学習",
+      "全データを一箇所に集めて高速学習する手法",
+      "複数のAIが競争してより高精度のモデルを生成する手法",
+      "ユーザーが手動でAIに教師データを提供する手法"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "フェデレーテッドラーニング：データを分散したまま各サイトで学習し、モデルのみ集約。",
+    "explanation_long": "フェデレーテッドラーニング（Federated Learning）：各デバイスや組織がローカルデータをサーバーに送らず、自サイトでモデルを学習。モデルの更新情報（パラメータ）のみを集約サーバーが収集し、グローバルモデルを改善する手法。個人情報・センシティブデータの保護とAI学習を両立できる。医療・金融での活用が期待される。",
+    "detail_page": "details/current/ai_data.html#ml"
+  },
+  {
+    "q": "「説明可能なAI（XAI：Explainable AI）」が求められる主な理由はどれか？",
+    "options": [
+      "AIの意思決定プロセスを人間が理解・検証できるようにして信頼性・公平性・規制対応を確保するため",
+      "AIを安く開発するため",
+      "AIの処理速度を向上させるため",
+      "AIの著作権を保護するため"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "XAI：AIがなぜその判断をしたかを説明できるようにする技術・設計。",
+    "explanation_long": "XAI（Explainable AI）：医療診断・融資審査・採用判断など重要な意思決定にAIを使う場合、「なぜその結果が出たか」を説明できる必要がある。理由：①法的根拠の説明義務（GDPR・EU AI法）、②バイアス発見・公平性確保、③エラー原因の特定・改善。SHAPやLIMEなどの技術が使われる。",
+    "detail_page": "details/current/ai_data.html#regulation"
+  },
+  {
+    "q": "「データメッシュ（Data Mesh）」アーキテクチャの特徴として正しいものはどれか？",
+    "options": [
+      "データを各ドメイン（事業部門）が所有・管理し、データプロダクトとして提供する分散型アーキテクチャ",
+      "全データを中央のデータレイクに集めて一元管理する",
+      "AIが自動的にデータを分類・管理する",
+      "クラウドベンダーがデータを管理する"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "データメッシュ：各ドメインがデータオーナーとなる分散型データ管理。",
+    "explanation_long": "データメッシュ（Data Mesh）：ザマク・デガニが提唱。従来の中央集権型（中央データチームが全データを管理）に代わり、各事業ドメイン（チーム）が自分たちのデータをプロダクトとして所有・管理・提供する分散型アーキテクチャ。大企業での中央データチームのボトルネック解消が目的。",
+    "detail_page": "details/current/ai_data.html#data"
+  },
+  {
+    "q": "生成AIのビジネス活用で「RAG（Retrieval-Augmented Generation）」が有効なユースケースはどれか？",
+    "options": [
+      "最新の社内文書・データベースをLLMに参照させてハルシネーションを減らしたい場合",
+      "モデルのパラメータを軽量化したい場合",
+      "学習コストを大幅に削減したい場合",
+      "オープンソースLLMをクローズドソースに転換したい場合"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "RAG：社内ドキュメントを検索してLLMの回答精度・最新性を向上させる。",
+    "explanation_long": "RAG（Retrieval-Augmented Generation）：LLMが生成する際に外部データベース・文書ストアを検索し、関連文書を取得してコンテキストとして与える手法。利点：①最新の社内情報・特定ドメイン知識を反映できる、②ハルシネーション低減、③ファインチューニングよりも低コスト。カスタマーサポートや社内Q&Aに広く使われる。",
+    "detail_page": "details/current/ai_data.html#genai"
+  },
+  {
+    "q": "「データガバナンス」において「データオーナー」と「データスチュワード」の役割の違いはどれか？",
+    "options": [
+      "オーナーはデータの最終責任者（ビジネス側）、スチュワードはデータ品質・定義の管理担当者（技術・業務）",
+      "両者は同じ役割を指す異なる呼び名",
+      "オーナーはITシステム管理者、スチュワードは経営幹部",
+      "オーナーは外部監査人、スチュワードは内部統制担当"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "データオーナー＝ビジネス責任者、スチュワード＝データ品質管理者。",
+    "explanation_long": "データガバナンスの役割分担：Data Owner（データオーナー）は当該データに関するビジネス上の最終責任者（通常は事業部門の管理職）。Data Steward（データスチュワード）はデータ定義・品質・分類・メタデータ管理の実務担当者（業務・IT双方に精通した人材）。両者の協力でデータ品質と活用が進む。",
+    "detail_page": "details/current/ai_data.html#data"
+  },
+  {
+    "q": "AIの「バイアス（偏り）」問題が社会的に重要視される理由はどれか？",
+    "options": [
+      "偏ったデータで学習したAIが採用・融資・医療等で特定グループに不当な不利益を与えるリスクがあるから",
+      "AIが人間より感情豊かになるから",
+      "AIのバイアスは必ず人間のバイアスより小さいから",
+      "AIの計算コストが高くなるから"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "AIバイアス：学習データの偏りが差別・不公平な意思決定を引き起こすリスク。",
+    "explanation_long": "AIバイアス（Algorithmic Bias）：AIモデルが歴史的な偏りを含むデータで学習することで、採用AI（特定の性別・人種を不当に排除）・与信AI（マイノリティを過度に高リスク評価）・顔認識AI（特定人種で精度が低い）など、特定グループへの差別・不公平な結果が生じる問題。EU AI法でも高リスクAIの公平性評価を義務化。",
+    "detail_page": "details/current/ai_data.html#regulation"
+  },
+  {
+    "q": "日本銀行が2024年に実施した政策変更として正しいものはどれか？",
+    "options": [
+      "マイナス金利政策の解除と利上げの開始",
+      "量的緩和策の大幅拡大",
+      "外国為替市場への大規模介入のみ",
+      "ゼロ金利政策の維持"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "日銀は2024年3月にマイナス金利解除、その後段階的に利上げを実施。",
+    "explanation_long": "日本銀行は2024年3月にマイナス金利政策（政策金利−0.1%）を解除し、17年ぶりの利上げを実施。続いて7月・2025年1月にも追加利上げを行った。長短金利操作（YCC）も事実上終了。2013年から続いた大規模緩和政策の正常化が本格化した転換点となった。",
+    "detail_page": "details/current/economy_finance.html#monetary"
+  },
+  {
+    "q": "「フィンテック（FinTech）」分野の「Buy Now Pay Later（BNPL）」のリスクとして主に指摘されているものはどれか？",
+    "options": [
+      "消費者の過剰債務・返済不能と信用履歴に反映されない隠れた負債の増加",
+      "即時決済で銀行口座のセキュリティが低下するリスク",
+      "現金の使用が増加するリスク",
+      "利用者の個人情報が流出するリスク"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "BNPLは審査が甘く若者の過剰債務・返済困難が問題視される。",
+    "explanation_long": "BNPL（Buy Now Pay Later）：Klarna・Affirm・Paidy等が提供する後払い分割決済サービス。問題点：①従来の信用審査より緩く過剰借入しやすい、②信用情報機関に報告されないため隠れた負債が見えにくい、③若年層の過剰消費・返済困難が社会問題化。各国で規制強化の動きがある。",
+    "detail_page": "details/current/economy_finance.html#fintech"
+  },
+  {
+    "q": "「デジタル円（CBDC）」の導入メリットとして挙げられるものはどれか？",
+    "options": [
+      "決済の効率化・金融包摂・マネーロンダリング対策・金融政策の有効性向上",
+      "現金と完全に同等で新たなメリットはない",
+      "民間銀行の収益を保護する",
+      "仮想通貨のような価格変動で投資収益を得られる"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "CBDC：効率化・金融包摂・AML・金融政策伝達の改善が主な利点。",
+    "explanation_log": "CBDC（Central Bank Digital Currency：中央銀行デジタル通貨）：中央銀行が発行するデジタル形式の法定通貨。日本銀行も2023〜2026年のパイロット実験を実施中。利点：①決済コスト削減・即時送金、②銀行口座を持たない人への金融サービス（金融包摂）、③トレーサビリティによるAML強化、④マイナス金利政策の実効性向上（現金退蔵を制限）。",
+    "detail_page": "details/current/economy_finance.html#fintech"
+  },
+  {
+    "q": "2023〜2024年の世界的な「高金利環境」がプライベートエクイティ（PE）市場に与えた影響として正しいものはどれか？",
+    "options": [
+      "LBOファイナンスコストの上昇でM&A活動が低迷し、exit困難からファンド分配が減少した",
+      "PE市場は金利に左右されないため影響を受けなかった",
+      "高金利でPEのリターンが大幅に上昇した",
+      "PE投資家の資金流入が急増した"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "高金利はLBOコスト増・企業バリュエーション低下でPE市場を圧迫した。",
+    "explanation_long": "高金利環境のPE影響：①LBO（レバレッジド・バイアウト）の借入コスト上昇で新規M&Aが採算困難に、②資産バリュエーション（PERなど）の低下でIPOやセカンダリー売却が困難に、③金利収益を得られるマネーマーケットファンドへの資金シフトでPEへの新規資金流入が鈍化。2024年以降の利下げで徐々に改善。",
+    "detail_page": "details/current/economy_finance.html#investment"
+  },
+  {
+    "q": "「プライベートクレジット（Private Credit）」市場の急拡大の背景として正しいものはどれか？",
+    "options": [
+      "銀行規制強化（バーゼル規制）でレバレッジドローンから銀行が撤退し、ノンバンクが台頭した",
+      "政府の補助金政策で市場が形成された",
+      "株式市場の低迷から資金が移動した",
+      "中央銀行が直接市場に参加したため"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "バーゼル規制強化で銀行が手を引いた中堅企業向けローンをノンバンクが代替。",
+    "explanation_long": "プライベートクレジット（Direct Lending等）：バーゼルIII以降の銀行規制強化でリスクウェイトが高い中小・中堅企業向けローンから銀行が撤退。その穴をPEファンド・保険会社・クレジットファンドが直接貸付で埋めた。2024年時点で世界市場規模は2兆ドル超に拡大。高利回り・担保付きで機関投資家に人気。",
+    "detail_page": "details/current/economy_finance.html#investment"
+  },
+  {
+    "q": "日本の「スタートアップ育成5カ年計画」（2022年策定）の主要目標はどれか？",
+    "options": [
+      "2027年までにスタートアップへの投資額を10兆円規模にし、ユニコーン100社を目指す",
+      "上場企業を増やして日本の株式市場を拡大する",
+      "外国人スタートアップ創業者を日本に誘致する",
+      "既存大企業のDXを加速させる"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "スタートアップ5カ年計画：2027年に投資10兆円・ユニコーン100社が目標。",
+    "explanation_long": "スタートアップ育成5カ年計画（2022年11月策定）：岸田政権の新しい資本主義の柱。目標：①2027年度までにスタートアップへの投資額を2021年度（約8000億円）の10倍以上の10兆円規模、②ユニコーン企業（時価総額10億ドル超の未上場企業）を100社育成、③スタートアップ雇用者数を倍増。",
+    "detail_page": "details/current/economy_finance.html#startup"
+  },
+  {
+    "q": "「グローバルミニマム課税（GMT）」の内容として正しいものはどれか？",
+    "options": [
+      "多国籍企業に対して最低税率15%を適用し、タックスヘイブンへの利益移転を防ぐ仕組み",
+      "全ての企業に均一の法人税率を設定する",
+      "中小企業への税率を優遇する制度",
+      "資本所得のみを対象とした最低課税"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "GMT（ピラー2）：多国籍企業に最低実効税率15%を課す国際課税ルール。",
+    "explanation_long": "グローバルミニマム課税（OECD/G20 BEPS Pillar 2）：年間売上高7.5億ユーロ以上の多国籍企業に対し、国・地域ごとの実効税率が15%を下回る場合に追加課税（Qualified Domestic Minimum Top-up Tax等）する仕組み。2024年から一部国で適用開始。日本も2024年に制度化。タックスヘイブンへの利益移転抑制が目的。",
+    "detail_page": "details/current/economy_finance.html#tax"
+  },
+  {
+    "q": "「インフレーション・リダクション・アクト（IRA）」が米国・世界に与えた主な影響はどれか？",
+    "options": [
+      "再生可能エネルギー・EV・クリーン技術への大規模補助金でグリーン投資競争を世界に波及させた",
+      "米国の財政赤字をただちに削減した",
+      "石油・ガス産業を完全に禁止した",
+      "EUのカーボン市場に直接参加する制度"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "IRA：3690億ドルのクリーンエネルギー補助金で世界の産業政策競争を激化。",
+    "explanation_long": "Inflation Reduction Act（IRA、2022年8月成立）：約3690億ドル規模のクリーンエネルギー・気候変動対策への投資・税控除。EVクレジット・太陽光パネル製造補助・グリーン水素支援など。米国製造業回帰（オンショアリング）を促進。EUや日本でも対抗するグリーン産業政策の強化に繋がった。",
+    "detail_page": "details/current/economy_finance.html#policy"
+  },
+  {
+    "q": "「コンポーザブル・コマース（Composable Commerce）」の概念として正しいものはどれか？",
+    "options": [
+      "ECの各機能（決済・在庫・CMS等）をAPIで接続したモジュール型アーキテクチャで柔軟に構築する手法",
+      "単一ベンダーのECパッケージで全機能を管理する手法",
+      "SNSのみで商品を販売する手法",
+      "海外EC市場に参入するための標準化された手法"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "コンポーザブルコマース：ベストオブブリードのAPIベースのモジュール型EC構築。",
+    "explanation_log": "コンポーザブル・コマース：MACH（Microservices・API-first・Cloud-native・Headless）アーキテクチャに基づき、決済・在庫管理・コンテンツ管理・検索等の各機能を最適なベンダーのAPIで組み合わせるEC構築手法。従来のモノリシックなERPやEC統合パッケージより柔軟かつ拡張性が高い。",
+    "detail_page": "details/current/digital_marketing_cx.html#cx"
+  },
+  {
+    "q": "「ゼロパーティデータ」の収集方法として最も適切なものはどれか？",
+    "options": [
+      "顧客に自発的に情報を提供してもらうアンケート・クイズ・プリファレンスセンター",
+      "Webサイトの閲覧ログを自動収集するCookie",
+      "SNSのフォロワーデータをAPIで取得",
+      "競合サイトからのスクレイピング"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ゼロパーティデータは顧客が自主的に提供するデータ。アンケート等で収集。",
+    "explanation_long": "ゼロパーティデータ収集：①プリファレンスセンター（メール設定・興味カテゴリの選択）、②クイズ・診断ツール（スキンタイプ診断等）、③アンケート・フィードバックフォーム、④ロイヤルティプログラムへの自発的登録など。Cookie廃止後のパーソナライズに不可欠なデータ取得手段として注目。",
+    "detail_page": "details/current/digital_marketing_cx.html#data"
+  },
+  {
+    "q": "「ソーシャルコマース（Social Commerce）」の定義として正しいものはどれか？",
+    "options": [
+      "SNSプラットフォーム上で直接商品を発見・検討・購入できる購買体験",
+      "SNS広告から外部ECサイトへ誘導する従来の手法",
+      "インフルエンサーがオフラインでの販売を支援すること",
+      "B2B企業がLinkedInを使って商談するプロセス"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "ソーシャルコマース：SNS上で完結する買い物体験（TikTok Shop等）。",
+    "explanation_long": "ソーシャルコマース（Social Commerce）：Instagram Shopping・TikTok Shop・Pinterest Buyable Pinsなど、SNSプラットフォーム内で商品発見→検討→購買が完結するEC形態。消費者がSNSを「購買の入口」として使うトレンドに対応。ライブコマース（ライブ配信中のリアルタイム購買）も含む。",
+    "detail_page": "details/current/digital_marketing_cx.html#social"
+  },
+  {
+    "q": "「プログラマティック広告」におけるリアルタイム入札（RTB：Real-Time Bidding）の仕組みはどれか？",
+    "options": [
+      "ユーザーがWebページを開く瞬間に広告枠をオークションにかけ、最高入札者の広告が表示される",
+      "広告主が事前に枠を年間契約で確保する",
+      "テレビ広告のように視聴率に基づいて枠を購入する",
+      "広告代理店が手動で媒体と交渉して枠を確保する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "RTBはページ読み込み時にミリ秒単位でオークションを実施する自動入札。",
+    "explanation_long": "プログラマティック広告のRTB：①ユーザーがWebページを訪問（ページロード）、②数十〜数百ミリ秒以内にSSP→AdExchange→DSPに入札リクエスト、③各広告主のDSPが入札額を決定・応札、④最高入札者の広告がページ上に表示される。ユーザー属性・行動データに基づいたターゲティングが可能。",
+    "detail_page": "details/current/digital_marketing_cx.html#ads"
+  },
+  {
+    "q": "「ヘッドレスCMS（Headless CMS）」の特徴として正しいものはどれか？",
+    "options": [
+      "コンテンツ管理（バックエンド）と表示（フロントエンド）を分離し、APIでどのチャネルにも配信できる",
+      "CMSがUI（ヘッド＝フロントエンド）のみを提供する",
+      "モバイルアプリのみに対応したCMS",
+      "コンテンツを音声のみで管理するCMS"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "ヘッドレスCMS：バックエンドとフロントエンドを分離しAPIで多チャネル配信。",
+    "explanation_long": "ヘッドレスCMS（Headless CMS）：従来のCMSが「ヘッド（フロント表示）」と「ボディ（コンテンツ管理）」を一体化しているのに対し、コンテンツ管理（バックエンド）のみを提供し、フロントエンドはAPIでWebサイト・モバイルアプリ・デジタルサイネージ等に自由に配信できるアーキテクチャ。Contentful・Strapiが代表例。",
+    "detail_page": "details/current/digital_marketing_cx.html#cx"
+  },
+  {
+    "q": "「CDP（Customer Data Platform）」がDMP（Data Management Platform）と異なる点はどれか？",
+    "options": [
+      "CDPは個人が特定できる1st/0パーティデータを統合し永続的に保持する、DMPは匿名の3rdパーティデータが主体で短期利用",
+      "CDPはB2B専用、DMPはB2C専用",
+      "CDPはリアルタイム処理不可、DMPはリアルタイム対応",
+      "CDPはIT部門のみが使用し、DMPはマーケティング部門のみが使用"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "CDP：個人特定可能・永続的顧客データ統合。DMP：匿名・短期の広告ターゲティングデータ。",
+    "explanation_long": "CDP vs DMP：CDP（Customer Data Platform）はCRM・ECログ・行動データなどの個人特定可能（PII含む）の1st/0パーティデータを統合して顧客360度ビューを構築。永続的に保持しCX改善に活用。DMP（Data Management Platform）は主に匿名Cookie・セグメントデータ（3rd party）を活用した広告ターゲティング向けで、Cookie廃止で利用が縮小中。",
+    "detail_page": "details/current/digital_marketing_cx.html#data"
+  },
+  {
+    "q": "「ライブコマース（Live Commerce）」が日本・中国で急成長している背景として正しいものはどれか？",
+    "options": [
+      "インフルエンサーがリアルタイムで商品を紹介・実演し視聴者が即購買できる体験の新鮮さと高い転換率",
+      "TV通販の技術をSNSに移植しただけで新しいビジネスモデルではない",
+      "商品写真のみで判断するEC購買の代替手段",
+      "実店舗の運営コストを削減するための手法"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ライブコマース：ライブ配信の即時性・エンタメ性・双方向性で高CVR。",
+    "explanation_long": "ライブコマース（Live Commerce）：ライブストリーミング配信中にインフルエンサー・ブランドが商品を実演し、視聴者がリアルタイムでコメント・質問し即座に購買できるEC形態。中国でタオバオライブ・TikTokが普及させ日本でも急成長。高い転換率（通常ECの10倍以上と言われる）と在庫即時消化が魅力。",
+    "detail_page": "details/current/digital_marketing_cx.html#social"
+  },
+  {
+    "q": "「ファーストパーティデータ戦略」が2024年以降に重要性を増す背景はどれか？",
+    "options": [
+      "GoogleがサードパーティCookieの廃止を進め、外部データへの依存が困難になったため",
+      "ファーストパーティデータの価格が大幅に上昇したため",
+      "規制当局がファーストパーティデータの使用を義務化したため",
+      "AIがファーストパーティデータのみを処理できるようになったため"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "サードパーティCookie廃止でファーストパーティデータ（自社収集）が代替として必須に。",
+    "explanation_long": "サードパーティCookieの廃止：Google ChromeがプライバシーサンドボックスとCookie廃止を推進（段階的）。これにより外部DMPや3rdパーティデータへの依存が困難になり、自社Webサイト・アプリ・会員データなどのファーストパーティデータ（1PD）の構築・活用が広告効果測定・リターゲティング・パーソナライズの代替手段として必須となった。",
+    "detail_page": "details/current/digital_marketing_cx.html#data"
+  },
+  {
+    "q": "「デカップリング（Decoupling）」と「デリスキング（De-risking）」の違いとして正しいものはどれか？",
+    "options": [
+      "デカップリングは特定国との経済関係を全面的に切断、デリスキングは依存度を下げてリスクを管理する",
+      "両者は同義",
+      "デカップリングはリスク軽減、デリスキングは関係遮断",
+      "デカップリングは企業レベル、デリスキングは国家レベル"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "デカップリング＝関係切断、デリスキング＝依存低減・リスク管理。",
+    "explanation_long": "米中関係における用語：デカップリング（Decoupling）はサプライチェーン・投資・技術の全面的な分離・遮断を意味する強い概念。デリスキング（De-risking）はG7が2023年に採用した概念で、全面切断ではなく特定分野（先端半導体・重要鉱物等）の依存リスクを管理・低減する穏健なアプローチ。EUはデリスキングを公式政策として採用。",
+    "detail_page": "details/current/geopolitics_supply.html#geopolitics"
+  },
+  {
+    "q": "「重要鉱物（Critical Minerals）」が経済安全保障の文脈で注目される理由はどれか？",
+    "options": [
+      "EV・再生可能エネルギー・半導体等のグリーン・デジタル産業に必須で、産出が特定国に偏在するから",
+      "希少性が高く装飾品として価値があるから",
+      "農業生産に不可欠な原材料だから",
+      "医薬品の製造に必須な素材だから"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "重要鉱物：コバルト・リチウム・レアアース等が産出地に偏りサプライリスクが高い。",
+    "explanation_long": "重要鉱物（Critical Minerals）：リチウム・コバルト・ニッケル（EV電池）・レアアース（モーター・半導体）・銅・マンガン等。EV・風力発電・太陽光・半導体に不可欠だが産出がコンゴ（コバルト）・中国（レアアース）等に集中。G7・日本がサプライチェーン多角化・備蓄・代替材料開発を経済安保政策として推進。",
+    "detail_page": "details/current/geopolitics_supply.html#supply"
+  },
+  {
+    "q": "「フレンドショアリング（Friend-shoring）」とはどのような政策か？",
+    "options": [
+      "同盟国・友好国の間でサプライチェーンを構築し、地政学リスクの高い国への依存を減らす戦略",
+      "友人関係にある企業間でサプライヤーを共有する商慣行",
+      "沿岸地域に工場を集中させる立地戦略",
+      "フランス語圏の国々との貿易協定"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "フレンドショアリング：同盟・友好国間でのサプライチェーン再構築。",
+    "explanation_long": "フレンドショアリング（Friend-shoring）：米国イエレン財務長官が2022年に提唱。米国・EU・日本・オーストラリア等の同盟・友好国間でサプライチェーンを形成し、権威主義国への依存リスクを排除する経済安全保障戦略。ニアショアリング（近隣国）・リショアリング（国内回帰）と並ぶサプライチェーン再編の選択肢。",
+    "detail_page": "details/current/geopolitics_supply.html#geopolitics"
+  },
+  {
+    "q": "「CHIPS法（CHIPS and Science Act）」が米国で制定された主な目的はどれか？",
+    "options": [
+      "半導体の国内製造能力を強化し中国への技術依存リスクを低減する",
+      "デジタル通貨の規制整備",
+      "インターネットセキュリティの強化",
+      "ITスタートアップへの投資促進"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "CHIPS法：米国の半導体製造・研究開発に527億ドルを投じて自国生産を強化。",
+    "explanation_long": "CHIPS and Science Act（2022年8月成立）：米国半導体産業強化のために527億ドルの補助金・税額控除を提供。背景：半導体製造の大部分がアジア（台湾・韓国・中国）に集中し地政学リスクが高まったため。TSMC・サムスン・インテルが補助を受けて米国内に工場建設。日本のTSMC熊本工場誘致も同様の経済安保戦略。",
+    "detail_page": "details/current/geopolitics_supply.html#tech"
+  },
+  {
+    "q": "「グローバルサウス」が国際政治・経済で注目される理由はどれか？",
+    "options": [
+      "新興・途上国群が人口・経済成長・資源で存在感を増し、G7中心の秩序に対抗する声が強まっているから",
+      "南半球の全ての国を指す地理的概念として使われるから",
+      "途上国支援を目的とした新しい国際機関の名称だから",
+      "G7加盟を目指す国々のグループだから"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "グローバルサウス：インド・ブラジル・アフリカ等の新興途上国群の台頭と主張。",
+    "explanation_long": "グローバルサウス（Global South）：アジア・アフリカ・中南米・中東の新興・途上国群を指す概念（地理的南半球と必ずしも一致しない）。2022年以降のウクライナ侵攻でG7の対ロ制裁に同調しない国が多いことで注目。インド・ブラジル・インドネシア・中東諸国が「非西洋・非中国」の第三勢力として国際秩序に影響力を増している。",
+    "detail_page": "details/current/geopolitics_supply.html#geopolitics"
+  },
+  {
+    "q": "「サプライチェーンの強靭化」において「デュアルソーシング」の目的はどれか？",
+    "options": [
+      "同一部品を2社以上のサプライヤーから調達し、1社停止時にも供給を維持する",
+      "2カ所の工場を同時に稼働させてコストを下げる",
+      "2種類の製品を並行して開発する",
+      "2段階の品質検査を実施する"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "デュアルソーシング：複数サプライヤーから同部品を調達してリスク分散。",
+    "explanation_long": "デュアルソーシング（Dual Sourcing）：一つの部品・原材料を2社以上のサプライヤーから調達する調達戦略。シングルソーシング（1社依存）と比較して、1社の工場火災・地震・倒産・政治的リスク発生時にも代替調達で供給を継続できる。コストはシングルより高くなることが多いが、レジリエンス（強靭性）が高まる。",
+    "detail_page": "details/current/geopolitics_supply.html#supply"
+  },
+  {
+    "q": "「台湾有事リスク」が半導体サプライチェーンに与えうる影響として最も懸念されるものはどれか？",
+    "options": [
+      "TSMCが台湾に集中しているため、有事でサーバー・EV・医療機器等の世界的な半導体供給が停止するリスク",
+      "台湾の観光業が停滞するリスク",
+      "台湾の農産品輸出が止まるリスク",
+      "台湾の金融市場が一時的に下落するリスク"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "TSMCの先端チップ集中が台湾有事でサプライチェーン全体に与える壊滅的影響。",
+    "explanation_long": "台湾有事リスク：TSMC（台湾積体電路製造）は世界の最先端半導体（5nm以下）の90%超を製造。有事で生産停止が起きると、スマートフォン・サーバー・自動車・医療機器・防衛装備の世界的な供給不足が発生する。日本・米国・欧州がTSMCの国内誘致を推進する経済安保上の理由でもある。",
+    "detail_page": "details/current/geopolitics_supply.html#tech"
+  },
+  {
+    "q": "「エコノミック・ステートクラフト（Economic Statecraft）」とはどのような概念か？",
+    "options": [
+      "経済的手段（制裁・輸出規制・投資制限等）を外交・安全保障の政策ツールとして使う戦略",
+      "経済と外交を完全に分離して扱う原則",
+      "国家が民間企業の経営に直接介入すること",
+      "国際貿易を規制するための経済理論"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "経済的手段を外交・安保の武器として使う政策をエコノミック・ステートクラフトという。",
+    "explanation_long": "エコノミック・ステートクラフト：輸出規制・関税・経済制裁・投資規制・外国援助など経済的手段を外交・安全保障の目標達成に使う政策。米国のICチップ輸出規制（中国向け半導体禁輸）・対ロシア金融制裁・CFIUS（外国投資審査委員会）が典型例。テクノロジーを安保と絡めた制度設計が2020年代の国際政治の特徴。",
+    "detail_page": "details/current/geopolitics_supply.html#geopolitics"
+  },
+  {
+    "q": "「ゼロトラスト（Zero Trust）セキュリティ」の基本原則はどれか？",
+    "options": [
+      "社内外のネットワークを問わず全アクセスを継続的に検証し、デフォルトでは何も信頼しない",
+      "社内ネットワーク内からのアクセスは全て信頼する",
+      "VPNで接続した端末は自動的に信頼できる",
+      "ファイアウォールを強化すれば安全が確保できる"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ゼロトラスト：「常に検証、決して信頼しない（Never Trust, Always Verify）」が原則。",
+    "explanation_long": "ゼロトラスト（Zero Trust）：従来の「社内ネットワーク＝安全」という境界型防御の前提を捨て、場所・ユーザー・デバイスに関わらず全てのアクセスを継続的に認証・認可・検証する考え方。テレワーク普及・クラウド移行でペリメータ（境界）が消滅した現代に対応。Microsoft・Googleが自社に先行導入（BeyondCorp）。",
+    "detail_page": "details/current/cybersecurity_privacy.html#security"
+  },
+  {
+    "q": "ランサムウェア攻撃（Ransomware Attack）の特徴として正しいものはどれか？",
+    "options": [
+      "被害者のデータを暗号化し、復号キーと引き換えに身代金（Ransom）を要求するマルウェア",
+      "フィッシングメールで個人情報を収集するだけの攻撃",
+      "Webサイトに不正なコードを埋め込んでトラフィックを乗っ取る攻撃",
+      "DDoS攻撃でサービスを停止させる攻撃"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "ランサムウェア：データを人質に身代金を要求する暗号化型マルウェア。",
+    "explanation_long": "ランサムウェア：被害者のファイル・システムを暗号化して使用不能にし、復号化キーの提供と引き換えに金銭（主に仮想通貨）を要求するサイバー攻撃。近年は「二重恐喝（Double Extortion）」（データ暗号化＋窃取データを公開すると脅す）が増加。病院・インフラ・企業への攻撃が社会問題化。",
+    "detail_page": "details/current/cybersecurity_privacy.html#threat"
+  },
+  {
+    "q": "「SOC（Security Operations Center）」の主な機能はどれか？",
+    "options": [
+      "24時間365日セキュリティアラートを監視・分析し、インシデントへの対応を行う組織・施設",
+      "ソフトウェアのバグを修正する開発チーム",
+      "企業のコンプライアンス審査を行う部門",
+      "ネットワークの物理的な設置・管理を行う部門"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "SOCは24/365のセキュリティ監視・分析・インシデント対応の専門組織。",
+    "explanation_long": "SOC（Security Operations Center）：SIEM（Security Information and Event Management）などのツールを使って企業のネットワーク・エンドポイント・クラウドの脅威をリアルタイム監視する専門チーム。インシデントの検知・トリアージ・封じ込め・根本原因分析（RCA）・復旧を担当。社内設置型とMSSP（マネージドセキュリティサービス）委託がある。",
+    "detail_page": "details/current/cybersecurity_privacy.html#security"
+  },
+  {
+    "q": "サプライチェーン攻撃（Supply Chain Attack）の代表的な事例として正しいものはどれか？",
+    "options": [
+      "SolarWindsへの攻撃で、正規ソフトウェアアップデートにマルウェアが仕込まれ多数の政府・企業が被害を受けた",
+      "大手銀行の基幹システムに直接侵入した攻撃",
+      "メールフィッシングで社員の個人情報を盗んだ攻撃",
+      "DDoS攻撃でWebサービスを停止させた攻撃"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "SolarWinds事件：ソフトウェアの更新ファイルにバックドアを仕込んだ標的型攻撃。",
+    "explanation_long": "サプライチェーン攻撃：製品・ソフトウェアの製造・配布プロセスに侵入してマルウェアを注入する攻撃手法。2020年のSolarWinds事件が有名：ITネットワーク管理ソフトの正規アップデートにバックドアを仕込み、米国政府機関・大企業1万8000以上が感染。直接攻撃が難しいターゲットをサードパーティ経由で狙う手口が増加。",
+    "detail_page": "details/current/cybersecurity_privacy.html#threat"
+  },
+  {
+    "q": "「GDPR（一般データ保護規則）」違反に対する制裁金の上限はどれか？",
+    "options": [
+      "全世界の年間売上高の4%または2000万ユーロのいずれか高い方",
+      "100万ユーロ",
+      "1億ドル",
+      "EU域内売上の10%"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "GDPR最大制裁金：年間全世界売上の4%または2000万ユーロの高い方。",
+    "explanation_long": "GDPR（General Data Protection Regulation）：EU一般データ保護規則（2018年5月施行）。制裁金は違反の重大性により2段階：①重大違反（lawful basis・同意・データ主体の権利等）：年間全世界売上の4%または2000万ユーロの高い方、②その他違反：2%または1000万ユーロの高い方。Meta・Google等に対して数千億円規模の制裁が課された。",
+    "detail_page": "details/current/cybersecurity_privacy.html#privacy"
+  },
+  {
+    "q": "「多要素認証（MFA：Multi-Factor Authentication）」が単一パスワードより安全な理由はどれか？",
+    "options": [
+      "パスワード漏洩だけでは不十分で追加の認証要素（所持物・生体情報等）が揃わないとアクセスできないから",
+      "パスワードが複雑になるから",
+      "ログイン回数が制限されるから",
+      "ハッカーがMFAツールを持っていないから"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "MFAは知識・所持・生体の複数要素が必要でパスワード漏洩だけでは突破困難。",
+    "explanation_long": "多要素認証（MFA）：「知識（パスワード・PIN）」「所持（スマートフォン・ハードウェアキー）」「生体（指紋・顔）」の3要素のうち2つ以上を組み合わせる認証方式。パスワードが漏洩しても第2要素がなければログイン不能。Microsoft調査では全自動化攻撃の99.9%をMFAで防げると報告。",
+    "detail_page": "details/current/cybersecurity_privacy.html#security"
+  },
+  {
+    "q": "「プライバシー・バイ・デザイン（Privacy by Design）」の原則として正しいものはどれか？",
+    "options": [
+      "システム・製品の設計段階からプライバシー保護を組み込む（事後対応ではなく事前防止）",
+      "プライバシーポリシーを目立つ場所に掲示する",
+      "プライバシー担当者を任命する",
+      "個人データを暗号化して保存する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "PbD：プライバシーをシステム設計の最初から組み込む「事前」のアプローチ。",
+    "explanation_long": "プライバシー・バイ・デザイン（Privacy by Design：PbD）：アン・カブキアンが提唱し、GDPRのデータ保護バイデザイン（25条）にも取り込まれた概念。7原則：①事後ではなく事前・予防的、②プライバシーをデフォルト設定として、③機能の埋め込み、④全機能にわたって・ゼロサム非ゼロサム、⑤End-to-Endのセキュリティ、⑥可視性・透明性、⑦ユーザー中心主義。",
+    "detail_page": "details/current/cybersecurity_privacy.html#privacy"
+  },
+  {
+    "q": "「AIを使った攻撃（AI-Powered Attacks）」の具体例として正しいものはどれか？",
+    "options": [
+      "ディープフェイクによる音声・映像偽造を使ったソーシャルエンジニアリング攻撃",
+      "AIがファイアウォールを物理的に破壊する攻撃",
+      "AIがインターネットを停止させる攻撃",
+      "AIが自動的に核兵器を起動させる攻撃"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ディープフェイク・高精度フィッシングメール生成など生成AIを悪用した攻撃が増加。",
+    "explanation_long": "AI活用サイバー攻撃：①ディープフェイク（幹部の音声・映像を偽造した詐欺：CEOフラウド）、②LLMを使った高精度・多言語フィッシングメール自動生成、③AIによる脆弱性自動探索・エクスプロイト作成。生成AIの普及でサイバー攻撃のコスト・技術障壁が大幅に低下し、攻撃の高度化・大量化が進んでいる。",
+    "detail_page": "details/current/cybersecurity_privacy.html#threat"
+  },
+  {
+    "q": "クラウドコンピューティングの「SaaS」「PaaS」「IaaS」のうち、ユーザーが最も管理責任が少ないものはどれか？",
+    "options": [
+      "SaaS（Software as a Service）",
+      "PaaS（Platform as a Service）",
+      "IaaS（Infrastructure as a Service）",
+      "オンプレミス（自社設備）"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "SaaSはソフトウェアを利用するだけで運用管理の責任が最も少ない。",
+    "explanation_long": "責任分担モデル：IaaS（仮想サーバー等のインフラ提供）はOS・ミドルウェア・アプリをユーザーが管理。PaaS（開発プラットフォーム）はアプリ・データのみユーザー管理。SaaS（完成品ソフト：Salesforce・Gmail等）はデータとアクセス管理のみ。ユーザーの管理責任はSaaS＜PaaS＜IaaS＜オンプレの順。",
+    "detail_page": "details/current/cloud_data_platform.html#cloud"
+  },
+  {
+    "q": "「マルチクラウド戦略」を採用する企業の主な理由はどれか？",
+    "options": [
+      "特定クラウドベンダーへのロックインを避け、最適なサービスを組み合わせてコスト・リスクを最適化する",
+      "無料クラウドサービスを最大限活用する",
+      "セキュリティの低いベンダーを使わないための措置",
+      "単一のデータセンターを使うための選択"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "マルチクラウド：ベンダーロックイン回避・最適サービス選択・リスク分散が目的。",
+    "explanation_log": "マルチクラウド戦略：AWS・Azure・GCPなど複数のクラウドプロバイダーを組み合わせる戦略。理由：①特定ベンダーへの依存（ロックイン）リスクを低減、②各ベンダーの強みを活用（AIはGoogle・S3互換はAWS等）、③コスト最適化、④障害時の冗長性確保。一方でマネジメントの複雑さが増す。",
+    "detail_page": "details/current/cloud_data_platform.html#cloud"
+  },
+  {
+    "q": "「データレイクハウス（Data Lakehouse）」の特徴として正しいものはどれか？",
+    "options": [
+      "データレイクの柔軟性とデータウェアハウスのデータ品質・ガバナンスを統合したアーキテクチャ",
+      "全データをリレーショナルデータベースで管理する従来手法",
+      "非構造化データのみを保存するストレージ",
+      "クラウドネイティブのETLツール"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "データレイクハウス＝レイクの柔軟性＋ウェアハウスの品質管理を統合。",
+    "explanation_long": "データレイクハウス（Data Lakehouse）：Databricksが提唱。データレイク（安価・大量・非構造化データも収容）の柔軟性と、データウェアハウス（高品質・ガバナンス・高速クエリ）の特性を統合したアーキテクチャ。Delta Lake・Apache Icebergなどのオープンフォーマットを使い、BI・ML・データサイエンスを一つの基盤で提供。",
+    "detail_page": "details/current/cloud_data_platform.html#data"
+  },
+  {
+    "q": "「クラウドネイティブ」なアプリケーションアーキテクチャの特徴として正しいものはどれか？",
+    "options": [
+      "マイクロサービス・コンテナ・DevOps・継続的デリバリーを組み合わせてクラウドの弾力性・拡張性を最大化する設計",
+      "クラウド上でも動くように作られた従来のモノリシックアプリケーション",
+      "インターネット非接続環境でも動作するアプリケーション",
+      "特定のクラウドベンダーのAPIにのみ依存したアプリケーション"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "クラウドネイティブ：マイクロサービス・コンテナ・CI/CDで弾力的スケーリング。",
+    "explanation_long": "クラウドネイティブ（CNCF定義）：クラウド環境の特性（弾力的スケーリング・自動復旧・分散）を最大限活用するための設計思想。構成要素：①マイクロサービス（機能分解）、②コンテナ（Docker・Kubernetes）、③サービスメッシュ（通信管理）、④宣言型API、⑤CI/CD（継続的インテグレーション・デリバリー）。",
+    "detail_page": "details/current/cloud_data_platform.html#cloud"
+  },
+  {
+    "q": "「サーバーレス（Serverless）コンピューティング」の特徴として正しいものはどれか？",
+    "options": [
+      "インフラ管理を不要にし、実行時間・リクエスト数のみで課金されるイベント駆動型実行モデル",
+      "サーバーが物理的に存在しないクラウドサービス",
+      "全ての処理をクライアント側で行うアーキテクチャ",
+      "データセンターを使わずにコンピューティングを行う技術"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "サーバーレス：インフラ管理不要・使った分だけ課金のFaaS型実行モデル。",
+    "explanation_long": "サーバーレスコンピューティング（Serverless/FaaS）：AWS Lambda・Azure Functions・Google Cloud Functionsが代表。開発者はサーバーの管理・スケーリングを意識せず関数のコードのみ記述し、イベント（HTTP・タイマー・キュー）発火時のみ実行・課金される。ただし「サーバーがない」のではなくクラウド側が管理する。",
+    "detail_page": "details/current/cloud_data_platform.html#cloud"
+  },
+  {
+    "q": "「FinOps（Financial Operations）」がクラウド活用企業に必要とされる理由はどれか？",
+    "options": [
+      "クラウドのコストが使用量に応じて変動するため、技術・財務・ビジネス部門が協力してコスト最適化を行う必要があるから",
+      "クラウドは常にオンプレミスより高コストだから",
+      "クラウドのセキュリティコストを管理するため",
+      "クラウドベンダーへの支払いを自動化するため"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "FinOps：クラウドの変動コストを最適化するための組織・プロセス・文化。",
+    "explanation_long": "FinOps（Cloud Financial Management）：変動費モデルのクラウドコストを最適化するための実践。技術チーム（使い方を決める）・財務チーム（予算管理）・ビジネスチーム（ROI評価）が協働し、リソースの適正サイジング・予約インスタンス活用・未使用リソース削除などで無駄なクラウド支出を削減する。",
+    "detail_page": "details/current/cloud_data_platform.html#cost"
+  },
+  {
+    "q": "「エッジコンピューティング（Edge Computing）」がIoTやAI推論で重要視される理由はどれか？",
+    "options": [
+      "データをクラウドに送る前に現場（デバイス・工場等）で処理することで遅延を削減しリアルタイム応答を実現するから",
+      "クラウドより安全だから",
+      "ネットワーク帯域幅を増やすから",
+      "中央集権的なデータ管理を強化するから"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "エッジ処理：現場でデータを即時処理し超低遅延・帯域削減・オフライン対応を実現。",
+    "explanation_long": "エッジコンピューティング：センサー・カメラ・工場設備などのデバイス近傍（エッジ）でデータを処理する分散コンピューティング。クラウドへの全データ転送に比べて：①レイテンシ（遅延）の大幅削減（自動運転・製造ラインの異常検知に不可欠）、②通信帯域・コスト削減、③ネットワーク断絶時も動作可能。MEC（Mobile Edge Computing）で5Gとの統合が進む。",
+    "detail_page": "details/current/cloud_data_platform.html#edge"
+  },
+  {
+    "q": "「データプロダクト（Data Product）」の考え方として正しいものはどれか？",
+    "options": [
+      "データを発見可能・使いやすく・信頼性の高い「製品」として管理・提供する考え方",
+      "全データをCSVファイルで一元管理すること",
+      "データを販売することで収益化する活動のみ",
+      "IT部門が作成したレポートの総称"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "データプロダクト：データを内部顧客向けの製品と捉え品質・アクセス性・信頼性を確保する。",
+    "explanation_long": "データプロダクト：データメッシュの中核概念。データをただのファイル・テーブルとして扱うのでなく、①発見可能性（データカタログ）、②アクセス可能性（APIまたは標準インターフェース）、③信頼性（品質SLA・テスト）、④セキュリティ（アクセス制御）、⑤自己文書化を備えた「製品」として設計・管理する考え方。",
+    "detail_page": "details/current/cloud_data_platform.html#data"
+  },
+  {
+    "q": "「プラットフォームエコノミー」の特徴として正しいものはどれか？",
+    "options": [
+      "デジタルプラットフォームが需給をマッチングし、ネットワーク効果で価値が拡大するビジネスモデル",
+      "単一の製品を大量生産して販売するビジネスモデル",
+      "政府が産業を管理・統制する経済システム",
+      "地域経済に限定したビジネスモデル"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "プラットフォームエコノミーはネットワーク効果で参加者増加と価値創造が連動する。",
+    "explanation_long": "プラットフォームエコノミー：Amazon・Apple（App Store）・Uber・Airbnbなどのデジタルプラットフォームが需要者と供給者をつなぎ、参加者が増えるほど全員の価値が高まるネットワーク効果を活用するビジネスモデル。限界費用がゼロに近い形でスケールし、勝者総取り（Winner Takes All）の傾向がある。",
+    "detail_page": "details/current/industry_innovation.html#platform"
+  },
+  {
+    "q": "「クリエイターエコノミー（Creator Economy）」の成長を支えている主要因はどれか？",
+    "options": [
+      "SNS・動画プラットフォーム・クリエイター向け収益化ツールの普及で個人が直接ファンから収益を得やすくなったこと",
+      "大企業のメディア投資の増加",
+      "政府の文化振興政策",
+      "印刷・製造コストの低下"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "クリエイターエコノミー：デジタルツールで個人が直接マネタイズできる環境が整った。",
+    "explanation_long": "クリエイターエコノミー（Creator Economy）：YouTubeパートナープログラム・Patreon・Substackなどのプラットフォームやツールにより、個人クリエイター（YouTuber・ポッドキャスター・ライター・アーティスト）がファンから直接収益を得るエコシステム。世界のクリエイター数は5000万人超（2023年推計）、市場規模は1000億ドル超とも言われる。",
+    "detail_page": "details/current/industry_innovation.html#creator"
+  },
+  {
+    "q": "「スペースエコノミー（宇宙経済）」の拡大において民間企業の参入が加速した主な背景はどれか？",
+    "options": [
+      "打ち上げコストの劇的な低下（SpaceXの再使用ロケット等）と小型衛星技術の発展",
+      "各国政府が宇宙開発の全コストを補助するようになったから",
+      "宇宙旅行の大衆化が実現したから",
+      "国際宇宙条約が民間参入を義務化したから"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "SpaceXのFalcon 9再使用ロケットで打ち上げコストが約1/10に下がりNewSpaceが台頭。",
+    "explanation_long": "NewSpace（民間宇宙産業）の台頭：SpaceXの再使用可能ロケット（Falcon 9・Starship）により打ち上げコストが大幅低下（2000年代比で約1/10以下）。小型衛星（CubeSat）・コンステレーション（Starlink）・宇宙観光・月面資源開発など多様なビジネスが生まれている。政府の宇宙開発独占から官民協力・民間主導への構造転換。",
+    "detail_page": "details/current/industry_innovation.html#space"
+  },
+  {
+    "q": "「量子コンピューティング（Quantum Computing）」が現在の古典コンピュータと根本的に異なる点はどれか？",
+    "options": [
+      "量子ビット（qubit）の重ね合わせと量子もつれを使い、特定問題を並列的に処理できる",
+      "すべての計算を古典コンピュータより速く解ける",
+      "プログラミング言語が全く異なる",
+      "インターネットに接続できない"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "量子コンピュータはqubitの重ね合わせ・量子もつれで特定の問題を超高速解析。",
+    "explanation_long": "量子コンピューティング：従来の0か1のビットでなく、0と1の両方を同時に持てる量子ビット（qubit）を使う。重ね合わせ（Superposition）と量子もつれ（Entanglement）により特定の計算（素因数分解・組合せ最適化・分子シミュレーション）を指数関数的に高速化できる。ただし現在は量子エラー率が高く「ノイズ中間スケール」段階で全ての問題を解けるわけではない。",
+    "detail_page": "details/current/industry_innovation.html#quantum"
+  },
+  {
+    "q": "「マテリアルインフォマティクス（Materials Informatics）」の概念として正しいものはどれか？",
+    "options": [
+      "AIと大規模データベースを活用して新素材・化合物の開発を加速する手法",
+      "マテリアル（素材）の価格情報を収集するシステム",
+      "素材業界のERPシステム",
+      "物質の化学式を自動生成するAI"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "マテリアルインフォマティクス：AI・機械学習で新材料の探索・開発を飛躍的に加速。",
+    "explanation_log": "マテリアルインフォマティクス（MI）：材料科学にAI・機械学習・データベースを活用して新素材の特性予測や最適化を行う研究手法。従来の試行錯誤型実験を大幅に効率化できる。電池材料・半導体材料・医薬品分子設計など幅広い分野で「AI駆動の科学（AI for Science）」として急速に発展。",
+    "detail_page": "details/current/industry_innovation.html#deep_tech"
+  },
+  {
+    "q": "「ヘルステック（HealthTech）」分野で「DTx（デジタルセラピューティクス）」とはどのような治療法か？",
+    "options": [
+      "医薬品や医療機器の代わりにソフトウェア・アプリを用いて疾患を治療・管理する医療介入",
+      "ウェアラブルデバイスで健康データを収集するだけの技術",
+      "AIで医師の診断を補助するシステム",
+      "電子カルテの管理システム"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "DTx：ソフトウェア（アプリ）を治療手段として使う医薬品代替・補完の医療技術。",
+    "explanation_long": "DTx（Digital Therapeutics）：臨床エビデンスに基づいて設計されたソフトウェアを医療介入として使い、疾患の治療・管理・予防を行う。例：糖尿病管理アプリ・認知行動療法（CBT）アプリ・禁煙アプリ。米国FDAや日本の薬機法で規制されるプログラム医療機器（SaMD）として承認される。副作用が少なく費用対効果が高い可能性から注目。",
+    "detail_page": "details/current/industry_innovation.html#health"
+  },
+  {
+    "q": "日本の「デジタル庁」設立の主な目的はどれか？",
+    "options": [
+      "行政のデジタル化推進・省庁横断のデータ連携・マイナンバー活用でサービス向上を図る",
+      "デジタル産業の国際競争力を高める",
+      "外国のデジタル企業の参入を規制する",
+      "国内全企業のDXを政府が直接指導する"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "デジタル庁（2021年9月設立）：行政DX・省庁横断データ連携の司令塔。",
+    "explanation_long": "デジタル庁：2021年9月に設立。目標：①行政サービスのデジタル化（書かない・待たない・行かないワンストップ化）、②各省庁システムの統一・共通基盤（政府共通クラウド：Gov-Cloud）、③マイナンバーカード普及と活用拡大、④データ連携基盤の整備。菅政権の目玉政策として発足し、その後も重点政策として継続。",
+    "detail_page": "details/current/dx_policy.html#digital_gov"
+  },
+  {
+    "q": "「GovTech（ガブテック）」の概念として正しいものはどれか？",
+    "options": [
+      "テクノロジーを活用して政府・行政サービスを改善・効率化する取り組みや企業群",
+      "政府がIT企業を規制する政策全般",
+      "政府が国有IT企業を運営するシステム",
+      "自治体の電算部門の呼称"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "GovTech：テクノロジーで行政サービス・政府業務の変革を図る民間・官の取り組み。",
+    "explanation_long": "GovTech（Government Technology）：民間テクノロジー企業や市民エンジニアが、許認可・税務申告・住民票・入札などの行政サービスをデジタル化・効率化・使いやすくする取り組みや企業セクター。エストニアのe-Estonia（行政全面デジタル化）がグローバルモデル。日本でも自治体向けSaaSや申請デジタル化が急増。",
+    "detail_page": "details/current/dx_policy.html#govtech"
+  },
+  {
+    "q": "「経済安全保障推進法（2022年）」が定める4つの分野はどれか？",
+    "options": [
+      "サプライチェーン強靭化・基幹インフラ安全性確保・先端技術育成・特許非公開",
+      "税制優遇・外資規制・国有化・輸出管理",
+      "エネルギー・食料・医療・通信の国産化",
+      "デジタル・AI・量子・半導体の輸出促進"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "経済安保法の4本柱：①SC強靭化②基幹インフラ③技術育成④特許非公開。",
+    "explanation_long": "経済安全保障推進法（2022年5月成立）の4本柱：①重要物資のサプライチェーン強靭化（半導体・蓄電池・医薬品等の安定供給）、②基幹インフラの安全性確保（電力・通信等の重要システムの事前審査）、③先端技術の育成支援（量子・AI・宇宙等の官民プロジェクト）、④特許出願の非公開制度（安保上重要な発明の秘匿化）。",
+    "detail_page": "details/current/dx_policy.html#security"
+  },
+  {
+    "q": "「DX推進指標」（IPA公表）においてDXの状況が「DXと言える段階」に達するための条件はどれか？",
+    "options": [
+      "デジタル技術を活用してビジネスモデル自体を変革し、競争上の優位性を確立している段階",
+      "ITシステムを導入して業務を効率化している段階",
+      "DX推進組織を設置している段階",
+      "DX戦略文書を策定している段階"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "真のDXはビジネスモデル変革＋競争優位確立であり、効率化だけではない。",
+    "explanation_long": "IPA（情報処理推進機構）のDX推進指標：企業のDX推進状況を0〜5の6段階で評価。レベル3以上が「DXと言える段階」で、デジタル技術を使ったビジネスモデルの変革・新規ビジネス創出・競争優位の確立を指す。レベル0〜2は「デジタイゼーション（業務効率化・デジタル化）」段階。",
+    "detail_page": "details/current/dx_policy.html#dx"
+  },
+  {
+    "q": "「2025年の崖（IT崖）」の問題として経済産業省が指摘した内容はどれか？",
+    "options": [
+      "基幹系レガシーシステムの老朽化・ブラックボックス化が進み、DX推進の障害と技術者不足で2025年以降に最大12兆円/年の損失が生じるリスク",
+      "2025年に日本の人口が急減する社会問題",
+      "2025年までにAI人材が不足する問題",
+      "スタートアップへの投資が2025年に頭打ちになる問題"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "2025年の崖：老朽化レガシーシステムによるDX阻害と最大12兆円損失リスク。",
+    "explanation_long": "「DXレポート〜ITシステム『2025年の崖』克服とDXの本格的な展開〜」（経済産業省、2018年）：企業の基幹系システムが老朽化・複雑化・ブラックボックス化しており、このまま放置すると2025年以降に大規模システム障害・セキュリティリスクが増大し、DX推進も阻害されて最大12兆円/年の経済損失が生じると警告。",
+    "detail_page": "details/current/dx_policy.html#legacy"
+  },
+  {
+    "q": "「スマートシティ」で採用される「データ連携基盤（都市OS）」の役割はどれか？",
+    "options": [
+      "交通・エネルギー・医療・防災など複数の都市サービスのデータを統合し相互連携できる都市全体のデータ基盤",
+      "市役所の業務システムの管理",
+      "都市の電力供給システムの制御",
+      "インターネット接続の提供"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "都市OS：スマートシティの複数分野データを統合・連携する共通データ基盤。",
+    "explanation_log": "スマートシティの都市OS（Urban OS）：交通・エネルギー・医療・防災・行政など複数の都市サービスのデータをAPI連携で統合する共通プラットフォーム。国土交通省のProject PLATEAU（3D都市モデル）や流山市・浜松市などで実装が進む。仮想空間（デジタルツイン）と連動したシティマネジメントの基盤となる。",
+    "detail_page": "details/current/dx_policy.html#smart_city"
+  },
+  {
+    "q": "「マイナンバーカードの健康保険証利用（マイナ保険証）」の目的として正しいものはどれか？",
+    "options": [
+      "医療機関が過去の受診歴・薬剤情報を参照でき、より質の高い医療とペーパーレス化を実現する",
+      "マイナンバーで全国民の資産を一元管理する",
+      "健康保険料の自動徴収システム",
+      "外国人の医療利用を制限する"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "マイナ保険証：医療情報の連携で質の高い医療とDXを実現する仕組み。",
+    "explanation_long": "マイナ保険証（健康保険証のマイナンバーカード化）：2024年12月に従来の紙・プラスチック保険証を廃止しマイナ保険証に一本化（移行期間を設けつつ）。医療機関が患者の同意のもとで過去の受診歴・薬剤情報・健診結果を参照できるようになり、重複投薬防止・より適切な医療提供・窓口負担の自動精算（限度額申請不要）などが実現する。",
+    "detail_page": "details/current/dx_policy.html#digital_gov"
+  },
+  {
+    "q": "「インダストリー5.0（Industry 5.0）」がインダストリー4.0と異なる点はどれか？",
+    "options": [
+      "効率・生産性だけでなく人間中心・持続可能性・強靭性（レジリエンス）を産業の目標に加える考え方",
+      "自動化をさらに進めて人間を製造から完全排除する",
+      "スマートファクトリーの次世代技術を示す",
+      "工業製品の規格化をさらに進める"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "Industry 5.0：人間中心・サステナビリティ・レジリエンスを加えた次の産業ビジョン。",
+    "explanation_long": "インダストリー5.0（欧州委員会、2021年）：第4次産業革命（AI・IoT・ビッグデータ）の生産性・効率性中心のIndustry 4.0を超えて、①Human-Centric（人間中心：人間と機械の協調）、②Sustainable（持続可能：環境負荷削減）、③Resilient（強靭：危機耐性の高い産業）を産業の目標に加えるビジョン。人間の役割・価値を再評価する点が特徴。",
+    "detail_page": "details/current/dx_policy.html#industry"
+  },
+  {
+    "q": "「人的資本経営」において企業が開示を求められる主な情報（ISO 30414基準等）はどれか？",
+    "options": [
+      "採用・育成・スキル・エンゲージメント・多様性・離職率などの人材に関する定量的データ",
+      "役員報酬の詳細のみ",
+      "製品別の従業員数",
+      "顧客満足度と従業員の関係"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "人的資本開示：採用・育成・多様性・エンゲージメント等の定量情報を開示。",
+    "explanation_long": "人的資本経営：人材を「コスト」でなく「資本」として捉え、その価値最大化を経営の中心に置く。ISO 30414（人的資本報告のガイドライン）や日本の有報・コーポレートガバナンス報告書での人的資本開示義務化（2023年〜）により、育成投資額・離職率・エンゲージメントスコア・D&Iデータ等の開示が求められる。",
+    "detail_page": "details/current/work_human_capital.html#hc"
+  },
+  {
+    "q": "「ジョブ型雇用」と「メンバーシップ型雇用」の違いとして正しいものはどれか？",
+    "options": [
+      "ジョブ型は職務・スキル定義が明確で市場賃金に連動、メンバーシップ型は会社都合での配置転換と年功序列が基本",
+      "ジョブ型は終身雇用、メンバーシップ型は成果主義",
+      "ジョブ型は中小企業向け、メンバーシップ型は大企業向け",
+      "両者は同一の概念"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "ジョブ型：職務定義＋職務市場価値連動賃金。メンバーシップ型：配置転換＋年功賃金。",
+    "explanation_long": "ジョブ型雇用：職務記述書（Job Description）で仕事の内容・権限を明確化し、その市場価値に基づいた賃金を支払う（欧米が主流）。メンバーシップ型雇用：「会社の一員」として採用し職務は会社が決定。配置転換・転勤があり賃金は年功序列基準（日本の伝統的雇用）。日本大企業を中心にジョブ型への移行が進む。",
+    "detail_page": "details/current/work_human_capital.html#employment"
+  },
+  {
+    "q": "「eNPS（Employee Net Promoter Score）」が測定するものはどれか？",
+    "options": [
+      "従業員が自社を職場として友人・知人に推薦する意欲（従業員ロイヤルティ）",
+      "顧客向けNPSを従業員に適用した顧客満足指標",
+      "従業員の生産性測定スコア",
+      "残業時間と給与の相関"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "eNPS：従業員が職場を推薦したいかを測る従業員版ネットプロモータースコア。",
+    "explanation_long": "eNPS（Employee Net Promoter Score）：「あなたの会社を友人・知人に職場として推薦しますか（0〜10点）」を従業員に問い、推薦者（9〜10）−批判者（0〜6）でスコアを算出。顧客向けNPSと同様の手法で従業員ロイヤルティ・エンゲージメントを定量化。人的資本開示指標としても活用される。",
+    "detail_page": "details/current/work_human_capital.html#engagement"
+  },
+  {
+    "q": "「リスキリング（Reskilling）」と「アップスキリング（Upskilling）」の違いはどれか？",
+    "options": [
+      "リスキリングは異なる職種・業務に対応する新しいスキル習得、アップスキリングは現職に関連するスキルの深化",
+      "リスキリングは若者向け、アップスキリングは中高年向け",
+      "両者は同義で区別なく使われる",
+      "リスキリングはITスキルのみ、アップスキリングは全スキル"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "リスキリング＝別の仕事のための新スキル習得、アップスキリング＝現職の強化。",
+    "explanation_long": "リスキリング（Reskilling）：自動化・産業変化で既存の仕事が消滅・変化する中で、全く異なる新しい職種・業務に対応するためのスキル習得（例：製造ラインワーカーがデータアナリストになる）。アップスキリング（Upskilling）：現在の仕事に関連するスキルを向上させる（例：マーケターがデジタルマーケティングスキルを強化）。",
+    "detail_page": "details/current/work_human_capital.html#learning"
+  },
+  {
+    "q": "「心理的安全性（Psychological Safety）」の概念を提唱したのは誰で、どのような状態を指すか？",
+    "options": [
+      "エイミー・エドモンドソンが提唱し、チーム内で意見・疑問・失敗を恐れずに発言できる状態",
+      "ストレスなく働ける物理的環境の整備",
+      "職場のハラスメントが完全に排除された状態",
+      "メンタルヘルスケアプログラムの実施"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "心理的安全性（エドモンドソン）：チームで発言・失敗を恐れずに安心して行動できる状態。",
+    "explanation_long": "心理的安全性（Psychological Safety）：Harvard Business Schoolのエイミー・エドモンドソンが提唱。チームメンバーが対人リスク（非難・拒絶・罰せられること）を恐れることなく、意見・疑問・懸念・失敗を率直に表現できる状態。GoogleのProject Aristotelesが高パフォーマンスチームに最も重要な要素として特定し広く普及。",
+    "detail_page": "details/current/work_human_capital.html#culture"
+  },
+  {
+    "q": "「タレントマネジメント」の目的として正しいものはどれか？",
+    "options": [
+      "人材の採用・育成・評価・配置・維持を戦略的に統合管理し、組織目標の達成に必要な人材を確保する",
+      "従業員の福利厚生を管理する",
+      "給与・報酬の計算を行う",
+      "採用活動のみを効率化する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "タレントマネジメント：戦略目標実現に必要な人材の計画的育成・配置・維持の統合管理。",
+    "explanation_long": "タレントマネジメント：採用（Talent Acquisition）→育成・学習（L&D）→パフォーマンス管理→サクセッションプランニング（後継者育成）→リテンション（定着）を戦略的・一体的に管理するHR手法。HRテック（SAP SuccessFactors・WorkdayなどのHCMツール）で統合管理が進む。",
+    "detail_page": "details/current/work_human_capital.html#hc"
+  },
+  {
+    "q": "「ウェルビーイング（Well-Being）」経営において企業が重視する4つの側面はどれか？",
+    "options": [
+      "身体的・精神的・社会的・財務的ウェルビーイング",
+      "給与・休暇・福利厚生・労働時間",
+      "KPI・OKR・MBO・BSC",
+      "採用・育成・評価・退職"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ウェルビーイング経営：身体・精神・社会・財務の4側面での従業員の幸福を支援。",
+    "explanation_long": "ウェルビーイング（Well-Being）経営：従業員の健康・幸福を人的資本として捉え組織的に支援する経営アプローチ。4つの側面：①Physical Well-being（身体的健康：運動・睡眠・食事）、②Mental Well-being（精神的健康：EAP・メンタルヘルスケア）、③Social Well-being（社会的つながり・所属感）、④Financial Well-being（経済的安心：資産形成支援）。",
+    "detail_page": "details/current/work_human_capital.html#wellbeing"
+  },
+  {
+    "q": "「OKR（Objectives and Key Results）」とKPI（Key Performance Indicator）の違いはどれか？",
+    "options": [
+      "OKRは挑戦的な目標設定と定性・定量の成果指標、KPIは業務プロセスの健全性を測定する継続的指標",
+      "OKRは財務指標、KPIは非財務指標",
+      "OKRは個人のみ、KPIは組織のみに使う",
+      "OKRは年次、KPIは月次の評価ツール"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "OKRは野心的な目標の達成度追跡、KPIは継続的な業務健全性の測定。",
+    "explanation_long": "OKR（Objectives and Key Results）：インテル発祥でGoogleが普及。O（Objective：定性的な野心的目標）とKR（Key Results：達成度を測る定量指標）で構成。挑戦的・透明・四半期ベースが特徴。KPI（Key Performance Indicator）：既存業務プロセスの健全性を継続的にモニタリングする業績指標。OKRは変革・成長の指向ツール、KPIは安定運営の管理ツールと使い分けが多い。",
+    "detail_page": "details/current/work_human_capital.html#performance"
+  },
+  {
+    "q": "「HRBP（HR Business Partner）」の役割として正しいものはどれか？",
+    "options": [
+      "事業部門と協働し、事業目標達成のために人事戦略・施策を企画・実行する戦略的HR担当者",
+      "給与計算・勤怠管理などの人事業務を処理する担当者",
+      "採用活動を専門に担当するリクルーター",
+      "HRシステムの開発・運用を行うIT担当者"
+    ],
+    "answer": 0,
+    "efficiency": "intermediate",
+    "difficulty": "intermediate",
+    "explanation_short": "HRBPは事業部門に伴走しビジネス課題を人事戦略で解決するHRの戦略担当。",
+    "explanation_long": "HR Business Partner（HRBP）：デイブ・ウルリッヒが1997年に提唱したHR Transformation Modelの中核概念。事業部門に深く関与し経営者・マネジャーと協働して採用戦略・組織設計・人材育成・文化変革を推進する戦略的HR専門家。ルーティン業務（給与・福利）はShared Service、専門知識はCenter of Excellenceが担い、HRBPはビジネスパートナー機能に特化。",
+    "detail_page": "details/current/work_human_capital.html#hr"
+  },
+  {
+    "q": "「従業員体験（EX：Employee Experience）」の向上が重要視される理由はどれか？",
+    "options": [
+      "EXが高い組織は人材の定着・エンゲージメント・生産性が高く、最終的に顧客体験（CX）の向上にも繋がるから",
+      "従業員への待遇改善が法律で義務化されているから",
+      "EXはコスト削減に直接寄与するから",
+      "従業員が会社の株主でもある場合に限り重要"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "高いEXは人材定着・生産性向上・CX向上の好循環を生み出す。",
+    "explanation_long": "EX（Employee Experience）：従業員が採用から退職まで企業で経験する全ての体験の総和。Glassdoor・IBMの研究でEXとCX（Customer Experience）の正の相関が実証されている。高いEX →エンゲージメント向上→顧客対応品質向上→CX向上という好循環。人的資本経営の核心として欧米・日本ともに注目度が高まっている。",
+    "detail_page": "details/current/work_human_capital.html#engagement"
   }
 ]

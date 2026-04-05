@@ -1216,5 +1216,1307 @@
     "explanation_short": "ブランドリポジショニングは再定義による再活性化です。",
     "explanation_long": "市場変化に対応してブランドのメッセージやターゲット層を見直し、新たな価値を再構築する戦略です。",
     "detail_page": "details/marketing/brand.html#brand-extension"
+  },
+  {
+    "q": "マーケティングの4Pのうち「Promotion（プロモーション）」に含まれないものはどれか？",
+    "options": [
+      "流通チャネルの設計",
+      "広告",
+      "PR活動",
+      "販売促進"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "流通チャネルはPlace（流通）の要素。",
+    "explanation_long": "4P：Product（製品）・Price（価格）・Place（流通）・Promotion（プロモーション）。流通チャネル設計はPlace、広告・PR・販促・人的販売はPromotionに含まれる。",
+    "detail_page": "details/marketing/basics.html#4p"
+  },
+  {
+    "q": "SWOT分析のクロス分析（TOWS分析）において「WO戦略」が意味するものはどれか？",
+    "options": [
+      "弱みを克服して機会を活かす戦略",
+      "強みで脅威に対処する戦略",
+      "強みで機会を最大化する戦略",
+      "弱みと脅威を回避する撤退戦略"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "WO戦略＝弱みを補って外部機会を取り込む。",
+    "explanation_long": "TOWS分析の4戦略：SO（強み×機会：積極攻勢）、WO（弱み×機会：改善・追求）、ST（強み×脅威：差別化・対抗）、WT（弱み×脅威：防衛・撤退）。",
+    "detail_page": "details/marketing/basics.html#swot"
+  },
+  {
+    "q": "マーケティング近視眼（Marketing Myopia）の概念を提唱したのは誰か？",
+    "options": [
+      "セオドア・レビット",
+      "フィリップ・コトラー",
+      "マイケル・ポーター",
+      "ピーター・ドラッカー"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "レビットが1960年HBR論文で提唱。事業定義の狭さを批判。",
+    "explanation_long": "セオドア・レビット（T. Levitt）が1960年の「Marketing Myopia」で提唱。「我々は鉄道業ではなく輸送業だ」という事業定義の問題を指摘。製品でなく顧客ニーズ中心に事業を定義すべきと主張した。",
+    "detail_page": "details/marketing/basics.html#concept"
+  },
+  {
+    "q": "市場浸透価格戦略（ペネトレーション・プライシング）の目的として正しいものはどれか？",
+    "options": [
+      "低価格で市場シェアを急速に獲得する",
+      "高価格で利益を早期回収する",
+      "顧客属性別に価格を変える",
+      "競合の追随を防ぐために高価格を維持する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "低価格で素早く市場を浸透し顧客を獲得する戦略。",
+    "explanation_long": "ペネトレーション（浸透）価格戦略：低価格設定で多くの顧客を引き付け素早く市場シェアを獲得する。ネットワーク効果が働く市場や規模の経済が大きい製品で有効。対義語はスキミング（上澄み）価格。",
+    "detail_page": "details/marketing/basics.html#price"
+  },
+  {
+    "q": "マーケティング・ミックスの「4C」フレームワークで「Product」に対応するものはどれか？",
+    "options": [
+      "Customer Value（顧客価値）",
+      "Cost（コスト）",
+      "Convenience（利便性）",
+      "Communication（コミュニケーション）"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "4Cは顧客視点の4P：価値・コスト・利便・コミュニケーション。",
+    "explanation_long": "ロバート・ローターボーンの4C：Product→Customer Value（顧客価値）、Price→Cost（顧客の負担コスト）、Place→Convenience（利便性）、Promotion→Communication（双方向コミュニケーション）。顧客視点へのシフトを示す。",
+    "detail_page": "details/marketing/basics.html#4p"
+  },
+  {
+    "q": "STP分析の「T（ターゲティング）」において評価基準として使われる「5R」の一つ「Reach（到達可能性）」が意味するものはどれか？",
+    "options": [
+      "セグメントに対して効果的にアプローチできるか",
+      "セグメントの規模が十分に大きいか",
+      "セグメントが測定可能かどうか",
+      "自社の強みとセグメントが合致しているか"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "Reach：そのセグメントにアクセス・コミュニケーションできるか。",
+    "explanation_long": "ターゲティングの5R評価基準：Realistic（規模）、Rank（優先度）、Reach（到達可能性）、Response（反応測定可能性）、Rival（競合状況）。Reachは選んだセグメントに効果的にマーケティング活動が届けられるかを問う。",
+    "detail_page": "details/marketing/basics.html#stp"
+  },
+  {
+    "q": "プロダクト・ライフサイクル（PLC）の「成熟期」に有効なマーケティング戦略はどれか？",
+    "options": [
+      "市場シェア維持・競合差別化・コスト削減",
+      "高価格設定による利益の早期回収",
+      "積極的な広告投資と市場拡大",
+      "撤退タイミングの見極めと在庫処分"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "成熟期は競争激化の中でシェアを守るコスト重視の戦略。",
+    "explanation_long": "PLCの成熟期：市場成長が鈍化し競争が激化する。戦略は①ブランド強化・差別化でシェア維持、②コスト削減と効率化、③細分市場への再ターゲティング。積極的な市場拡大は導入〜成長期の戦略、撤退は衰退期。",
+    "detail_page": "details/marketing/basics.html#plc"
+  },
+  {
+    "q": "「知覚品質」（Perceived Quality）がブランド価値に与える影響として正しいものはどれか？",
+    "options": [
+      "実際の品質より消費者の主観的評価が購買判断を左右する",
+      "客観的な品質指標のみが販売に影響する",
+      "価格と知覚品質は常に一致する",
+      "知覚品質は広告費と比例して向上する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "消費者が感じる品質（主観）が実際の品質より購買に影響する。",
+    "explanation_long": "知覚品質（Perceived Quality）：消費者が製品・サービスについて主観的に感じる品質水準。実際の品質（客観測定値）と乖離することも多い。ブランドの信頼・評判・パッケージ・価格などが知覚品質に影響し、最終的な購買意欲を左右する。",
+    "detail_page": "details/marketing/basics.html#brand"
+  },
+  {
+    "q": "バリュープロポジション（Value Proposition）の定義として最も正確なものはどれか？",
+    "options": [
+      "自社製品・サービスが顧客に提供する独自の価値・便益の約束",
+      "製品の機能仕様一覧",
+      "企業のミッションとビジョンの統合文書",
+      "競合他社との価格差"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "VP：顧客にとっての独自価値提案（なぜ我々を選ぶか）。",
+    "explanation_long": "バリュープロポジション：企業が顧客に提供する固有の価値・便益の約束。「なぜ競合ではなく自社を選ぶべきか」を明確にする。アレックス・オスターワルダーのバリュープロポジションキャンバスでは、顧客の仕事（Jobs）・痛み（Pains）・利得（Gains）に対応させて設計する。",
+    "detail_page": "details/marketing/basics.html#concept"
+  },
+  {
+    "q": "マーケットシェア（市場占有率）の計算式はどれか？",
+    "options": [
+      "自社売上 ÷ 市場全体の売上 × 100",
+      "自社利益 ÷ 市場規模 × 100",
+      "顧客数 ÷ 総人口 × 100",
+      "製品数 ÷ 競合製品数 × 100"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "市場シェア＝自社売上÷業界全体売上×100（%）。",
+    "explanation_long": "市場占有率（マーケットシェア）= 自社の売上高 ÷ 市場全体の売上高 × 100。金額ベースのほか数量ベースでも算出する。業界内での相対的地位を示し、マーケットリーダー・チャレンジャー・フォロワー・ニッチャーの分類にも使われる。",
+    "detail_page": "details/marketing/basics.html#strategy"
+  },
+  {
+    "q": "アンソフの成長マトリクスにおける「多角化戦略」が意味するものはどれか？",
+    "options": [
+      "新しい市場に新しい製品を投入する",
+      "既存市場に既存製品でさらに普及させる",
+      "既存市場に新製品を投入する",
+      "既存製品を新しい市場に展開する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "多角化＝新市場×新製品。最もリスクが高い成長戦略。",
+    "explanation_long": "アンソフ・マトリクスの4戦略：市場浸透（既存×既存）、新製品開発（既存市場×新製品）、市場開発（新市場×既存製品）、多角化（新市場×新製品）。多角化は既存の知識・経験が活かしにくく最もリスクが高いが、ポートフォリオ分散効果がある。",
+    "detail_page": "details/marketing/basics.html#strategy"
+  },
+  {
+    "q": "「マーケティング・リサーチ」と「マーケット・リサーチ」の違いとして正しいものはどれか？",
+    "options": [
+      "マーケティング・リサーチはマーケティング全般の情報収集、マーケット・リサーチは市場規模調査に限定される",
+      "両者は同義で区別なく使われる",
+      "マーケティング・リサーチは定量調査、マーケット・リサーチは定性調査",
+      "マーケット・リサーチはB2B専用の調査手法"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "MRは広義の意思決定支援情報収集、市場調査は市場データ収集。",
+    "explanation_long": "マーケティング・リサーチ（Marketing Research）：製品開発・価格・プロモーション・流通など、マーケティング意思決定全般を支援する情報の収集・分析・解釈プロセス全体を指す。マーケット・リサーチ（Market Research）は市場規模・競合・顧客動向など市場に関する調査に限定した概念。",
+    "detail_page": "details/marketing/basics.html#research"
+  },
+  {
+    "q": "消費者の購買意思決定プロセスの「情報探索」段階における「内部探索」とはどれか？",
+    "options": [
+      "記憶の中から過去の経験・知識を引き出すこと",
+      "インターネットや店頭で情報を集めること",
+      "友人・家族の口コミを参考にすること",
+      "広告から情報を取得すること"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "内部探索は自分の記憶・経験から情報を引き出す行為。",
+    "explanation_long": "購買意思決定プロセス（問題認識→情報探索→代替評価→購買→購買後評価）の情報探索段階：内部探索は自分の長期記憶（過去の使用経験・ブランド知識）を参照すること。内部探索で十分でなければ外部探索（広告・口コミ・店頭など）を行う。",
+    "detail_page": "details/marketing/basics.html#consumer"
+  },
+  {
+    "q": "ブランドエクイティの4要素（デービッド・アーカーモデル）として正しい組み合わせはどれか？",
+    "options": [
+      "ブランド認知・知覚品質・ブランド連想・ブランドロイヤルティ",
+      "価格競争力・市場シェア・製品品質・顧客数",
+      "広告費・SNSフォロワー・知名度・販売数",
+      "製品機能・デザイン・価格・流通範囲"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "アーカーの4要素：認知・知覚品質・連想・ロイヤルティ（+その他資産）。",
+    "explanation_long": "デービッド・アーカーのブランドエクイティ5要素：①ブランド認知、②知覚品質、③ブランド連想（イメージ）、④ブランドロイヤルティ、⑤その他独自資産（特許など）。高いブランドエクイティは価格プレミアム・顧客維持・競合参入障壁をもたらす。",
+    "detail_page": "details/marketing/brand.html#equity"
+  },
+  {
+    "q": "ブランドアーキテクチャの「マスターブランド戦略（ブランデッドハウス）」の特徴はどれか？",
+    "options": [
+      "一つの強いブランドで全製品・サービスをカバーする",
+      "製品ごとに独立したブランドを持つ",
+      "サブブランドを用いてセグメントごとに分ける",
+      "買収した企業のブランドを廃止せず並立させる"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "ブランデッドハウス＝単一ブランドで全ラインを統一。例：GE。",
+    "explanation_long": "ブランドアーキテクチャの類型：Branded House（マスターブランド戦略）は一つのブランドを前面に出す（例：Virgin、GE）。反対のHouse of Brands（P&Gの各独立ブランド）は製品ごとに異なるブランド。中間にEndorsed Brand・Sub-Brandがある。",
+    "detail_page": "details/marketing/brand.html#architecture"
+  },
+  {
+    "q": "Co-Branding（コブランディング）を行う主な目的はどれか？",
+    "options": [
+      "互いのブランド力を活用して認知拡大や信頼向上を図る",
+      "単一ブランドへの集中でコストを削減する",
+      "競合ブランドを市場から排除する",
+      "プライベートブランドを確立する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "2つ以上のブランドが協力し相互にブランド価値を高める。",
+    "explanation_long": "コブランディング（Co-Branding）：2つ以上のブランドが協力・共同して製品やキャンペーンを展開する戦略。例：Nike＋Apple、McDonalds＋各種コラボ商品。互いのブランドエクイティを活用し、新顧客層への到達やブランドイメージ向上を図る。",
+    "detail_page": "details/marketing/brand.html#strategy"
+  },
+  {
+    "q": "ブランドの「リポジショニング」が必要になる状況として最も適切なものはどれか？",
+    "options": [
+      "市場環境の変化でブランドイメージが現在の顧客ニーズとずれてきた時",
+      "新製品を市場に初めて投入する時",
+      "ブランドエクイティが十分に蓄積された時",
+      "競合他社が市場から撤退した時"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "環境変化でブランドの位置づけと顧客ニーズがずれた時に実施。",
+    "explanation_long": "リポジショニング：既存ブランドの市場における位置づけを意図的に変える戦略。顧客ニーズの変化・競合の参入・ターゲット層の変更などが動機。成功例：ガッツポーズをやめてポーターの事例など、失敗リスクも高く慎重な実施が必要。",
+    "detail_page": "details/marketing/brand.html#positioning"
+  },
+  {
+    "q": "ブランドエクステンション（ブランド拡張）の「ラインエクステンション」と「カテゴリーエクステンション」の違いはどれか？",
+    "options": [
+      "ラインは同一カテゴリー内の拡張、カテゴリーは新カテゴリーへの拡張",
+      "ラインは新カテゴリー、カテゴリーは地理的拡張",
+      "ラインはB2B向け、カテゴリーはB2C向け",
+      "ラインは価格拡張、カテゴリーは品質拡張"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "ラインは同ジャンル内、カテゴリーは全く異なる製品分野へ。",
+    "explanation_long": "ブランド拡張：Line Extension（ラインエクステンション）は同一製品カテゴリー内でのバリエーション追加（味・サイズ・色違いなど）。Category Extension（カテゴリーエクステンション）は別の製品カテゴリーへの展開（例：Virginsブランドの航空・金融進出）。",
+    "detail_page": "details/marketing/brand.html#extension"
+  },
+  {
+    "q": "消費者が特定ブランドに繰り返し購買する「行動的ロイヤルティ」と「態度的ロイヤルティ」の違いはどれか？",
+    "options": [
+      "行動は実際の繰り返し購買、態度は心理的な愛着・好意",
+      "行動は感情的なつながり、態度は購買頻度",
+      "両者は同義でロイヤルティを測る二つの名称",
+      "行動はB2B、態度はB2C向けの指標"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "行動ロイヤルティ＝実際の購買行動、態度ロイヤルティ＝心理的愛着。",
+    "explanation_long": "ブランドロイヤルティの2次元：行動的ロイヤルティ（Behavioral Loyalty）は実際の繰り返し購買行動で測定。態度的ロイヤルティ（Attitudinal Loyalty）はブランドへの感情的愛着・推薦意向・優先選択意図。真の忠実顧客は両方が高く、行動のみの場合は価格感応度が高い「惰性的購買」かもしれない。",
+    "detail_page": "details/marketing/brand.html#loyalty"
+  },
+  {
+    "q": "ブランド戦略においてプレミアムブランドが「価格プレミアム」を維持できる主な理由はどれか？",
+    "options": [
+      "高い知覚品質・ブランド連想・ロイヤルティが価格感応度を下げるから",
+      "製造コストが競合より高く価格に転嫁しているから",
+      "法律により価格の下限が設定されているから",
+      "流通チャネルを独占しているから"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ブランドエクイティが価格感応度を低下させ、高価格でも選ばれる。",
+    "explanation_long": "価格プレミアム（Price Premium）：高いブランドエクイティを持つ製品は、同等機能の競合品より高価格でも選ばれる。顧客はブランドに対する信頼・ステータス・安心感に追加的な価値を感じ価格感応度が下がる。これがブランド投資のROIの一つ。",
+    "detail_page": "details/marketing/brand.html#equity"
+  },
+  {
+    "q": "ブランドのパーソナリティとはどのような概念か？",
+    "options": [
+      "ブランドに人間的な性格特性を付与したもの",
+      "ブランドのロゴや色彩などのビジュアルアイデンティティ",
+      "ブランドの創業者の個性",
+      "製品の物理的特徴の集合"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ブランドパーソナリティ＝人間の性格に例えたブランドの個性。",
+    "explanation_long": "ジェニファー・アーカーのブランドパーソナリティ5次元：誠実さ（Sincerity）・刺激性（Excitement）・有能さ（Competence）・洗練さ（Sophistication）・たくましさ（Ruggedness）。ブランドに人間的な性格を付与することで消費者との感情的つながりを強化する。",
+    "detail_page": "details/marketing/brand.html#identity"
+  },
+  {
+    "q": "「ブランドの連想」（Brand Association）がマーケターにとって重要な理由はどれか？",
+    "options": [
+      "消費者の記憶にネットワーク状に結びついたブランドイメージが購買行動を促進するから",
+      "法的な商標保護の根拠になるから",
+      "製品原価を下げる技術的メリットがあるから",
+      "競合他社との法的差別化を可能にするから"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "連想ネットワークが消費者の記憶の中でブランドを想起させやすくする。",
+    "explanation_long": "ブランド連想（Brand Association）：消費者がブランドを見聞きした時に頭に浮かぶイメージ・感情・概念のこと。Kellerのブランド知識モデルではブランド認知とブランドイメージ（連想の集合）で構成される。強く・好意的・ユニークな連想が購買促進につながる。",
+    "detail_page": "details/marketing/brand.html#equity"
+  },
+  {
+    "q": "NPS（ネット・プロモーター・スコア）が測定するものはどれか？",
+    "options": [
+      "友人・知人に推薦する可能性に基づく顧客ロイヤルティ",
+      "顧客満足度の平均値",
+      "ブランド認知度の変化",
+      "製品品質に対する評価"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "NPS＝推薦者割合－批判者割合。顧客ロイヤルティ指標。",
+    "explanation_long": "NPS（Net Promoter Score）：フレッド・ライクヘルドが開発。「友人・同僚にどの程度推薦しますか（0〜10点）」で推薦者（9〜10点）・中立者（7〜8点）・批判者（0〜6点）に分類。NPS = 推薦者% − 批判者%。−100〜+100の範囲で顧客ロイヤルティを測定する。",
+    "detail_page": "details/marketing/brand.html#loyalty"
+  },
+  {
+    "q": "OEM（相手先ブランド製造）とPB（プライベートブランド）の違いはどれか？",
+    "options": [
+      "OEMは他社ブランドで供給、PBは小売業者自身のブランド",
+      "OEMは大手メーカーのみ、PBは中小企業向け",
+      "OEMはデジタル製品、PBは食品のみ",
+      "両者とも卸売業者のブランド製品"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "OEMは発注者ブランドで製造、PBは小売業者が企画するブランド。",
+    "explanation_long": "OEM（Original Equipment Manufacturer）：他社のブランドで販売する製品を製造すること。製造業者は自社ブランドを持たずに受注生産。PB（Private Brand/プライベートブランド）：スーパーやコンビニが独自に企画・販売するブランド。NB（National Brand）メーカーに製造委託するケースも多い。",
+    "detail_page": "details/marketing/brand.html#strategy"
+  },
+  {
+    "q": "ブランドの「コアバリュー」を設定する目的はどれか？",
+    "options": [
+      "すべてのマーケティング活動に一貫したブランドの核となる価値観を提供する",
+      "製品の機能的特徴を明示する",
+      "広告費の予算配分を決定する",
+      "競合製品との価格差を正当化する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "コアバリューはブランドの全活動を貫く一貫した価値の軸。",
+    "explanation_long": "ブランドのコアバリュー（Core Value）：ブランドが体現する根本的な価値観・信念。製品・コミュニケーション・顧客体験・社員行動すべてに一貫性をもたらす。Appleの「Think Different」、Nikeの「Just Do It」はコアバリューを体現したコミュニケーション。",
+    "detail_page": "details/marketing/brand.html#identity"
+  },
+  {
+    "q": "リバース・ブランディング（Reverse Branding）として知られる無印良品の戦略の特徴はどれか？",
+    "options": [
+      "ブランドロゴや装飾を極力排し「シンプルさ」自体をブランド価値にする",
+      "既存ブランドを競合から買収して再構築する",
+      "デジタル上でのみブランドを展開する",
+      "低価格を唯一の価値提案とする"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "無印良品はロゴレスのシンプルさをブランドアイデンティティにした。",
+    "explanation_long": "無印良品（MUJI）は「ノーブランド良品」として出発し、余分な装飾・ロゴを排除したミニマルデザインをブランドアイデンティティにした逆説的なブランド戦略。「シンプル・合理的・素材の良さ」という強いブランド連想を世界で構築した。",
+    "detail_page": "details/marketing/brand.html#strategy"
+  },
+  {
+    "q": "ブランドの「稀少性（Scarcity）」を意図的に演出する戦略の狙いはどれか？",
+    "options": [
+      "希少性が知覚価値を高め需要を喚起する",
+      "在庫コストを削減する",
+      "製造能力の限界を顧客に説明する",
+      "配送コストを削減する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "限定・希少性は欲しい気持ちを煽り知覚価値と需要を高める。",
+    "explanation_long": "稀少性効果（Scarcity Effect）：入手困難であるほど人は価値を高く感じる心理（心理的リアクタンス）。高級ブランドが生産量を制限したり、期間限定・地域限定商品を展開するのはこの効果を利用した戦略。需要増加と価格プレミアムの両方が期待できる。",
+    "detail_page": "details/marketing/brand.html#strategy"
+  },
+  {
+    "q": "LTV（顧客生涯価値）を計算する基本的な式はどれか？",
+    "options": [
+      "平均購買額 × 購買頻度 × 顧客維持期間",
+      "総売上 ÷ 顧客数",
+      "1回の購買額 × マージン率",
+      "新規顧客獲得コスト × リテンション率"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "LTV＝購買額×頻度×維持期間（×マージン）で算出。",
+    "explanation_long": "LTV（Life Time Value / 顧客生涯価値）：一人の顧客が取引期間を通じて企業にもたらす収益の合計。基本式：LTV = 平均購買額 × 購買頻度 × 顧客維持期間 × 利益率。LTVがCAC（顧客獲得コスト）を大幅に上回ることがビジネスの健全性の指標。",
+    "detail_page": "details/marketing/customer.html#ltv"
+  },
+  {
+    "q": "RFM分析における「R（Recency）」が表す指標はどれか？",
+    "options": [
+      "最終購買日からの経過期間",
+      "購買頻度",
+      "購買金額",
+      "顧客の居住地域"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "R＝直近性（最後の購買がいつか）。",
+    "explanation_long": "RFM分析：顧客をRecency（最終購買日の新しさ）・Frequency（購買頻度）・Monetary（購買金額）の3指標でスコアリングし優良顧客を特定する分析手法。Rが高いほど最近購買した活性度の高い顧客。CRM施策の優先順位付けに使われる。",
+    "detail_page": "details/marketing/customer.html#rfm"
+  },
+  {
+    "q": "カスタマージャーニーマップ（CJM）の主な目的はどれか？",
+    "options": [
+      "顧客が認知から購買・継続に至る体験全体を可視化する",
+      "製品の製造プロセスを図示する",
+      "営業チームの活動スケジュールを管理する",
+      "競合他社の販売動向を追跡する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "CJMは顧客の全体験（タッチポイント・感情）を視覚的に整理する。",
+    "explanation_long": "カスタマージャーニーマップ：認知→検討→購買→利用→推薦という顧客の一連の体験（Journey）を、各段階での行動・感情・タッチポイントとともに可視化する図。組織内の顧客視点の共有と、各接点の体験改善に活用される。",
+    "detail_page": "details/marketing/customer.html#journey"
+  },
+  {
+    "q": "NPS（ネットプロモータースコア）において「推薦者（Promoters）」と判定されるスコアはどれか？",
+    "options": [
+      "9〜10点",
+      "7〜8点",
+      "0〜6点",
+      "5〜7点"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "NPS：9〜10点が推薦者、7〜8点が中立、0〜6点が批判者。",
+    "explanation_long": "NPSの分類：推薦者（Promoters）＝9〜10点（積極的に紹介する顧客）、中立者（Passives）＝7〜8点（満足だが積極的でない）、批判者（Detractors）＝0〜6点（不満で否定的な口コミを広める可能性）。NPS = 推薦者% − 批判者%。",
+    "detail_page": "details/marketing/customer.html#nps"
+  },
+  {
+    "q": "顧客獲得コスト（CAC）の計算式として正しいものはどれか？",
+    "options": [
+      "マーケティング・営業費用合計 ÷ 新規顧客獲得数",
+      "総売上 ÷ 顧客数",
+      "LTV ÷ チャーンレート",
+      "広告費 ÷ インプレッション数"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "CAC＝顧客獲得に要した費用÷期間内の新規顧客数。",
+    "explanation_long": "CAC（Customer Acquisition Cost）= マーケティング費用 + 営業費用（一定期間）÷ 同期間の新規顧客数。サブスクリプションビジネスではLTV/CAC比率（通常3以上が目標）が投資効率の核心指標となる。",
+    "detail_page": "details/marketing/customer.html#cac"
+  },
+  {
+    "q": "顧客セグメンテーションの「サイコグラフィック変数」とはどれか？",
+    "options": [
+      "ライフスタイル・価値観・パーソナリティなどの心理的特性",
+      "年齢・性別・収入などの人口統計学的特性",
+      "居住地域・都市規模などの地理的特性",
+      "購買頻度・利用状況などの行動的特性"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "サイコグラフィック＝心理的・ライフスタイル変数。",
+    "explanation_long": "セグメンテーション変数：①デモグラフィック（年齢・性別・収入）、②ジオグラフィック（地域・気候）、③サイコグラフィック（ライフスタイル・価値観・個性）、④行動変数（使用場面・ベネフィット・ロイヤルティ）。サイコグラフィックはVALS（価値観・ライフスタイル）分析などで使われる。",
+    "detail_page": "details/marketing/customer.html#segment"
+  },
+  {
+    "q": "チャーンレート（解約率）が月5%のサブスクリプションサービスの平均顧客維持期間はどれか？",
+    "options": [
+      "20ヶ月",
+      "5ヶ月",
+      "100ヶ月",
+      "12ヶ月"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "平均維持期間＝1÷チャーンレート＝1÷0.05＝20ヶ月。",
+    "explanation_long": "チャーンレート（Churn Rate）：一定期間に解約する顧客の割合。平均顧客維持期間 = 1 ÷ チャーンレート。月チャーン5% → 1/0.05 = 20ヶ月。チャーンを1%下げることがLTVに大きく影響するため、サブスクビジネスではチャーン低減が最重要KPI。",
+    "detail_page": "details/marketing/customer.html#ltv"
+  },
+  {
+    "q": "パーソナライゼーション（個別化）マーケティングが可能になった主な要因はどれか？",
+    "options": [
+      "顧客データの大量収集・分析技術とAIの発達",
+      "テレビ広告予算の削減",
+      "製品の標準化とコスト削減",
+      "店舗数の拡大"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "データとAIで一人ひとりに最適な体験・提案を届けられるようになった。",
+    "explanation_long": "パーソナライゼーション：顧客の行動データ・購買履歴・属性に基づいて個別に最適化されたコンテンツ・商品・オファーを提供すること。ECの購買履歴によるレコメンデーション、メールのセグメント配信、SNS広告のターゲティングなどが典型例。",
+    "detail_page": "details/marketing/customer.html#personalization"
+  },
+  {
+    "q": "カスタマーエクスペリエンス（CX）とカスタマーサービス（CS）の違いはどれか？",
+    "options": [
+      "CXは全てのタッチポイントを通じた体験全体、CSは問題解決・サポート対応",
+      "両者は同義で交互に使われる",
+      "CXはB2B向け、CSはB2C向け",
+      "CSは購買前、CXは購買後の体験"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "CXは包括的な顧客体験、CSはサポート・問い合わせ対応。",
+    "explanation_long": "カスタマーエクスペリエンス（CX）：認知から購買・利用・継続・推奨まで全てのタッチポイントを通じて顧客が感じる総合的な体験。カスタマーサービス（CS）はその一部で、問い合わせ・クレーム対応などのサポート機能。CX向上にはCS含む全部門が関わる。",
+    "detail_page": "details/marketing/customer.html#cx"
+  },
+  {
+    "q": "「顧客のボイス（VoC：Voice of Customer）」を収集する手法として含まれないものはどれか？",
+    "options": [
+      "競合他社の財務諸表分析",
+      "アンケート・サーベイ",
+      "インタビュー・フォーカスグループ",
+      "SNSのレビュー・コメント分析"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "VoCは顧客の意見・声を集める活動。財務分析は顧客の声ではない。",
+    "explanation_long": "VoC（Voice of Customer）：顧客のニーズ・期待・不満・要望を収集する活動。手法：①定量調査（アンケート・NPS）、②定性調査（インタビュー・FG）、③行動データ分析（購買・使用ログ）、④SNS・レビュー分析（ソーシャルリスニング）。競合の財務分析はVoCには含まれない。",
+    "detail_page": "details/marketing/customer.html#voc"
+  },
+  {
+    "q": "クロスセル（Cross-Sell）とアップセル（Up-Sell）の違いとして正しいものはどれか？",
+    "options": [
+      "クロスセルは関連製品を追加提案、アップセルは上位グレードへの誘導",
+      "クロスセルは価格を下げる交渉、アップセルは価格を上げる交渉",
+      "クロスセルはB2B、アップセルはB2C向けの技法",
+      "クロスセルは新規顧客、アップセルは既存顧客向け"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "クロスセル＝関連品追加提案、アップセル＝より高いグレードへ誘導。",
+    "explanation_long": "クロスセル（Cross-Sell）：現在購入しようとしている製品に関連する別製品を追加で提案する（例：スマホ購入時にケースを勧める）。アップセル（Up-Sell）：より高機能・高価格な上位グレードへのアップグレードを提案する（例：スタンダードプランからプレミアムへ）。",
+    "detail_page": "details/marketing/customer.html#sales"
+  },
+  {
+    "q": "顧客満足度（CSAT）を測定する際に一般的に使われる質問はどれか？",
+    "options": [
+      "「今回の体験にどの程度満足しましたか？」（1〜5点）",
+      "「このブランドをどのくらい推薦したいですか？」（0〜10点）",
+      "「当社のウェブサイトは使いやすいですか？」（Yes/No）",
+      "「今後もご利用になりますか？」（はい・いいえ）"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "CSAT＝特定接点の満足度を1〜5点のスケールで測定。",
+    "explanation_long": "CSAT（Customer Satisfaction Score）：特定の取引・接点に対する満足度を問う。典型的な質問：「今回のサービスにどの程度満足しましたか？（1〜5点）」。NPS（推薦意向・ロイヤルティ）やCES（Customer Effort Score：手間なく解決できたか）と合わせてCX指標として使われる。",
+    "detail_page": "details/marketing/customer.html#nps"
+  },
+  {
+    "q": "「マスカスタマイゼーション（Mass Customization）」とはどのような戦略か？",
+    "options": [
+      "大量生産の効率性を維持しながら顧客ごとの個別カスタマイズを実現する",
+      "完全なオーダーメイドで少量生産する",
+      "標準化製品を大量生産し低価格で販売する",
+      "顧客に製造工程を参加させる体験型マーケティング"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "マスカスタマイゼーション＝大量生産効率＋個別カスタマイズの両立。",
+    "explanation_long": "マスカスタマイゼーション（Mass Customization）：B・パイン2世が提唱。製品モジュール化・柔軟な製造システム・デジタル技術により、大量生産のコスト効率を保ちながら顧客個別の要望に応じたカスタマイズを実現する戦略。例：Dell PC（BTOモデル）、Nike iD。",
+    "detail_page": "details/marketing/customer.html#personalization"
+  },
+  {
+    "q": "顧客ロイヤルティプログラム（ポイント・会員制）がビジネスに与える効果として正しいものはどれか？",
+    "options": [
+      "スイッチングコストを高め継続利用を促し、LTVを向上させる",
+      "短期的な価格競争に勝つための最も有効な手段",
+      "新規顧客獲得コストをゼロにする",
+      "競合製品の品質を無効化する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ロイヤルティプログラムはスイッチング障壁を高め継続利用を促進する。",
+    "explanation_log": "ロイヤルティプログラム（ポイント・マイレージ・会員特典）：蓄積したポイントや特典を失いたくないというスイッチングコスト（心理的）を生み出し、継続利用・LTV向上につながる。また顧客データ収集により個別化施策の精度も向上する。",
+    "detail_page": "details/marketing/customer.html#loyalty"
+  },
+  {
+    "q": "コホート分析（Cohort Analysis）をマーケティングに活用する目的はどれか？",
+    "options": [
+      "同時期に獲得した顧客グループの行動・解約傾向を時系列で追跡する",
+      "製品のコスト構造を分析する",
+      "市場全体のシェア変動を把握する",
+      "広告媒体ごとの効果を比較する"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "コホート分析は同期獲得顧客の継続率・LTVを時系列で比較する。",
+    "explanation_long": "コホート分析：同じ時期（月・四半期）に獲得した顧客グループ（コホート）をまとめて、時間経過とともにリテンション率・LTV・購買頻度がどう変化するかを追跡する分析手法。施策の効果測定やLTV予測、チャーン問題の早期発見に有効。",
+    "detail_page": "details/marketing/customer.html#analytics"
+  },
+  {
+    "q": "SEO（検索エンジン最適化）における「オンページSEO」に含まれるものはどれか？",
+    "options": [
+      "タイトルタグの最適化",
+      "被リンク（バックリンク）の獲得",
+      "SNSシェアの促進",
+      "ページ読み込み速度の改善（サーバー側）"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "オンページSEOはHTML内の要素（タイトル・見出し・コンテンツ）の最適化。",
+    "explanation_long": "オンページSEO：サイト内部の要素を最適化するSEO施策。タイトルタグ・メタディスクリプション・見出し（H1〜H3）・内部リンク・コンテンツ品質・URL構造など。被リンク獲得はオフページSEO。テクニカルSEO（表示速度・モバイル対応）と合わせてSEO三本柱。",
+    "detail_page": "details/marketing/digital.html#seo"
+  },
+  {
+    "q": "コンテンツマーケティングにおいてBtoBで最も効果が高いとされるコンテンツ形式はどれか？",
+    "options": [
+      "ホワイトペーパー・事例研究（ケーススタディ）",
+      "短尺のTikTok動画",
+      "インフルエンサーコラボ投稿",
+      "クーポン・割引プロモーション"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "B2Bは専門的・詳細なホワイトペーパーや事例研究が効果的。",
+    "explanation_long": "B2Bコンテンツマーケティングでのコンテンツはリード育成（ナーチャリング）が目的。詳細な専門知識・ROI根拠・成功事例を提供するホワイトペーパー・ケーススタディ・ウェビナーが効果的。B2Cの感情訴求型（短尺動画・UGC）とは異なる。",
+    "detail_page": "details/marketing/digital.html#content"
+  },
+  {
+    "q": "マーケティングオートメーション（MA）の主な機能として正しいものはどれか？",
+    "options": [
+      "リードの行動に基づいて自動化されたメール配信・スコアリングを行う",
+      "ソーシャルメディアの投稿を自動生成する",
+      "新規顧客リストを自動的に調査・収集する",
+      "競合他社の価格を自動モニタリングする"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "MAは見込み客の行動追跡・スコアリング・自動メール配信が核心機能。",
+    "explanation_long": "マーケティングオートメーション（MA）：Marketo・HubSpot・Pardotなどのツールが代表。Webサイト訪問・資料ダウンロードなどのリード行動をトラッキングし、興味度（スコア）に応じて適切なコンテンツを自動配信。「温まった」リードのみ営業に渡す仕組み。",
+    "detail_page": "details/marketing/digital.html#automation"
+  },
+  {
+    "q": "A/Bテストをデジタルマーケティングで実施する際の重要な前提条件はどれか？",
+    "options": [
+      "一度に1つの変数のみを変更して比較する",
+      "できるだけ多くの要素を同時に変更して比較する",
+      "テスト期間は常に1日以内に設定する",
+      "テスト対象は常に新規顧客のみとする"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "A/Bテストは変数を1つのみ変えて因果関係を明確にする。",
+    "explanation_long": "A/Bテスト（スプリットテスト）：ページ・メール・広告の2バージョンをランダムに分けたユーザーグループに見せ、どちらが高いコンバージョンを得るか検証する手法。変数は1つのみ（例：見出しのみ）変えることで、差の原因を特定できる。",
+    "detail_page": "details/marketing/digital.html#analytics"
+  },
+  {
+    "q": "CPM（Cost Per Mille）広告とCPC（Cost Per Click）広告の違いはどれか？",
+    "options": [
+      "CPMは1000インプレッションあたりの費用、CPCはクリック1回あたりの費用",
+      "CPMはコンバージョン単価、CPCはクリック単価",
+      "CPMは動画広告専用、CPCはテキスト広告専用",
+      "CPMは月額固定費用、CPCは成果報酬型"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "CPM＝1000回表示あたりの費用。CPC＝クリック1回の費用。",
+    "explanation_long": "デジタル広告の課金モデル：CPM（Cost Per Mille）は1000インプレッション（表示）あたりの費用でブランド認知向上に使われる。CPC（Cost Per Click）はクリックされた時のみ課金されWebサイト訪問誘導に適する。他にCPA（行動）・CPV（動画視聴）がある。",
+    "detail_page": "details/marketing/digital.html#ads"
+  },
+  {
+    "q": "インフルエンサーマーケティングにおける「マイクロインフルエンサー」の特徴はどれか？",
+    "options": [
+      "フォロワー数は少ないがニッチなコミュニティへの影響力と信頼性が高い",
+      "フォロワー数100万以上の大型インフルエンサー",
+      "企業の公式SNSアカウントの運用担当者",
+      "テレビタレントが副業で行うSNS活動"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "マイクロインフルエンサーは1万〜10万人程度で高エンゲージメント。",
+    "explanation_long": "インフルエンサーの分類：メガ（100万+）→マクロ（10万〜100万）→マイクロ（1万〜10万）→ナノ（1千〜1万）。マイクロインフルエンサーはフォロワーとの親密度が高くエンゲージメント率が高い。特定ニッチの訴求に費用対効果が高いことが多い。",
+    "detail_page": "details/marketing/digital.html#social"
+  },
+  {
+    "q": "リターゲティング広告（リマーケティング）の仕組みとして正しいものはどれか？",
+    "options": [
+      "自社サイト訪問者に対して他サイト閲覧中に広告を再表示する",
+      "新規ユーザーのみに初回接触広告を配信する",
+      "競合サイト訪問者にリーチするための広告手法",
+      "メールリストに登録したユーザーに広告を送る"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "リターゲティングはCookieでサイト訪問者を追跡し再広告する手法。",
+    "explanation_long": "リターゲティング（Retargeting/Remarketing）：自社Webサイトを訪問したが購買せずに離脱したユーザーのブラウザにCookie（またはピクセル）を設置し、他のサイト閲覧中に再度広告を表示する手法。購入検討者への再接触で転換率を高める。",
+    "detail_page": "details/marketing/digital.html#ads"
+  },
+  {
+    "q": "コンバージョン率（CVR）の計算式はどれか？",
+    "options": [
+      "コンバージョン数 ÷ セッション（訪問）数 × 100",
+      "クリック数 ÷ インプレッション数 × 100",
+      "売上高 ÷ 広告費 × 100",
+      "新規顧客数 ÷ 既存顧客数 × 100"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "CVR＝コンバージョン数÷訪問数×100（%）。",
+    "explanation_long": "コンバージョン率（CVR：Conversion Rate）：Webサイトの訪問者のうち、目標とするアクション（購買・会員登録・資料DLなど）を達成した割合。CVR = コンバージョン数 ÷ セッション数 × 100。ECサイト平均は1〜3%程度。LPO（ランディングページ最適化）やA/Bテストで改善を図る。",
+    "detail_page": "details/marketing/digital.html#analytics"
+  },
+  {
+    "q": "オムニチャネル戦略がマルチチャネル戦略と異なる点はどれか？",
+    "options": [
+      "全チャネルが統合されシームレスな顧客体験を提供する",
+      "多数の独立したチャネルを並行して運営する",
+      "オンラインチャネルのみに集中する",
+      "各チャネルが個別に最適化される"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "オムニはチャネル統合で顧客体験が継続的、マルチは並列運営。",
+    "explanation_long": "マルチチャネル：複数の販売チャネル（店舗・EC・カタログ）を持つが各チャネルが独立。オムニチャネル：顧客がどのチャネルを使っても一貫した体験が得られるよう、在庫・顧客情報・プロモーションを統合。「店舗で見てECで注文、コンビニで受取」がその例。",
+    "detail_page": "details/marketing/digital.html#omni"
+  },
+  {
+    "q": "ソーシャルリスニングの主な目的はどれか？",
+    "options": [
+      "SNSでの自社・競合・業界に関する会話を監視・分析してインサイトを得る",
+      "自社の公式SNSアカウントの投稿スケジュールを管理する",
+      "インフルエンサーとの契約交渉を行う",
+      "SNS広告の入札価格を自動調整する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ソーシャルリスニング＝SNS上の消費者の会話をモニタリングして洞察を得る。",
+    "explanation_long": "ソーシャルリスニング（Social Listening）：Twitter・Instagram・掲示板などSNS上の投稿を自動収集・分析し、ブランドへの言及・感情（センチメント）・競合評価・トレンドを把握するマーケティングインテリジェンス活動。BrandwatchやSprinklarなどのツールが使われる。",
+    "detail_page": "details/marketing/digital.html#social"
+  },
+  {
+    "q": "デジタルマーケティングのKPIとして「ROAS（Return On Ad Spend）」が表すものはどれか？",
+    "options": [
+      "広告費1円あたりに生み出した売上",
+      "1件の注文を獲得するために要した広告費",
+      "広告のクリック単価",
+      "1000回表示あたりの広告費"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ROAS＝広告から生じた売上÷広告費（投資対収益）。",
+    "explanation_long": "ROAS（Return on Ad Spend）= 広告経由売上 ÷ 広告費 × 100。例：広告費100万円で300万円の売上 → ROAS = 300%。広告の「売上創出効率」を示す指標。ROI（利益ベース）と異なり売上ベースであることに注意。",
+    "detail_page": "details/marketing/digital.html#analytics"
+  },
+  {
+    "q": "パーミッションマーケティング（Permission Marketing）の概念を提唱したのは誰で、その核心はどれか？",
+    "options": [
+      "セス・ゴーディンが提唱し、顧客の同意を得た上でマーケティングを行うこと",
+      "フィリップ・コトラーが提唱し、製品品質で競合に差をつけること",
+      "マイケル・ポーターが提唱し、コスト優位で市場を獲得すること",
+      "ジェフ・ベゾスが提唱し、顧客データを収集して自動化すること"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "ゴーディンのパーミッションMK：承認を得てからアプローチ（同意型）。",
+    "explanation_long": "パーミッションマーケティング：セス・ゴーディンが1999年に提唱。消費者の注意を「奪う」従来の割り込み型広告ではなく、顧客の事前同意（パーミッション）を得てから関連性の高いメッセージを届けることが長期的なブランド関係を構築すると主張。メール配信のオプトインがその典型。",
+    "detail_page": "details/marketing/digital.html#strategy"
+  },
+  {
+    "q": "ゼロパーティデータ（Zero-Party Data）とは何か？",
+    "options": [
+      "顧客が自発的・意図的に企業に提供したデータ",
+      "Cookieを通じて収集したサードパーティの行動データ",
+      "競合の顧客情報を購入したデータ",
+      "AIが自動生成した顧客属性データ"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "ゼロパーティデータ＝顧客が能動的に企業に提供した直接情報。",
+    "explanation_long": "データの分類：ゼロパーティ（顧客が自発的に提供・アンケート・プリファレンス登録）、ファーストパーティ（自社の行動ログ・購買データ）、セカンドパーティ（パートナー企業のデータ）、サードパーティ（外部データブローカー）。Cookie規制強化でゼロ・ファーストパーティデータの重要性が急増。",
+    "detail_page": "details/marketing/digital.html#data"
+  },
+  {
+    "q": "グロースハッキング（Growth Hacking）の特徴として正しいものはどれか？",
+    "options": [
+      "データと実験を駆使して製品自体にバイラル成長機能を組み込む手法",
+      "テレビCMを大規模に投下して認知度を上げる手法",
+      "販売チームを大規模に採用してアウトバウンド営業を強化する手法",
+      "高額な展示会・イベントで見込み顧客を獲得する手法"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "グロースハッキングはプロダクト自体に成長エンジンを埋め込む。",
+    "explanation_long": "グロースハッキング：ショーン・エリスが提唱。スタートアップが少ない予算でユーザーを急成長させるために、製品・UX自体にバイラルループ・招待機能・紹介プログラムを組み込む手法。Dropboxの紹介プログラム（招待でストレージ増量）が代表例。",
+    "detail_page": "details/marketing/digital.html#strategy"
+  },
+  {
+    "q": "ファネル分析（Funnel Analysis）において「認知」から「購買」に至るコンバージョン改善で最初にすべきことはどれか？",
+    "options": [
+      "各ステップでの離脱率を計測して最大の離脱ポイントを特定する",
+      "広告予算を全体的に増やす",
+      "製品価格を下げる",
+      "競合サイトをコピーする"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ファネル改善はまず最も離脱が多いステップを特定する。",
+    "explanation_long": "ファネル分析：認知→興味→検討→購買の各ステップでの移行率（通過率）と離脱率を把握する分析手法。改善アプローチ：まず離脱率が最も高いボトルネックステップを特定し、そのステップの改善（LPO・UX改善・価格・CTA変更）に集中する。",
+    "detail_page": "details/marketing/digital.html#analytics"
+  },
+  {
+    "q": "動画マーケティングでの「プレロール広告（Pre-roll Ad）」とはどれか？",
+    "options": [
+      "視聴者が見たい動画の前に流れる広告",
+      "動画の途中に挿入されるミッドロール広告",
+      "動画終了後に表示されるポストロール広告",
+      "動画の右側に表示されるバナー型広告"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "プレロールは動画再生前に流れる広告（YouTube等で一般的）。",
+    "explanation_long": "動画広告の種類：プレロール（動画再生前）・ミッドロール（途中）・ポストロール（再生後）。プレロールにはスキップ可（5秒後）と不可がある。YouTubeのTrueView広告が代表例。スキップ可の場合、実際に視聴された分のみ課金されるため費用効率が高い。",
+    "detail_page": "details/marketing/digital.html#video"
+  },
+  {
+    "q": "ジョブ理論（Jobs to Be Done Theory）において製品は何として捉えられるか？",
+    "options": [
+      "顧客が特定の「仕事（Job）」を片付けるために雇うもの",
+      "製造コストと利益の集合体",
+      "市場シェアを競う競争上の道具",
+      "企業のコアコンピタンスの体現"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "ジョブ理論：人は「仕事を片付けるため」に製品を採用（雇用）する。",
+    "explanation_long": "ジョブ理論（Jobs to Be Done：クレイトン・クリステンセン）：消費者は機能ではなく「特定の状況で達成したいこと（Job）」のために製品を選ぶ。有名な例：「人々はドリルが欲しいのではなく、穴が欲しい（より本質は壁に何かを飾りたい）」。製品設計・マーケティングを顧客の真のJobから考える。",
+    "detail_page": "details/marketing/advanced.html#strategy"
+  },
+  {
+    "q": "ブルーオーシャン戦略における「価値曲線」の目的はどれか？",
+    "options": [
+      "業界の競争要因における自社と競合の提供価値を比較可視化する",
+      "製品の原価構造を分析する",
+      "市場セグメントを視覚的に区分する",
+      "ブランドの歴史的変遷を図示する"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "価値曲線は競合との差別化ポイントを一目で可視化するツール。",
+    "explanation_long": "ブルーオーシャン戦略（チャン・キム＆レネ・モボルニュ）の分析ツール：戦略キャンバス（Strategy Canvas）上の「価値曲線」は、業界内の主要な競争要因（横軸）に対して自社と競合が提供する水準（縦軸）を折れ線グラフで示す。差別化の方向性をERRC（取り除く・減らす・増やす・創造する）で設計する。",
+    "detail_page": "details/marketing/advanced.html#strategy"
+  },
+  {
+    "q": "マーケティングROI（MROI）の計算式はどれか？",
+    "options": [
+      "（マーケティング起因の利益増分 − マーケティング費用） ÷ マーケティング費用 × 100",
+      "総売上 ÷ マーケティング費用 × 100",
+      "新規顧客数 × LTV − マーケティング費用",
+      "ブランド認知度の上昇幅 ÷ 広告費"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "MROI＝（マーケ起因利益－費用）÷費用×100（%）。",
+    "explanation_long": "マーケティングROI（MROI）= (マーケティングで生み出した利益増分 − マーケティング投資額) ÷ マーケティング投資額 × 100。課題は「マーケティング起因の利益」の帰属（アトリビューション）の算定が困難なこと。マルチタッチアトリビューションモデルなどで精度を向上させる。",
+    "detail_page": "details/marketing/advanced.html#analytics"
+  },
+  {
+    "q": "アジャイルマーケティングの特徴として正しいものはどれか？",
+    "options": [
+      "短期スプリントでテスト・学習・改善を繰り返す反復型マーケティング",
+      "年度単位の大規模キャンペーン計画を徹底して実行する",
+      "マーケティング部門が外部エージェンシーに全て委託する",
+      "KPIを設定せずに創造性を最大化する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "アジャイルマーケティングはスプリント型のテスト・学習・改善サイクル。",
+    "explanation_long": "アジャイルマーケティング：ソフトウェア開発のアジャイル手法をマーケティングに適用。2週間程度の短いスプリントで仮説設定→実行→データで検証→改善を繰り返す。市場変化への素早い対応とデータドリブンな意思決定が特徴。コロナ禍以降さらに重要性が高まった。",
+    "detail_page": "details/marketing/advanced.html#strategy"
+  },
+  {
+    "q": "プライシング戦略の「価値ベース価格設定（Value-Based Pricing）」の特徴はどれか？",
+    "options": [
+      "顧客が感じる価値（支払い意欲）を基準に価格を設定する",
+      "製造コストに一定利益を上乗せした価格を設定する",
+      "競合他社の価格に合わせて価格を設定する",
+      "政府規制の範囲内で最高値を設定する"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "価値ベース価格＝顧客のWTP（支払い意欲）から逆算する。",
+    "explanation_long": "Value-Based Pricing：顧客が製品・サービスに感じる価値（Willingness to Pay）を調査・把握し、それを上限として価格を設定する。コストプラス（原価+利益）や競合ベースより収益性が高くなりやすい。価値の定量化（ROI計算・顧客調査）が鍵。",
+    "detail_page": "details/marketing/advanced.html#pricing"
+  },
+  {
+    "q": "カニバリゼーション（Cannibalization）とはマーケティングにおいて何を意味するか？",
+    "options": [
+      "新製品・新チャネルが既存製品・チャネルの売上を侵食する現象",
+      "競合他社の顧客を奪取する戦略",
+      "製品ラインを大幅に削減するリストラ戦略",
+      "市場全体が縮小していく現象"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "カニバリゼーション＝自社製品が自社他製品の売上を食い合う現象。",
+    "explanation_long": "カニバリゼーション（共食い）：新製品の投入やECチャネル開設などで、新旧製品・チャネル間で顧客を奪い合う現象。企業全体の純増収が生じない場合は問題。ただし競合に顧客を奪われる前に自らカニバライズする「プロアクティブ・カニバリゼーション」という意図的戦略もある（Appleがその典型）。",
+    "detail_page": "details/marketing/advanced.html#strategy"
+  },
+  {
+    "q": "マーケティングの「アトリビューション分析」において「ラストクリック（Last Click）アトリビューション」の問題点はどれか？",
+    "options": [
+      "購買直前の接点のみに成果を帰属し、認知・検討段階の接点の貢献を無視する",
+      "全接点に均等に成果を配分するため個々の施策評価が曖昧になる",
+      "最初の接点にのみ成果を配分し費用対効果が歪む",
+      "データ収集に費用がかかりすぎる"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "ラストクリック帰属は最後の接点だけに全成果を割り当て初期接点を過小評価。",
+    "explanation_long": "アトリビューション（成果帰属）モデル：コンバージョンまでの複数タッチポイントのうちどれに成果を帰属させるかを決めるモデル。ラストクリックは単純だが認知・検討段階（SEO・ディスプレイ広告）を過小評価する。マルチタッチ（線形・時間減衰・データドリブン）モデルがより正確。",
+    "detail_page": "details/marketing/advanced.html#analytics"
+  },
+  {
+    "q": "B2Bマーケティングにおける「アカウントベースドマーケティング（ABM）」の特徴はどれか？",
+    "options": [
+      "特定の企業（アカウント）を絞り込んで高度に個別化したアプローチをとる",
+      "できるだけ多くの見込み企業にアプローチして数で勝負する",
+      "消費者向けと同じマスマーケティング手法をB2Bに適用する",
+      "自動化ツールだけで人的接触を排除する"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "ABMは対象企業を絞り込み一社一社に個別化したマーケティングを展開。",
+    "explanation_long": "ABM（Account-Based Marketing）：B2Bで高い売上ポテンシャルを持つターゲット企業（アカウント）を数十〜数百社に絞り込み、その企業内の複数の意思決定者に対してカスタマイズされたコンテンツ・提案を展開する戦略。ROIが高く大型商談に特に有効。",
+    "detail_page": "details/marketing/advanced.html#b2b"
+  },
+  {
+    "q": "「キャズム（Chasm）」理論でジェフリー・ムーアが指摘したイノベーター理論の問題点はどれか？",
+    "options": [
+      "アーリーアダプターとアーリーマジョリティの間に市場普及の深い溝が存在する",
+      "イノベーターは存在しない",
+      "テクノロジー製品は必ず普及曲線通りに広がる",
+      "レイトマジョリティへのアプローチが最重要である"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "キャズムはアーリーアダプターからマジョリティへの移行にある深い溝。",
+    "explanation_long": "キャズム理論（ジェフリー・ムーア）：ロジャーズのイノベーター普及曲線（イノベーター→アーリーアダプター→アーリーマジョリティ→レイトマジョリティ→ラガード）の中で、アーリーアダプターとアーリーマジョリティの間に「キャズム（深い溝）」があり、多くのTech製品がここで普及に失敗すると指摘。ニッチ市場でのドミナント地位獲得が突破口。",
+    "detail_page": "details/marketing/advanced.html#innovation"
+  },
+  {
+    "q": "マーケティングにおける「クリエイティブ・ブリーフ（Creative Brief）」の目的はどれか？",
+    "options": [
+      "広告クリエイティブ制作の方向性・目標・ターゲットを制作チームに明確に伝える文書",
+      "製品の原価計算書",
+      "市場調査の結果報告書",
+      "競合分析のまとめ資料"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "クリエイティブブリーフは制作の目的・ターゲット・トーンを指示する設計書。",
+    "explanation_long": "クリエイティブ・ブリーフ：広告・コンテンツ制作に際し、マーケターが制作チーム（クリエイター・代理店）に渡す指示書。含む要素：目標・ターゲット・インサイト・コアメッセージ・トーン＆マナー・メディア・予算・スケジュール。制作の効率と品質を高める。",
+    "detail_page": "details/marketing/advanced.html#creative"
+  },
+  {
+    "q": "メガトレンドをマーケティング戦略に取り込む際、「STEEP分析」で検討する5要素はどれか？",
+    "options": [
+      "社会・技術・経済・環境・政治（法律）",
+      "強み・弱み・機会・脅威・競合",
+      "製品・価格・流通・販促・人材",
+      "顧客・競合・会社・チャネル・コスト"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "STEEP＝社会（S）・技術（T）・経済（E）・環境（E）・政治（P）のマクロ環境分析。",
+    "explanation_long": "STEEP分析（PESTELの一形態）：マクロ環境の外部要因を①Social（社会・人口）②Technological（技術革新）③Economic（経済環境）④Environmental（環境・気候）⑤Political/Legal（政治・法律・規制）の5軸で整理する。長期的な市場変化の把握とリスク・機会の特定に使う。",
+    "detail_page": "details/marketing/advanced.html#analysis"
+  },
+  {
+    "q": "「市場志向（Market Orientation）」が高い企業組織の特徴はどれか？",
+    "options": [
+      "顧客情報を全社で共有し顧客ニーズを起点とした意思決定を行う",
+      "製品技術の完成度を最優先して製品開発を進める",
+      "営業部門の売上目標達成のみを評価基準にする",
+      "財務目標のみに組織全体が集中している"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "市場志向は顧客情報の全社共有・ニーズ起点の意思決定が本質。",
+    "explanation_long": "市場志向（Market Orientation）：ナーバー＆スリーターの研究が体系化。①顧客インテリジェンスの生成（市場調査・VoC）、②組織全体でのインテリジェンス普及、③インテリジェンスへの組織的対応（製品・サービス改善）の3次元で構成。市場志向が高い企業は高業績との相関が示されている。",
+    "detail_page": "details/marketing/advanced.html#strategy"
+  },
+  {
+    "q": "価格弾力性（Price Elasticity of Demand）が「1より大きい」ことが意味するのはどれか？",
+    "options": [
+      "価格を1%上げると需要が1%超減少する（弾力的）",
+      "価格を上げても需要はほとんど変わらない（非弾力的）",
+      "価格変化と需要変化が等しい",
+      "価格を下げると需要が減少する"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "弾力性>1は価格感応度が高い（弾力的）市場を意味する。",
+    "explanation_long": "価格弾力性（PED）= 需要量変化率 ÷ 価格変化率。|PED|>1（弾力的）：価格変化に対して需要が大きく反応する市場（代替品が多い・差別化が低い）。|PED|<1（非弾力的）：価格が変わっても需要がほとんど変わらない（必需品・スイッチングコスト高）。価格戦略の設計に重要。",
+    "detail_page": "details/marketing/advanced.html#pricing"
+  },
+  {
+    "q": "バイラルマーケティングの「K因子（K-Factor）」が1を超えることの意味はどれか？",
+    "options": [
+      "既存ユーザーの紹介により新規ユーザーが指数関数的に増加する",
+      "広告費対売上の比率が損益分岐点を超えた",
+      "ブランド認知度が業界平均を上回った",
+      "製品の品質評価が最高スコアを達成した"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "K>1はバイラルループが自律的に拡大し指数成長が発生する状態。",
+    "explanation_long": "K因子（Viral Coefficient）= 既存ユーザーが招待する新規ユーザー数 × 招待の転換率。K>1は各ユーザーが平均1人超を引き込むため、ユーザーが指数関数的に増加するバイラル成長が起きる。Dropbox・WhatsApp・Airbnbが初期のバイラル成長の代表例。",
+    "detail_page": "details/marketing/advanced.html#viral"
+  },
+  {
+    "q": "マーケティング戦略の「差別化」と「コスト優位」を同時に追求することをポーターが主張した主な問題点はどれか？",
+    "options": [
+      "中途半端になり（スタック・イン・ザ・ミドル）どちらの優位性も得られないリスクがある",
+      "法的に禁止されているから",
+      "顧客が混乱するから",
+      "サプライチェーンが複雑化するから"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "ポーターは「どっちつかず（Stuck in the Middle）」の危険を指摘した。",
+    "explanation_long": "マイケル・ポーターの競争戦略：コスト・リーダーシップ・差別化・集中の3つを基本戦略とし、差別化とコスト優位の同時追求は資源配分が分散して「Stuck in the Middle（中途半端）」に陥ると主張。ただし後にH・ミンツバーグらが両立事例（トヨタなど）を提示しポーターの主張に反論している。",
+    "detail_page": "details/marketing/advanced.html#strategy"
+  },
+  {
+    "q": "「ポジショニング・マップ」を作成する際に重要な2軸の選定基準はどれか？",
+    "options": [
+      "顧客の購買決定に影響する2つの独立した重要軸を選ぶ",
+      "業界の標準的な指標を必ず使う",
+      "価格と品質の2軸を常に使用する",
+      "自社が最も優位な軸を選ぶ"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "顧客の意思決定に関連する独立した2軸が最も有効。",
+    "explanation_long": "ポジショニング・マップ（知覚マップ）：競合と自社の位置を2次元グラフで視覚化する。効果的な軸の条件：①顧客の購買決定に影響する（重要性）、②2軸が独立している（相関が低い）、③競合間で差が出る（識別力がある）。適切な軸選定が分析の質を決定する。",
+    "detail_page": "details/marketing/advanced.html#positioning"
+  },
+  {
+    "q": "流通チャネルにおける「中間業者の排除（Disintermediation）」が進む主な理由はどれか？",
+    "options": [
+      "インターネット・EC技術の発達でメーカーが消費者に直接販売可能になったから",
+      "中間業者のコストが下がったから",
+      "規制当局が中間業者を禁止したから",
+      "消費者が対面販売を好まなくなったから"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "D2C・ECの普及で中間業者を介さない直販が可能になった。",
+    "explanation_long": "ディスインターミディエーション（中間業者排除）：ECの普及によりメーカー・ブランドが卸・小売を経由せず消費者に直接販売できるようになった現象。D2C（Direct to Consumer）ブランドの台頭がその典型。中間マージン削減・顧客データ取得・ブランド体験の直接管理が動機。",
+    "detail_page": "details/marketing/channel.html#structure"
+  },
+  {
+    "q": "フランチャイズシステムの「フランチャイジー（加盟店）」がフランチャイザー（本部）に支払うものとして含まれないものはどれか？",
+    "options": [
+      "仕入れ原価の全額",
+      "加盟金（Initial Fee）",
+      "ロイヤリティ（売上の一定%）",
+      "広告協賛金"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "フランチャイジーは加盟金・ロイヤリティ・広告費を払うが仕入れは別。",
+    "explanation_long": "フランチャイズの費用構造：加盟店はフランチャイズ本部に①加盟金（契約時一時金）②ロイヤリティ（月次売上の数%）③広告協賛金 などを支払う。仕入れ原価は本部から指定業者経由で購入することがあるが、加盟金・ロイヤリティとは別の費用。",
+    "detail_page": "details/marketing/channel.html#franchise"
+  },
+  {
+    "q": "D2C（Direct to Consumer）戦略のメリットとして正しいものはどれか？",
+    "options": [
+      "顧客データの直接収集・ブランド体験の管理・中間マージン削減",
+      "流通コストが全てなくなる",
+      "全ての業種で従来チャネルより売上が高くなる",
+      "返品・クレーム対応が不要になる"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "D2Cは顧客データ直取得・ブランド体験管理・マージン削減が主な利点。",
+    "explanation_long": "D2C（Direct to Consumer）：メーカー・ブランドが自社ECや直営店で消費者に直接販売するモデル。利点：①ファーストパーティデータ直接収集、②一貫したブランド体験の提供、③中間マージン削減による利益率向上。課題：物流・CS・マーケティングを自社で担う運営コストと専門性。",
+    "detail_page": "details/marketing/channel.html#d2c"
+  },
+  {
+    "q": "ショールーミング（Showrooming）現象とはどのような消費者行動か？",
+    "options": [
+      "実店舗で商品を確認してオンラインで安く購入する行動",
+      "先にオンラインで調べてから実店舗で購入する行動",
+      "店舗内でSNSに投稿して情報拡散する行動",
+      "高級店で商品を体験して廉価版を購入する行動"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ショールーミング＝店舗で試してECで安く買う行動。",
+    "explanation_long": "ショールーミング（Showrooming）：消費者がリアル店舗で商品を試し・確認した後、スマートフォンでより安いオンライン販売店を探して購入する行動。実店舗にとっては顧客を「ショールーム（展示室）」として使われる問題。ウェブルーミング（ROPO）はその逆。",
+    "detail_page": "details/marketing/channel.html#retail"
+  },
+  {
+    "q": "チャネルコンフリクト（Channel Conflict）が発生する典型的な状況はどれか？",
+    "options": [
+      "メーカーが自社ECを開設し、同商品を扱う小売店と価格競争になる",
+      "メーカーが新製品を開発した時",
+      "小売店が在庫過剰になった時",
+      "流通コストが上昇した時"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "メーカーのD2C参入が既存小売チャネルと競合するコンフリクト。",
+    "explanation_long": "チャネルコンフリクト：同一チャネルレベル間（水平）または異なるレベル間（垂直）での利害対立。典型例：メーカーが自社ECを始めると既存の卸・小売業者と価格・顧客で競合が生じる（垂直コンフリクト）。管理には価格ルールの設定・チャネル役割の明確化が必要。",
+    "detail_page": "details/marketing/channel.html#conflict"
+  },
+  {
+    "q": "卸売業者（Wholesaler）が流通チャネルに存在することで生まれる「効率性」とはどれか？",
+    "options": [
+      "多数のメーカーと小売業者の間の取引数を大幅に減少させる",
+      "全製品を1ヶ所に集約して価格を統一する",
+      "製品の品質を均一化する",
+      "メーカーの生産計画を立案する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "卸売は接触数（取引コスト）を大幅に削減するハブ機能を果たす。",
+    "explanation_long": "中間業者の効率性：メーカー5社×小売10社の場合、直販なら50回の取引が必要だが、卸1社を介すると5+10＝15回に削減（接触最小化の原理）。卸は品揃え形成・数量調整・在庫・信用供与・情報収集など多様な機能を担う。",
+    "detail_page": "details/marketing/channel.html#structure"
+  },
+  {
+    "q": "CPFR（Collaborative Planning, Forecasting, and Replenishment）とはどのような概念か？",
+    "options": [
+      "メーカーと小売業者が需要予測・在庫補充計画を共同で実施する手法",
+      "顧客と共同でマーケティングキャンペーンを計画する手法",
+      "フランチャイズ本部と加盟店が協力して販促計画を立てる手法",
+      "競合他社間で市場情報を共有する取り組み"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "CPFRはメーカー・小売が情報共有して需要予測と補充計画を統合する。",
+    "explanation_long": "CPFR（Collaborative Planning, Forecasting, and Replenishment）：メーカーと小売業者がPOS・在庫データを共有し、需要予測と補充計画を共同で策定・実行するSCM手法。在庫欠品・過剰在庫の削減とサプライチェーン全体の効率向上を目指す。ウォルマートが先駆的に導入。",
+    "detail_page": "details/marketing/channel.html#scm"
+  },
+  {
+    "q": "ラストワンマイル（Last Mile）物流の課題として最も重要なものはどれか？",
+    "options": [
+      "高コスト・非効率性と配達員不足による配達完了率の低さ",
+      "海外輸送のための通関手続きの複雑さ",
+      "製品の製造から倉庫への輸送コスト",
+      "原材料の調達ルートの管理"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ラストワンマイルは最終到達地点の高コスト・低効率が最大課題。",
+    "explanation_long": "ラストワンマイル物流：倉庫・配送センターから最終消費者への「最後の1マイル」の配達プロセス。EC普及で需要急増する一方、個別配達・不在・住所多様性で物流コストの約50%を占める最も非効率な部分。ドローン配達・コンビニ受取・置き配・配達ロボットで解決が模索されている。",
+    "detail_page": "details/marketing/channel.html#logistics"
+  },
+  {
+    "q": "セレクティブ（選択的）流通政策の特徴はどれか？",
+    "options": [
+      "ブランドイメージや品質維持のため特定基準を満たした限られた販売店のみに販売する",
+      "あらゆる販売チャネルで広く製品を入手できるようにする",
+      "一社の販売店にのみ独占販売権を与える",
+      "自社直営店のみで販売する"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "選択的流通は一定基準を満たした販売店のみを選んで流通させる。",
+    "explanation_long": "流通政策の類型：①集中的（Intensive）流通：できるだけ多くの店舗で販売（日用品）。②選択的（Selective）流通：一定基準を満たした店舗を選んで流通（家電・ファッション）。③独占的（Exclusive）流通：特定の地域に1店のみ（高級ブランド）。ブランド管理と普及範囲のトレードオフ。",
+    "detail_page": "details/marketing/channel.html#strategy"
+  },
+  {
+    "q": "クリック＆コレクト（Click & Collect）とはどのような購買モデルか？",
+    "options": [
+      "オンラインで注文・決済し、実店舗や指定場所で受け取るモデル",
+      "店舗で商品を選び、後からオンラインで決済するモデル",
+      "SNSで「いいね」を押した商品を自動購入するモデル",
+      "QRコードで商品情報を確認してから店舗で購入するモデル"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "Click & Collect＝ネット注文＋実店舗受取（BOPIS）。",
+    "explanation_long": "クリック＆コレクト（BOPIS：Buy Online, Pick Up In Store）：EC注文・決済後に近隣店舗または指定受取場所で商品を受け取るオムニチャネルモデル。消費者：配送待ち不要・送料削減。小売：追加購買機会・配送コスト削減。コロナ禍以降急速に普及。",
+    "detail_page": "details/marketing/channel.html#omni"
+  },
+  {
+    "q": "マーチャンダイジング（Merchandising）の概念として正しいものはどれか？",
+    "options": [
+      "適切な商品を適切な場所・時期・価格・数量で提供する商品政策全般",
+      "テレビや雑誌での広告展開活動",
+      "製品の製造工程の管理",
+      "顧客データの分析と活用"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "MD＝5適（適品・適所・適時・適価・適量）を実現する商品計画。",
+    "explanation_long": "マーチャンダイジング（MD）：小売業における商品政策。「5 Rights（5適）：Right Product（適品）・Right Place（適所）・Right Time（適時）・Right Price（適価）・Right Quantity（適量）」の観点で品揃え・在庫・陳列・価格を管理し販売最大化を図る。",
+    "detail_page": "details/marketing/channel.html#retail"
+  },
+  {
+    "q": "プラットフォームビジネス（例：Amazon・Airbnb）のチャネル戦略上の特徴はどれか？",
+    "options": [
+      "買手と売手をマッチングするマルチサイドプラットフォームとして機能し、ネットワーク効果で価値が拡大する",
+      "自社在庫を大量保有して価格競争力を確保する",
+      "単一商品カテゴリーに特化することで品質を保証する",
+      "従来の卸売業者と同じ機能を持つ"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "プラットフォームはマルチサイドで参加者が増えるほど価値が高まる。",
+    "explanation_long": "プラットフォームビジネス：生産者と消費者をつなぐ場を提供し、直接製品を生産・在庫しない。ネットワーク効果（参加者が増えるほど全員の価値が増加）で競争優位を構築。Amazonマーケットプレイス・Airbnb・Uber・メルカリが代表例。伝統的なパイプライン型ビジネスと根本的に異なる。",
+    "detail_page": "details/marketing/channel.html#platform"
+  },
+  {
+    "q": "POSシステム（Point of Sale）が流通・マーケティングに与えた革新はどれか？",
+    "options": [
+      "販売時点での商品別・時間帯別の売上データをリアルタイムで把握できるようになった",
+      "仕入れコストを自動削減する仕組みを提供した",
+      "顧客個人の年収・属性を自動的に収集できるようになった",
+      "在庫コストをゼロにする技術を提供した"
+    ],
+    "answer": 0,
+    "difficulty": "basic",
+    "explanation_short": "POSはレジ通過時点の販売データをリアルタイム蓄積・分析可能にした。",
+    "explanation_long": "POS（Point of Sale）システム：会計時にバーコードで商品情報を読み取り販売データを蓄積。リアルタイムの売れ筋・死に筋分析、自動発注、プロモーション効果測定が可能になった。現在はID連携で顧客別購買データ（マーケティングDMP）にも発展している。",
+    "detail_page": "details/marketing/channel.html#retail"
+  },
+  {
+    "q": "カテゴリーマネジメント（Category Management）の考え方として正しいものはどれか？",
+    "options": [
+      "小売業者が製品カテゴリー全体をビジネスユニットとして管理し、カテゴリー全体の利益最大化を図る",
+      "個別製品の価格最適化だけを目的とした手法",
+      "メーカーが競合製品の販売を妨害する手法",
+      "政府が特定製品カテゴリーの規制を強化すること"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "カテゴリーMDはカテゴリー全体を戦略的ビジネス単位として管理する。",
+    "explanation_long": "カテゴリーマネジメント：P&Gとウォルマートが共同開発した概念。小売業者がシャンプー・飲料などのカテゴリー全体を一つのビジネスユニットとして捉え、品揃え・棚割り・価格・プロモーションを統合管理してカテゴリー収益を最大化する手法。メーカーとの協業（カテゴリーキャプテン）が特徴。",
+    "detail_page": "details/marketing/channel.html#retail"
+  },
+  {
+    "q": "垂直統合（Vertical Integration）をチャネル戦略として選択する主な理由はどれか？",
+    "options": [
+      "上流・下流の取引コスト削減・品質管理強化・サプライチェーンの支配力強化",
+      "同業他社との資源共有でコストを削減するため",
+      "政府規制への対応のため",
+      "製品の多様化と新市場開拓のため"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "垂直統合はサプライチェーンの上下流を取り込みコスト・品質・支配力を高める。",
+    "explanation_log": "垂直統合（Vertical Integration）：企業がサプライチェーンの上流（原材料・部品）や下流（流通・小売）を自社内に取り込む戦略。前方統合（小売参入）・後方統合（製造参入）がある。Appleが自社チップ設計（後方）・直営Apple Store（前方）を持つのが代表例。取引コスト削減と品質管理強化が主な動機。",
+    "detail_page": "details/marketing/channel.html#strategy"
+  },
+  {
+    "q": "サブスクリプションコマース（定期購買）が消費者に提供する主な価値はどれか？",
+    "options": [
+      "自動補充の利便性・定期割引・キュレーション（選んでもらう体験）",
+      "一括払いより必ず総額が安くなること",
+      "購入した商品を自由に返品できること",
+      "在庫リスクを消費者が負うこと"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "サブスクは利便性・割引・キュレーションで定期購買を促す。",
+    "explanation_long": "サブスクリプションコマース：Dollar Shave Club・Amazon定期便・食材宅配などが代表。消費者価値：①自動補充の手間削減、②定期購買割引、③専門家がキュレーションした体験（サプライズボックス型）。企業側はLTV予測可能・CAC分散・安定収益が得られる。",
+    "detail_page": "details/marketing/channel.html#d2c"
+  },
+  {
+    "q": "ドロップシッピング（Dropshipping）の特徴として正しいものはどれか？",
+    "options": [
+      "小売業者が在庫を持たず、受注後にサプライヤーが直接消費者に発送するモデル",
+      "メーカーが直接消費者に無料配達するモデル",
+      "倉庫会社が在庫を持って販売まで代行するモデル",
+      "消費者同士が不要品を交換するモデル"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "ドロップシッピング＝在庫ゼロで受注→仕入先から直接発送。",
+    "explanation_long": "ドロップシッピング：ECショップが在庫を持たず、注文を受けたらサプライヤー（問屋・メーカー）が消費者に直接発送する仕組み。初期在庫投資ゼロ・低リスクで開業可能だが、在庫管理・配送品質をサプライヤーに依存するため品質コントロールが課題。",
+    "detail_page": "details/marketing/channel.html#logistics"
+  },
+  {
+    "q": "チャネル管理における「プッシュ戦略」と「プル戦略」の違いはどれか？",
+    "options": [
+      "プッシュは流通業者への販促で棚確保、プルは消費者への広告で需要を喚起する",
+      "プッシュは低価格戦略、プルは高価格ブランド戦略",
+      "プッシュはデジタル、プルはオフライン販促",
+      "プッシュはB2B、プルはB2C専用の戦略"
+    ],
+    "answer": 0,
+    "difficulty": "intermediate",
+    "explanation_short": "プッシュ＝チャネルへの販促、プル＝消費者への訴求で店頭需要を引っ張る。",
+    "explanation_log": "プッシュ戦略：メーカーが卸・小売に人的販売・販促費・リベートを提供して商品を棚に乗せることを優先。プル戦略：広告・PR・SNSで消費者に直接訴求し、消費者が店頭で指名買いすることで小売を動かす。多くの企業はプッシュとプルを組み合わせて使う。",
+    "detail_page": "details/marketing/channel.html#strategy"
+  },
+  {
+    "q": "メーカーが小売業者に対して設定する「希望小売価格（MSRP）」の法的な扱いはどれか？",
+    "options": [
+      "日本では希望小売価格の強制は独占禁止法上の再販売価格維持行為として禁止される",
+      "メーカーは法的に小売価格を拘束できる",
+      "公正取引委員会の許可があれば強制できる",
+      "価格拘束は消費者の利益になるため許可される"
+    ],
+    "answer": 0,
+    "difficulty": "advanced",
+    "explanation_short": "再販売価格維持（RPM）は独占禁止法違反。希望小売価格は強制不可。",
+    "explanation_long": "再販売価格維持行為（RPM：Resale Price Maintenance）：メーカーが小売業者に特定の販売価格を強制することは、日本の独占禁止法上の不公正な取引方法に該当し原則禁止。書籍・音楽CD・新聞など著作物は適用除外（再販制度）。希望小売価格（MSRP）は参考として示すことはできるが、強制はできない。",
+    "detail_page": "details/marketing/channel.html#legal"
   }
 ]
