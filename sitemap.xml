@@ -3,25 +3,25 @@
 
   <!-- トップ・共通ページ -->
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/</loc>
+    <loc>https://keizai-test-app.pages.dev/</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/privacy.html</loc>
+    <loc>https://keizai-test-app.pages.dev/privacy.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/terms.html</loc>
+    <loc>https://keizai-test-app.pages.dev/terms.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/contact.html</loc>
+    <loc>https://keizai-test-app.pages.dev/contact.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.3</priority>
@@ -29,61 +29,61 @@
 
   <!-- 経済学 -->
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/gdp.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/economy/gdp.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/inflation.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/economy/inflation.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/monetary.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/economy/monetary.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/fiscal.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/economy/fiscal.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/theory.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/economy/theory.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/markets.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/economy/markets.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/forex.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/economy/forex.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/international.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/economy/international.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/japan.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/economy/japan.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/economy/crisis.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/economy/crisis.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -91,37 +91,37 @@
 
   <!-- 財務・会計 -->
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/finance/financial_statements.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/finance/financial_statements.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/finance/ratios.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/finance/ratios.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/finance/valuation.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/finance/valuation.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/finance/cost.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/finance/cost.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/finance/capital_structure.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/finance/capital_structure.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/finance/ifrs.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/finance/ifrs.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -129,55 +129,55 @@
 
   <!-- 経営戦略 -->
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/framework.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/strategy/framework.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/competition.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/strategy/competition.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/growth.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/strategy/growth.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/innovation.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/strategy/innovation.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/organization.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/strategy/organization.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/vision.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/strategy/vision.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/theory.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/strategy/theory.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/japan_biz.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/strategy/japan_biz.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/strategy/japan_mfg.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/strategy/japan_mfg.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -185,37 +185,37 @@
 
   <!-- マーケティング -->
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/marketing/basics.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/marketing/basics.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/marketing/brand.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/marketing/brand.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/marketing/digital.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/marketing/digital.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/marketing/customer.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/marketing/customer.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/marketing/channel.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/marketing/channel.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/marketing/advanced.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/marketing/advanced.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -223,31 +223,31 @@
 
   <!-- 法律・コンプライアンス -->
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/law/business_law.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/law/business_law.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/law/company_law.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/law/company_law.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/law/intellectual_property.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/law/intellectual_property.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/law/compliance_audit.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/law/compliance_audit.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/law/securities_law.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/law/securities_law.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
@@ -255,61 +255,61 @@
 
   <!-- 時事・応用 -->
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/current/dx_policy.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/current/dx_policy.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/current/esg_sustainability.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/current/esg_sustainability.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/current/work_human_capital.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/current/work_human_capital.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/current/economy_finance.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/current/economy_finance.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/current/ai_data.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/current/ai_data.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/current/cybersecurity_privacy.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/current/cybersecurity_privacy.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/current/cloud_data_platform.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/current/cloud_data_platform.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/current/geopolitics_supply.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/current/geopolitics_supply.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/current/digital_marketing_cx.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/current/digital_marketing_cx.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://daimutest0130-netizen.github.io/keizai-test-app/details/current/industry_innovation.html</loc>
+    <loc>https://keizai-test-app.pages.dev/details/current/industry_innovation.html</loc>
     <lastmod>2026-04-05</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
